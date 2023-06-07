@@ -1,0 +1,8 @@
+source;share/odri_ros2_examples/hook/cmake_prefix_path.ps1
+source;share/odri_ros2_examples/hook/cmake_prefix_path.dsv
+source;share/odri_ros2_examples/hook/cmake_prefix_path.sh
+source;share/odri_ros2_examples/local_setup.bash
+source;share/odri_ros2_examples/local_setup.dsv
+source;share/odri_ros2_examples/local_setup.ps1
+source;share/odri_ros2_examples/local_setup.sh
+source;share/odri_ros2_examples/local_setup.zsh

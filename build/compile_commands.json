@@ -1,0 +1,398 @@
+[
+{
+  "directory": "/home/hidro/galactic_ws/build/hidro_ros2_utils",
+  "command": "/usr/bin/cc -DRCUTILS_ENABLE_FAULT_INJECTION -Dhidro_ros2_utils__rosidl_typesupport_introspection_c_EXPORTS -I/home/hidro/galactic_ws/build/hidro_ros2_utils/rosidl_generator_c -I/home/hidro/galactic_ws/build/hidro_ros2_utils/rosidl_typesupport_introspection_c -isystem /opt/ros/galactic/include  -O3 -DNDEBUG -fPIC   -Wall -std=gnu11 -o CMakeFiles/hidro_ros2_utils__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hidro_ros2_utils/srv/detail/transition_command__type_support.c.o   -c /home/hidro/galactic_ws/build/hidro_ros2_utils/rosidl_typesupport_introspection_c/hidro_ros2_utils/srv/detail/transition_command__type_support.c",
+  "file": "/home/hidro/galactic_ws/build/hidro_ros2_utils/rosidl_typesupport_introspection_c/hidro_ros2_utils/srv/detail/transition_command__type_support.c"
+},
+{
+  "directory": "/home/hidro/galactic_ws/build/hidro_ros2_utils",
+  "command": "/usr/bin/cc -DRCUTILS_ENABLE_FAULT_INJECTION -Dhidro_ros2_utils__rosidl_typesupport_introspection_c_EXPORTS -I/home/hidro/galactic_ws/build/hidro_ros2_utils/rosidl_generator_c -I/home/hidro/galactic_ws/build/hidro_ros2_utils/rosidl_typesupport_introspection_c -isystem /opt/ros/galactic/include  -O3 -DNDEBUG -fPIC   -Wall -std=gnu11 -o CMakeFiles/hidro_ros2_utils__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hidro_ros2_utils/msg/detail/state_machine_status__type_support.c.o   -c /home/hidro/galactic_ws/build/hidro_ros2_utils/rosidl_typesupport_introspection_c/hidro_ros2_utils/msg/detail/state_machine_status__type_support.c",
+  "file": "/home/hidro/galactic_ws/build/hidro_ros2_utils/rosidl_typesupport_introspection_c/hidro_ros2_utils/msg/detail/state_machine_status__type_support.c"
+},
+{
+  "directory": "/home/hidro/galactic_ws/build/hidro_ros2_utils",
+  "command": "/usr/bin/c++  -DDEFAULT_RMW_IMPLEMENTATION=rmw_cyclonedds_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -Dhidro_ros2_utils_lib_EXPORTS -I/home/hidro/galactic_ws/src/hidro_ros2_utils/include -I/home/hidro/galactic_ws/build/hidro_ros2_utils/rosidl_generator_cpp -I/home/hidro/galactic_ws/build/hidro_ros2_utils/rosidl_typesupport_introspection_cpp -isystem /opt/ros/galactic/include  -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wpedantic -std=gnu++17 -o CMakeFiles/hidro_ros2_utils_lib.dir/src/state_machine_interface.cpp.o -c /home/hidro/galactic_ws/src/hidro_ros2_utils/src/state_machine_interface.cpp",
+  "file": "/home/hidro/galactic_ws/src/hidro_ros2_utils/src/state_machine_interface.cpp"
+},
+{
+  "directory": "/home/hidro/galactic_ws/build/hidro_ros2_utils",
+  "command": "/usr/bin/cc -DRCUTILS_ENABLE_FAULT_INJECTION -Dhidro_ros2_utils__python_EXPORTS -I/home/hidro/galactic_ws/build/hidro_ros2_utils/rosidl_generator_c -I/home/hidro/galactic_ws/build/hidro_ros2_utils/rosidl_generator_py -I/usr/include/python3.8 -I/home/hidro/galactic_ws/build/hidro_ros2_utils/rosidl_typesupport_c -I/home/hidro/galactic_ws/build/hidro_ros2_utils/rosidl_typesupport_introspection_c -isystem /opt/ros/galactic/include  -O3 -DNDEBUG -fPIC   -Wall -Wextra -o CMakeFiles/hidro_ros2_utils__python.dir/rosidl_generator_py/hidro_ros2_utils/srv/_transition_command_s.c.o   -c /home/hidro/galactic_ws/build/hidro_ros2_utils/rosidl_generator_py/hidro_ros2_utils/srv/_transition_command_s.c",
+  "file": "/home/hidro/galactic_ws/build/hidro_ros2_utils/rosidl_generator_py/hidro_ros2_utils/srv/_transition_command_s.c"
+},
+{
+  "directory": "/home/hidro/galactic_ws/build/hidro_ros2_utils",
+  "command": "/usr/bin/cc -DRCUTILS_ENABLE_FAULT_INJECTION -Dhidro_ros2_utils__python_EXPORTS -I/home/hidro/galactic_ws/build/hidro_ros2_utils/rosidl_generator_c -I/home/hidro/galactic_ws/build/hidro_ros2_utils/rosidl_generator_py -I/usr/include/python3.8 -I/home/hidro/galactic_ws/build/hidro_ros2_utils/rosidl_typesupport_c -I/home/hidro/galactic_ws/build/hidro_ros2_utils/rosidl_typesupport_introspection_c -isystem /opt/ros/galactic/include  -O3 -DNDEBUG -fPIC   -Wall -Wextra -o CMakeFiles/hidro_ros2_utils__python.dir/rosidl_generator_py/hidro_ros2_utils/msg/_state_machine_status_s.c.o   -c /home/hidro/galactic_ws/build/hidro_ros2_utils/rosidl_generator_py/hidro_ros2_utils/msg/_state_machine_status_s.c",
+  "file": "/home/hidro/galactic_ws/build/hidro_ros2_utils/rosidl_generator_py/hidro_ros2_utils/msg/_state_machine_status_s.c"
+},
+{
+  "directory": "/home/hidro/galactic_ws/build/hidro_ros2_utils",
+  "command": "/usr/bin/cc -DRCUTILS_ENABLE_FAULT_INJECTION -Dhidro_ros2_utils__rosidl_typesupport_introspection_c__pyext_EXPORTS -I/home/hidro/galactic_ws/build/hidro_ros2_utils/rosidl_generator_c -I/home/hidro/galactic_ws/build/hidro_ros2_utils/rosidl_generator_py -I/usr/include/python3.8 -I/home/hidro/galactic_ws/build/hidro_ros2_utils/rosidl_typesupport_c -I/home/hidro/galactic_ws/build/hidro_ros2_utils/rosidl_typesupport_introspection_c -isystem /opt/ros/galactic/include  -O3 -DNDEBUG -fPIC   -Wall -Wextra -o CMakeFiles/hidro_ros2_utils__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/hidro_ros2_utils/_hidro_ros2_utils_s.ep.rosidl_typesupport_introspection_c.c.o   -c /home/hidro/galactic_ws/build/hidro_ros2_utils/rosidl_generator_py/hidro_ros2_utils/_hidro_ros2_utils_s.ep.rosidl_typesupport_introspection_c.c",
+  "file": "/home/hidro/galactic_ws/build/hidro_ros2_utils/rosidl_generator_py/hidro_ros2_utils/_hidro_ros2_utils_s.ep.rosidl_typesupport_introspection_c.c"
+},
+{
+  "directory": "/home/hidro/galactic_ws/build/hidro_ros2_utils",
+  "command": "/usr/bin/cc -DRCUTILS_ENABLE_FAULT_INJECTION -Dhidro_ros2_utils__rosidl_generator_c_EXPORTS -I/home/hidro/galactic_ws/build/hidro_ros2_utils/rosidl_generator_c -isystem /opt/ros/galactic/include  -O3 -DNDEBUG -fPIC   -Wall -std=gnu11 -o CMakeFiles/hidro_ros2_utils__rosidl_generator_c.dir/rosidl_generator_c/hidro_ros2_utils/srv/detail/transition_command__functions.c.o   -c /home/hidro/galactic_ws/build/hidro_ros2_utils/rosidl_generator_c/hidro_ros2_utils/srv/detail/transition_command__functions.c",
+  "file": "/home/hidro/galactic_ws/build/hidro_ros2_utils/rosidl_generator_c/hidro_ros2_utils/srv/detail/transition_command__functions.c"
+},
+{
+  "directory": "/home/hidro/galactic_ws/build/hidro_ros2_utils",
+  "command": "/usr/bin/cc -DRCUTILS_ENABLE_FAULT_INJECTION -Dhidro_ros2_utils__rosidl_generator_c_EXPORTS -I/home/hidro/galactic_ws/build/hidro_ros2_utils/rosidl_generator_c -isystem /opt/ros/galactic/include  -O3 -DNDEBUG -fPIC   -Wall -std=gnu11 -o CMakeFiles/hidro_ros2_utils__rosidl_generator_c.dir/rosidl_generator_c/hidro_ros2_utils/msg/detail/state_machine_status__functions.c.o   -c /home/hidro/galactic_ws/build/hidro_ros2_utils/rosidl_generator_c/hidro_ros2_utils/msg/detail/state_machine_status__functions.c",
+  "file": "/home/hidro/galactic_ws/build/hidro_ros2_utils/rosidl_generator_c/hidro_ros2_utils/msg/detail/state_machine_status__functions.c"
+},
+{
+  "directory": "/home/hidro/galactic_ws/build/hidro_ros2_utils",
+  "command": "/usr/bin/c++  -DRCUTILS_ENABLE_FAULT_INJECTION -Dhidro_ros2_utils__rosidl_typesupport_c_EXPORTS -I/home/hidro/galactic_ws/build/hidro_ros2_utils/rosidl_generator_c -I/home/hidro/galactic_ws/build/hidro_ros2_utils/rosidl_typesupport_c -I/home/hidro/galactic_ws/build/hidro_ros2_utils/rosidl_typesupport_introspection_c -isystem /opt/ros/galactic/include  -O3 -DNDEBUG -fPIC   -Wall -std=gnu++14 -o CMakeFiles/hidro_ros2_utils__rosidl_typesupport_c.dir/rosidl_typesupport_c/hidro_ros2_utils/srv/transition_command__type_support.cpp.o -c /home/hidro/galactic_ws/build/hidro_ros2_utils/rosidl_typesupport_c/hidro_ros2_utils/srv/transition_command__type_support.cpp",
+  "file": "/home/hidro/galactic_ws/build/hidro_ros2_utils/rosidl_typesupport_c/hidro_ros2_utils/srv/transition_command__type_support.cpp"
+},
+{
+  "directory": "/home/hidro/galactic_ws/build/hidro_ros2_utils",
+  "command": "/usr/bin/c++  -DRCUTILS_ENABLE_FAULT_INJECTION -Dhidro_ros2_utils__rosidl_typesupport_c_EXPORTS -I/home/hidro/galactic_ws/build/hidro_ros2_utils/rosidl_generator_c -I/home/hidro/galactic_ws/build/hidro_ros2_utils/rosidl_typesupport_c -I/home/hidro/galactic_ws/build/hidro_ros2_utils/rosidl_typesupport_introspection_c -isystem /opt/ros/galactic/include  -O3 -DNDEBUG -fPIC   -Wall -std=gnu++14 -o CMakeFiles/hidro_ros2_utils__rosidl_typesupport_c.dir/rosidl_typesupport_c/hidro_ros2_utils/msg/state_machine_status__type_support.cpp.o -c /home/hidro/galactic_ws/build/hidro_ros2_utils/rosidl_typesupport_c/hidro_ros2_utils/msg/state_machine_status__type_support.cpp",
+  "file": "/home/hidro/galactic_ws/build/hidro_ros2_utils/rosidl_typesupport_c/hidro_ros2_utils/msg/state_machine_status__type_support.cpp"
+},
+{
+  "directory": "/home/hidro/galactic_ws/build/hidro_ros2_utils",
+  "command": "/usr/bin/cc -DRCUTILS_ENABLE_FAULT_INJECTION -Dhidro_ros2_utils__rosidl_typesupport_c__pyext_EXPORTS -I/home/hidro/galactic_ws/build/hidro_ros2_utils/rosidl_generator_c -I/home/hidro/galactic_ws/build/hidro_ros2_utils/rosidl_generator_py -I/usr/include/python3.8 -I/home/hidro/galactic_ws/build/hidro_ros2_utils/rosidl_typesupport_c -I/home/hidro/galactic_ws/build/hidro_ros2_utils/rosidl_typesupport_introspection_c -isystem /opt/ros/galactic/include  -O3 -DNDEBUG -fPIC   -Wall -Wextra -o CMakeFiles/hidro_ros2_utils__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/hidro_ros2_utils/_hidro_ros2_utils_s.ep.rosidl_typesupport_c.c.o   -c /home/hidro/galactic_ws/build/hidro_ros2_utils/rosidl_generator_py/hidro_ros2_utils/_hidro_ros2_utils_s.ep.rosidl_typesupport_c.c",
+  "file": "/home/hidro/galactic_ws/build/hidro_ros2_utils/rosidl_generator_py/hidro_ros2_utils/_hidro_ros2_utils_s.ep.rosidl_typesupport_c.c"
+},
+{
+  "directory": "/home/hidro/galactic_ws/build/hidro_ros2_utils",
+  "command": "/usr/bin/c++  -DRCUTILS_ENABLE_FAULT_INJECTION -Dhidro_ros2_utils__rosidl_typesupport_introspection_cpp_EXPORTS -I/home/hidro/galactic_ws/build/hidro_ros2_utils/rosidl_generator_cpp -isystem /opt/ros/galactic/include  -O3 -DNDEBUG -fPIC   -Wall -std=gnu++14 -o CMakeFiles/hidro_ros2_utils__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/hidro_ros2_utils/srv/detail/transition_command__type_support.cpp.o -c /home/hidro/galactic_ws/build/hidro_ros2_utils/rosidl_typesupport_introspection_cpp/hidro_ros2_utils/srv/detail/transition_command__type_support.cpp",
+  "file": "/home/hidro/galactic_ws/build/hidro_ros2_utils/rosidl_typesupport_introspection_cpp/hidro_ros2_utils/srv/detail/transition_command__type_support.cpp"
+},
+{
+  "directory": "/home/hidro/galactic_ws/build/hidro_ros2_utils",
+  "command": "/usr/bin/c++  -DRCUTILS_ENABLE_FAULT_INJECTION -Dhidro_ros2_utils__rosidl_typesupport_introspection_cpp_EXPORTS -I/home/hidro/galactic_ws/build/hidro_ros2_utils/rosidl_generator_cpp -isystem /opt/ros/galactic/include  -O3 -DNDEBUG -fPIC   -Wall -std=gnu++14 -o CMakeFiles/hidro_ros2_utils__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/hidro_ros2_utils/msg/detail/state_machine_status__type_support.cpp.o -c /home/hidro/galactic_ws/build/hidro_ros2_utils/rosidl_typesupport_introspection_cpp/hidro_ros2_utils/msg/detail/state_machine_status__type_support.cpp",
+  "file": "/home/hidro/galactic_ws/build/hidro_ros2_utils/rosidl_typesupport_introspection_cpp/hidro_ros2_utils/msg/detail/state_machine_status__type_support.cpp"
+},
+{
+  "directory": "/home/hidro/galactic_ws/build/hidro_ros2_utils",
+  "command": "/usr/bin/c++  -DRCUTILS_ENABLE_FAULT_INJECTION -Dhidro_ros2_utils__rosidl_typesupport_cpp_EXPORTS -I/home/hidro/galactic_ws/build/hidro_ros2_utils/rosidl_generator_cpp -I/home/hidro/galactic_ws/build/hidro_ros2_utils/rosidl_typesupport_introspection_cpp -isystem /opt/ros/galactic/include  -O3 -DNDEBUG -fPIC   -Wall -std=gnu++14 -o CMakeFiles/hidro_ros2_utils__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/hidro_ros2_utils/srv/transition_command__type_support.cpp.o -c /home/hidro/galactic_ws/build/hidro_ros2_utils/rosidl_typesupport_cpp/hidro_ros2_utils/srv/transition_command__type_support.cpp",
+  "file": "/home/hidro/galactic_ws/build/hidro_ros2_utils/rosidl_typesupport_cpp/hidro_ros2_utils/srv/transition_command__type_support.cpp"
+},
+{
+  "directory": "/home/hidro/galactic_ws/build/hidro_ros2_utils",
+  "command": "/usr/bin/c++  -DRCUTILS_ENABLE_FAULT_INJECTION -Dhidro_ros2_utils__rosidl_typesupport_cpp_EXPORTS -I/home/hidro/galactic_ws/build/hidro_ros2_utils/rosidl_generator_cpp -I/home/hidro/galactic_ws/build/hidro_ros2_utils/rosidl_typesupport_introspection_cpp -isystem /opt/ros/galactic/include  -O3 -DNDEBUG -fPIC   -Wall -std=gnu++14 -o CMakeFiles/hidro_ros2_utils__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/hidro_ros2_utils/msg/state_machine_status__type_support.cpp.o -c /home/hidro/galactic_ws/build/hidro_ros2_utils/rosidl_typesupport_cpp/hidro_ros2_utils/msg/state_machine_status__type_support.cpp",
+  "file": "/home/hidro/galactic_ws/build/hidro_ros2_utils/rosidl_typesupport_cpp/hidro_ros2_utils/msg/state_machine_status__type_support.cpp"
+},
+
+{
+  "directory": "/home/hidro/galactic_ws/build/odri_ros2_examples",
+  "command": "/usr/bin/c++  -DDEFAULT_RMW_IMPLEMENTATION=rmw_cyclonedds_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -I/home/hidro/galactic_ws/src/odri_ros2/odri_ros2_examples/include -I/usr/include/eigen3 -isystem /home/hidro/galactic_ws/install/hidro_ros2_utils/include -isystem /home/hidro/galactic_ws/install/odri_ros2_interfaces/include -isystem /opt/ros/galactic/include  -O3 -DNDEBUG   -Wall -Wextra -Wpedantic -std=gnu++17 -o CMakeFiles/example_robot.dir/src/example_robot.cpp.o -c /home/hidro/galactic_ws/src/odri_ros2/odri_ros2_examples/src/example_robot.cpp",
+  "file": "/home/hidro/galactic_ws/src/odri_ros2/odri_ros2_examples/src/example_robot.cpp"
+},
+
+{
+  "directory": "/home/hidro/galactic_ws/build/odri_ros2_gazebo",
+  "command": "/usr/bin/c++  -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_DATE_TIME_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_TEST_DYN_LINK -DBOOST_THREAD_DYN_LINK -DDEFAULT_RMW_IMPLEMENTATION=rmw_cyclonedds_cpp -DLIBBULLET_VERSION=2.88 -DLIBBULLET_VERSION_GT_282 -DRCUTILS_ENABLE_FAULT_INJECTION -Dodri_gazebo_plugin_EXPORTS -I/home/hidro/galactic_ws/src/odri_ros2/odri_ros2_gazebo/include -I/usr/include/gazebo-11 -I/usr/include/bullet -I/usr/include/sdformat-9.8 -I/usr/include/OGRE -I/usr/include/OGRE/Terrain -I/usr/include/OGRE/Paging -isystem /opt/ros/galactic/include -isystem /usr/include/simbody -isystem /usr/include/ignition/math6 -isystem /usr/include/ignition/transport8 -isystem /usr/include/ignition/msgs5 -isystem /usr/include/ignition/common3 -isystem /usr/include/ignition/fuel_tools4 -isystem /home/hidro/galactic_ws/install/odri_ros2_interfaces/include -isystem /home/hidro/galactic_ws/install/hidro_ros2_utils/include -isystem /usr/include/eigen3 -isystem /usr/include/sdformat-9.8/sdf/.. -isystem /usr/include/ignition/cmake2 -isystem /usr/include/uuid    -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wpedantic -I/usr/include/uuid -std=gnu++17 -o CMakeFiles/odri_gazebo_plugin.dir/src/odri_gazebo_plugin.cpp.o -c /home/hidro/galactic_ws/src/odri_ros2/odri_ros2_gazebo/src/odri_gazebo_plugin.cpp",
+  "file": "/home/hidro/galactic_ws/src/odri_ros2/odri_ros2_gazebo/src/odri_gazebo_plugin.cpp"
+},
+
+{
+  "directory": "/home/hidro/galactic_ws/build/odri_ros2_hardware",
+  "command": "/usr/bin/c++  -DDEFAULT_RMW_IMPLEMENTATION=rmw_cyclonedds_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -I/home/hidro/galactic_ws/src/odri_ros2/odri_ros2_hardware/include -isystem /home/hidro/galactic_ws/install/hidro_ros2_utils/include -isystem /home/hidro/galactic_ws/install/odri_ros2_interfaces/include -isystem /opt/ros/galactic/include -isystem /usr/include/eigen3  -O3 -DNDEBUG   -Wall -Wextra -Wpedantic -std=gnu++17 -o CMakeFiles/robot_interface.dir/src/robot_interface.cpp.o -c /home/hidro/galactic_ws/src/odri_ros2/odri_ros2_hardware/src/robot_interface.cpp",
+  "file": "/home/hidro/galactic_ws/src/odri_ros2/odri_ros2_hardware/src/robot_interface.cpp"
+},
+
+{
+  "directory": "/home/hidro/galactic_ws/build/odri_ros2_interfaces",
+  "command": "/usr/bin/cc -DRCUTILS_ENABLE_FAULT_INJECTION -Dodri_ros2_interfaces__rosidl_generator_c_EXPORTS -I/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_generator_c -isystem /opt/ros/galactic/include  -O3 -DNDEBUG -fPIC   -Wall -std=gnu11 -o CMakeFiles/odri_ros2_interfaces__rosidl_generator_c.dir/rosidl_generator_c/odri_ros2_interfaces/msg/detail/motor_state__functions.c.o   -c /home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_generator_c/odri_ros2_interfaces/msg/detail/motor_state__functions.c",
+  "file": "/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_generator_c/odri_ros2_interfaces/msg/detail/motor_state__functions.c"
+},
+{
+  "directory": "/home/hidro/galactic_ws/build/odri_ros2_interfaces",
+  "command": "/usr/bin/cc -DRCUTILS_ENABLE_FAULT_INJECTION -Dodri_ros2_interfaces__rosidl_generator_c_EXPORTS -I/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_generator_c -isystem /opt/ros/galactic/include  -O3 -DNDEBUG -fPIC   -Wall -std=gnu11 -o CMakeFiles/odri_ros2_interfaces__rosidl_generator_c.dir/rosidl_generator_c/odri_ros2_interfaces/msg/detail/driver_state__functions.c.o   -c /home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_generator_c/odri_ros2_interfaces/msg/detail/driver_state__functions.c",
+  "file": "/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_generator_c/odri_ros2_interfaces/msg/detail/driver_state__functions.c"
+},
+{
+  "directory": "/home/hidro/galactic_ws/build/odri_ros2_interfaces",
+  "command": "/usr/bin/cc -DRCUTILS_ENABLE_FAULT_INJECTION -Dodri_ros2_interfaces__rosidl_generator_c_EXPORTS -I/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_generator_c -isystem /opt/ros/galactic/include  -O3 -DNDEBUG -fPIC   -Wall -std=gnu11 -o CMakeFiles/odri_ros2_interfaces__rosidl_generator_c.dir/rosidl_generator_c/odri_ros2_interfaces/msg/detail/master_board_state__functions.c.o   -c /home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_generator_c/odri_ros2_interfaces/msg/detail/master_board_state__functions.c",
+  "file": "/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_generator_c/odri_ros2_interfaces/msg/detail/master_board_state__functions.c"
+},
+{
+  "directory": "/home/hidro/galactic_ws/build/odri_ros2_interfaces",
+  "command": "/usr/bin/cc -DRCUTILS_ENABLE_FAULT_INJECTION -Dodri_ros2_interfaces__rosidl_generator_c_EXPORTS -I/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_generator_c -isystem /opt/ros/galactic/include  -O3 -DNDEBUG -fPIC   -Wall -std=gnu11 -o CMakeFiles/odri_ros2_interfaces__rosidl_generator_c.dir/rosidl_generator_c/odri_ros2_interfaces/msg/detail/motor_command__functions.c.o   -c /home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_generator_c/odri_ros2_interfaces/msg/detail/motor_command__functions.c",
+  "file": "/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_generator_c/odri_ros2_interfaces/msg/detail/motor_command__functions.c"
+},
+{
+  "directory": "/home/hidro/galactic_ws/build/odri_ros2_interfaces",
+  "command": "/usr/bin/cc -DRCUTILS_ENABLE_FAULT_INJECTION -Dodri_ros2_interfaces__rosidl_generator_c_EXPORTS -I/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_generator_c -isystem /opt/ros/galactic/include  -O3 -DNDEBUG -fPIC   -Wall -std=gnu11 -o CMakeFiles/odri_ros2_interfaces__rosidl_generator_c.dir/rosidl_generator_c/odri_ros2_interfaces/msg/detail/driver_command__functions.c.o   -c /home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_generator_c/odri_ros2_interfaces/msg/detail/driver_command__functions.c",
+  "file": "/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_generator_c/odri_ros2_interfaces/msg/detail/driver_command__functions.c"
+},
+{
+  "directory": "/home/hidro/galactic_ws/build/odri_ros2_interfaces",
+  "command": "/usr/bin/cc -DRCUTILS_ENABLE_FAULT_INJECTION -Dodri_ros2_interfaces__rosidl_generator_c_EXPORTS -I/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_generator_c -isystem /opt/ros/galactic/include  -O3 -DNDEBUG -fPIC   -Wall -std=gnu11 -o CMakeFiles/odri_ros2_interfaces__rosidl_generator_c.dir/rosidl_generator_c/odri_ros2_interfaces/msg/detail/master_board_command__functions.c.o   -c /home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_generator_c/odri_ros2_interfaces/msg/detail/master_board_command__functions.c",
+  "file": "/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_generator_c/odri_ros2_interfaces/msg/detail/master_board_command__functions.c"
+},
+{
+  "directory": "/home/hidro/galactic_ws/build/odri_ros2_interfaces",
+  "command": "/usr/bin/cc -DRCUTILS_ENABLE_FAULT_INJECTION -Dodri_ros2_interfaces__rosidl_generator_c_EXPORTS -I/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_generator_c -isystem /opt/ros/galactic/include  -O3 -DNDEBUG -fPIC   -Wall -std=gnu11 -o CMakeFiles/odri_ros2_interfaces__rosidl_generator_c.dir/rosidl_generator_c/odri_ros2_interfaces/msg/detail/robot_command__functions.c.o   -c /home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_generator_c/odri_ros2_interfaces/msg/detail/robot_command__functions.c",
+  "file": "/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_generator_c/odri_ros2_interfaces/msg/detail/robot_command__functions.c"
+},
+{
+  "directory": "/home/hidro/galactic_ws/build/odri_ros2_interfaces",
+  "command": "/usr/bin/cc -DRCUTILS_ENABLE_FAULT_INJECTION -Dodri_ros2_interfaces__rosidl_generator_c_EXPORTS -I/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_generator_c -isystem /opt/ros/galactic/include  -O3 -DNDEBUG -fPIC   -Wall -std=gnu11 -o CMakeFiles/odri_ros2_interfaces__rosidl_generator_c.dir/rosidl_generator_c/odri_ros2_interfaces/msg/detail/robot_state__functions.c.o   -c /home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_generator_c/odri_ros2_interfaces/msg/detail/robot_state__functions.c",
+  "file": "/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_generator_c/odri_ros2_interfaces/msg/detail/robot_state__functions.c"
+},
+{
+  "directory": "/home/hidro/galactic_ws/build/odri_ros2_interfaces",
+  "command": "/usr/bin/cc -DRCUTILS_ENABLE_FAULT_INJECTION -Dodri_ros2_interfaces__rosidl_generator_c_EXPORTS -I/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_generator_c -isystem /opt/ros/galactic/include  -O3 -DNDEBUG -fPIC   -Wall -std=gnu11 -o CMakeFiles/odri_ros2_interfaces__rosidl_generator_c.dir/rosidl_generator_c/odri_ros2_interfaces/msg/detail/state_command__functions.c.o   -c /home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_generator_c/odri_ros2_interfaces/msg/detail/state_command__functions.c",
+  "file": "/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_generator_c/odri_ros2_interfaces/msg/detail/state_command__functions.c"
+},
+{
+  "directory": "/home/hidro/galactic_ws/build/odri_ros2_interfaces",
+  "command": "/usr/bin/c++  -DRCUTILS_ENABLE_FAULT_INJECTION -Dodri_ros2_interfaces__rosidl_typesupport_c_EXPORTS -I/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_generator_c -I/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_typesupport_c -I/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_typesupport_introspection_c -isystem /opt/ros/galactic/include  -O3 -DNDEBUG -fPIC   -Wall -std=gnu++14 -o CMakeFiles/odri_ros2_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/odri_ros2_interfaces/msg/motor_state__type_support.cpp.o -c /home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_typesupport_c/odri_ros2_interfaces/msg/motor_state__type_support.cpp",
+  "file": "/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_typesupport_c/odri_ros2_interfaces/msg/motor_state__type_support.cpp"
+},
+{
+  "directory": "/home/hidro/galactic_ws/build/odri_ros2_interfaces",
+  "command": "/usr/bin/c++  -DRCUTILS_ENABLE_FAULT_INJECTION -Dodri_ros2_interfaces__rosidl_typesupport_c_EXPORTS -I/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_generator_c -I/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_typesupport_c -I/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_typesupport_introspection_c -isystem /opt/ros/galactic/include  -O3 -DNDEBUG -fPIC   -Wall -std=gnu++14 -o CMakeFiles/odri_ros2_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/odri_ros2_interfaces/msg/driver_state__type_support.cpp.o -c /home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_typesupport_c/odri_ros2_interfaces/msg/driver_state__type_support.cpp",
+  "file": "/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_typesupport_c/odri_ros2_interfaces/msg/driver_state__type_support.cpp"
+},
+{
+  "directory": "/home/hidro/galactic_ws/build/odri_ros2_interfaces",
+  "command": "/usr/bin/c++  -DRCUTILS_ENABLE_FAULT_INJECTION -Dodri_ros2_interfaces__rosidl_typesupport_c_EXPORTS -I/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_generator_c -I/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_typesupport_c -I/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_typesupport_introspection_c -isystem /opt/ros/galactic/include  -O3 -DNDEBUG -fPIC   -Wall -std=gnu++14 -o CMakeFiles/odri_ros2_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/odri_ros2_interfaces/msg/master_board_state__type_support.cpp.o -c /home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_typesupport_c/odri_ros2_interfaces/msg/master_board_state__type_support.cpp",
+  "file": "/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_typesupport_c/odri_ros2_interfaces/msg/master_board_state__type_support.cpp"
+},
+{
+  "directory": "/home/hidro/galactic_ws/build/odri_ros2_interfaces",
+  "command": "/usr/bin/c++  -DRCUTILS_ENABLE_FAULT_INJECTION -Dodri_ros2_interfaces__rosidl_typesupport_c_EXPORTS -I/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_generator_c -I/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_typesupport_c -I/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_typesupport_introspection_c -isystem /opt/ros/galactic/include  -O3 -DNDEBUG -fPIC   -Wall -std=gnu++14 -o CMakeFiles/odri_ros2_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/odri_ros2_interfaces/msg/motor_command__type_support.cpp.o -c /home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_typesupport_c/odri_ros2_interfaces/msg/motor_command__type_support.cpp",
+  "file": "/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_typesupport_c/odri_ros2_interfaces/msg/motor_command__type_support.cpp"
+},
+{
+  "directory": "/home/hidro/galactic_ws/build/odri_ros2_interfaces",
+  "command": "/usr/bin/c++  -DRCUTILS_ENABLE_FAULT_INJECTION -Dodri_ros2_interfaces__rosidl_typesupport_c_EXPORTS -I/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_generator_c -I/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_typesupport_c -I/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_typesupport_introspection_c -isystem /opt/ros/galactic/include  -O3 -DNDEBUG -fPIC   -Wall -std=gnu++14 -o CMakeFiles/odri_ros2_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/odri_ros2_interfaces/msg/driver_command__type_support.cpp.o -c /home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_typesupport_c/odri_ros2_interfaces/msg/driver_command__type_support.cpp",
+  "file": "/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_typesupport_c/odri_ros2_interfaces/msg/driver_command__type_support.cpp"
+},
+{
+  "directory": "/home/hidro/galactic_ws/build/odri_ros2_interfaces",
+  "command": "/usr/bin/c++  -DRCUTILS_ENABLE_FAULT_INJECTION -Dodri_ros2_interfaces__rosidl_typesupport_c_EXPORTS -I/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_generator_c -I/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_typesupport_c -I/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_typesupport_introspection_c -isystem /opt/ros/galactic/include  -O3 -DNDEBUG -fPIC   -Wall -std=gnu++14 -o CMakeFiles/odri_ros2_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/odri_ros2_interfaces/msg/master_board_command__type_support.cpp.o -c /home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_typesupport_c/odri_ros2_interfaces/msg/master_board_command__type_support.cpp",
+  "file": "/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_typesupport_c/odri_ros2_interfaces/msg/master_board_command__type_support.cpp"
+},
+{
+  "directory": "/home/hidro/galactic_ws/build/odri_ros2_interfaces",
+  "command": "/usr/bin/c++  -DRCUTILS_ENABLE_FAULT_INJECTION -Dodri_ros2_interfaces__rosidl_typesupport_c_EXPORTS -I/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_generator_c -I/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_typesupport_c -I/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_typesupport_introspection_c -isystem /opt/ros/galactic/include  -O3 -DNDEBUG -fPIC   -Wall -std=gnu++14 -o CMakeFiles/odri_ros2_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/odri_ros2_interfaces/msg/robot_command__type_support.cpp.o -c /home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_typesupport_c/odri_ros2_interfaces/msg/robot_command__type_support.cpp",
+  "file": "/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_typesupport_c/odri_ros2_interfaces/msg/robot_command__type_support.cpp"
+},
+{
+  "directory": "/home/hidro/galactic_ws/build/odri_ros2_interfaces",
+  "command": "/usr/bin/c++  -DRCUTILS_ENABLE_FAULT_INJECTION -Dodri_ros2_interfaces__rosidl_typesupport_c_EXPORTS -I/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_generator_c -I/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_typesupport_c -I/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_typesupport_introspection_c -isystem /opt/ros/galactic/include  -O3 -DNDEBUG -fPIC   -Wall -std=gnu++14 -o CMakeFiles/odri_ros2_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/odri_ros2_interfaces/msg/robot_state__type_support.cpp.o -c /home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_typesupport_c/odri_ros2_interfaces/msg/robot_state__type_support.cpp",
+  "file": "/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_typesupport_c/odri_ros2_interfaces/msg/robot_state__type_support.cpp"
+},
+{
+  "directory": "/home/hidro/galactic_ws/build/odri_ros2_interfaces",
+  "command": "/usr/bin/c++  -DRCUTILS_ENABLE_FAULT_INJECTION -Dodri_ros2_interfaces__rosidl_typesupport_c_EXPORTS -I/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_generator_c -I/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_typesupport_c -I/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_typesupport_introspection_c -isystem /opt/ros/galactic/include  -O3 -DNDEBUG -fPIC   -Wall -std=gnu++14 -o CMakeFiles/odri_ros2_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/odri_ros2_interfaces/msg/state_command__type_support.cpp.o -c /home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_typesupport_c/odri_ros2_interfaces/msg/state_command__type_support.cpp",
+  "file": "/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_typesupport_c/odri_ros2_interfaces/msg/state_command__type_support.cpp"
+},
+{
+  "directory": "/home/hidro/galactic_ws/build/odri_ros2_interfaces",
+  "command": "/usr/bin/c++  -DRCUTILS_ENABLE_FAULT_INJECTION -Dodri_ros2_interfaces__rosidl_typesupport_introspection_cpp_EXPORTS -I/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_generator_cpp -isystem /opt/ros/galactic/include  -O3 -DNDEBUG -fPIC   -Wall -std=gnu++14 -o CMakeFiles/odri_ros2_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/odri_ros2_interfaces/msg/detail/motor_state__type_support.cpp.o -c /home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_typesupport_introspection_cpp/odri_ros2_interfaces/msg/detail/motor_state__type_support.cpp",
+  "file": "/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_typesupport_introspection_cpp/odri_ros2_interfaces/msg/detail/motor_state__type_support.cpp"
+},
+{
+  "directory": "/home/hidro/galactic_ws/build/odri_ros2_interfaces",
+  "command": "/usr/bin/c++  -DRCUTILS_ENABLE_FAULT_INJECTION -Dodri_ros2_interfaces__rosidl_typesupport_introspection_cpp_EXPORTS -I/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_generator_cpp -isystem /opt/ros/galactic/include  -O3 -DNDEBUG -fPIC   -Wall -std=gnu++14 -o CMakeFiles/odri_ros2_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/odri_ros2_interfaces/msg/detail/driver_state__type_support.cpp.o -c /home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_typesupport_introspection_cpp/odri_ros2_interfaces/msg/detail/driver_state__type_support.cpp",
+  "file": "/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_typesupport_introspection_cpp/odri_ros2_interfaces/msg/detail/driver_state__type_support.cpp"
+},
+{
+  "directory": "/home/hidro/galactic_ws/build/odri_ros2_interfaces",
+  "command": "/usr/bin/c++  -DRCUTILS_ENABLE_FAULT_INJECTION -Dodri_ros2_interfaces__rosidl_typesupport_introspection_cpp_EXPORTS -I/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_generator_cpp -isystem /opt/ros/galactic/include  -O3 -DNDEBUG -fPIC   -Wall -std=gnu++14 -o CMakeFiles/odri_ros2_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/odri_ros2_interfaces/msg/detail/master_board_state__type_support.cpp.o -c /home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_typesupport_introspection_cpp/odri_ros2_interfaces/msg/detail/master_board_state__type_support.cpp",
+  "file": "/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_typesupport_introspection_cpp/odri_ros2_interfaces/msg/detail/master_board_state__type_support.cpp"
+},
+{
+  "directory": "/home/hidro/galactic_ws/build/odri_ros2_interfaces",
+  "command": "/usr/bin/c++  -DRCUTILS_ENABLE_FAULT_INJECTION -Dodri_ros2_interfaces__rosidl_typesupport_introspection_cpp_EXPORTS -I/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_generator_cpp -isystem /opt/ros/galactic/include  -O3 -DNDEBUG -fPIC   -Wall -std=gnu++14 -o CMakeFiles/odri_ros2_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/odri_ros2_interfaces/msg/detail/motor_command__type_support.cpp.o -c /home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_typesupport_introspection_cpp/odri_ros2_interfaces/msg/detail/motor_command__type_support.cpp",
+  "file": "/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_typesupport_introspection_cpp/odri_ros2_interfaces/msg/detail/motor_command__type_support.cpp"
+},
+{
+  "directory": "/home/hidro/galactic_ws/build/odri_ros2_interfaces",
+  "command": "/usr/bin/c++  -DRCUTILS_ENABLE_FAULT_INJECTION -Dodri_ros2_interfaces__rosidl_typesupport_introspection_cpp_EXPORTS -I/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_generator_cpp -isystem /opt/ros/galactic/include  -O3 -DNDEBUG -fPIC   -Wall -std=gnu++14 -o CMakeFiles/odri_ros2_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/odri_ros2_interfaces/msg/detail/driver_command__type_support.cpp.o -c /home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_typesupport_introspection_cpp/odri_ros2_interfaces/msg/detail/driver_command__type_support.cpp",
+  "file": "/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_typesupport_introspection_cpp/odri_ros2_interfaces/msg/detail/driver_command__type_support.cpp"
+},
+{
+  "directory": "/home/hidro/galactic_ws/build/odri_ros2_interfaces",
+  "command": "/usr/bin/c++  -DRCUTILS_ENABLE_FAULT_INJECTION -Dodri_ros2_interfaces__rosidl_typesupport_introspection_cpp_EXPORTS -I/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_generator_cpp -isystem /opt/ros/galactic/include  -O3 -DNDEBUG -fPIC   -Wall -std=gnu++14 -o CMakeFiles/odri_ros2_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/odri_ros2_interfaces/msg/detail/master_board_command__type_support.cpp.o -c /home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_typesupport_introspection_cpp/odri_ros2_interfaces/msg/detail/master_board_command__type_support.cpp",
+  "file": "/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_typesupport_introspection_cpp/odri_ros2_interfaces/msg/detail/master_board_command__type_support.cpp"
+},
+{
+  "directory": "/home/hidro/galactic_ws/build/odri_ros2_interfaces",
+  "command": "/usr/bin/c++  -DRCUTILS_ENABLE_FAULT_INJECTION -Dodri_ros2_interfaces__rosidl_typesupport_introspection_cpp_EXPORTS -I/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_generator_cpp -isystem /opt/ros/galactic/include  -O3 -DNDEBUG -fPIC   -Wall -std=gnu++14 -o CMakeFiles/odri_ros2_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/odri_ros2_interfaces/msg/detail/robot_command__type_support.cpp.o -c /home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_typesupport_introspection_cpp/odri_ros2_interfaces/msg/detail/robot_command__type_support.cpp",
+  "file": "/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_typesupport_introspection_cpp/odri_ros2_interfaces/msg/detail/robot_command__type_support.cpp"
+},
+{
+  "directory": "/home/hidro/galactic_ws/build/odri_ros2_interfaces",
+  "command": "/usr/bin/c++  -DRCUTILS_ENABLE_FAULT_INJECTION -Dodri_ros2_interfaces__rosidl_typesupport_introspection_cpp_EXPORTS -I/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_generator_cpp -isystem /opt/ros/galactic/include  -O3 -DNDEBUG -fPIC   -Wall -std=gnu++14 -o CMakeFiles/odri_ros2_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/odri_ros2_interfaces/msg/detail/robot_state__type_support.cpp.o -c /home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_typesupport_introspection_cpp/odri_ros2_interfaces/msg/detail/robot_state__type_support.cpp",
+  "file": "/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_typesupport_introspection_cpp/odri_ros2_interfaces/msg/detail/robot_state__type_support.cpp"
+},
+{
+  "directory": "/home/hidro/galactic_ws/build/odri_ros2_interfaces",
+  "command": "/usr/bin/c++  -DRCUTILS_ENABLE_FAULT_INJECTION -Dodri_ros2_interfaces__rosidl_typesupport_introspection_cpp_EXPORTS -I/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_generator_cpp -isystem /opt/ros/galactic/include  -O3 -DNDEBUG -fPIC   -Wall -std=gnu++14 -o CMakeFiles/odri_ros2_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/odri_ros2_interfaces/msg/detail/state_command__type_support.cpp.o -c /home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_typesupport_introspection_cpp/odri_ros2_interfaces/msg/detail/state_command__type_support.cpp",
+  "file": "/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_typesupport_introspection_cpp/odri_ros2_interfaces/msg/detail/state_command__type_support.cpp"
+},
+{
+  "directory": "/home/hidro/galactic_ws/build/odri_ros2_interfaces",
+  "command": "/usr/bin/c++  -DRCUTILS_ENABLE_FAULT_INJECTION -Dodri_ros2_interfaces__rosidl_typesupport_cpp_EXPORTS -I/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_generator_cpp -I/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_typesupport_introspection_cpp -isystem /opt/ros/galactic/include  -O3 -DNDEBUG -fPIC   -Wall -std=gnu++14 -o CMakeFiles/odri_ros2_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/odri_ros2_interfaces/msg/motor_state__type_support.cpp.o -c /home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_typesupport_cpp/odri_ros2_interfaces/msg/motor_state__type_support.cpp",
+  "file": "/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_typesupport_cpp/odri_ros2_interfaces/msg/motor_state__type_support.cpp"
+},
+{
+  "directory": "/home/hidro/galactic_ws/build/odri_ros2_interfaces",
+  "command": "/usr/bin/c++  -DRCUTILS_ENABLE_FAULT_INJECTION -Dodri_ros2_interfaces__rosidl_typesupport_cpp_EXPORTS -I/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_generator_cpp -I/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_typesupport_introspection_cpp -isystem /opt/ros/galactic/include  -O3 -DNDEBUG -fPIC   -Wall -std=gnu++14 -o CMakeFiles/odri_ros2_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/odri_ros2_interfaces/msg/driver_state__type_support.cpp.o -c /home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_typesupport_cpp/odri_ros2_interfaces/msg/driver_state__type_support.cpp",
+  "file": "/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_typesupport_cpp/odri_ros2_interfaces/msg/driver_state__type_support.cpp"
+},
+{
+  "directory": "/home/hidro/galactic_ws/build/odri_ros2_interfaces",
+  "command": "/usr/bin/c++  -DRCUTILS_ENABLE_FAULT_INJECTION -Dodri_ros2_interfaces__rosidl_typesupport_cpp_EXPORTS -I/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_generator_cpp -I/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_typesupport_introspection_cpp -isystem /opt/ros/galactic/include  -O3 -DNDEBUG -fPIC   -Wall -std=gnu++14 -o CMakeFiles/odri_ros2_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/odri_ros2_interfaces/msg/master_board_state__type_support.cpp.o -c /home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_typesupport_cpp/odri_ros2_interfaces/msg/master_board_state__type_support.cpp",
+  "file": "/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_typesupport_cpp/odri_ros2_interfaces/msg/master_board_state__type_support.cpp"
+},
+{
+  "directory": "/home/hidro/galactic_ws/build/odri_ros2_interfaces",
+  "command": "/usr/bin/c++  -DRCUTILS_ENABLE_FAULT_INJECTION -Dodri_ros2_interfaces__rosidl_typesupport_cpp_EXPORTS -I/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_generator_cpp -I/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_typesupport_introspection_cpp -isystem /opt/ros/galactic/include  -O3 -DNDEBUG -fPIC   -Wall -std=gnu++14 -o CMakeFiles/odri_ros2_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/odri_ros2_interfaces/msg/motor_command__type_support.cpp.o -c /home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_typesupport_cpp/odri_ros2_interfaces/msg/motor_command__type_support.cpp",
+  "file": "/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_typesupport_cpp/odri_ros2_interfaces/msg/motor_command__type_support.cpp"
+},
+{
+  "directory": "/home/hidro/galactic_ws/build/odri_ros2_interfaces",
+  "command": "/usr/bin/c++  -DRCUTILS_ENABLE_FAULT_INJECTION -Dodri_ros2_interfaces__rosidl_typesupport_cpp_EXPORTS -I/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_generator_cpp -I/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_typesupport_introspection_cpp -isystem /opt/ros/galactic/include  -O3 -DNDEBUG -fPIC   -Wall -std=gnu++14 -o CMakeFiles/odri_ros2_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/odri_ros2_interfaces/msg/driver_command__type_support.cpp.o -c /home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_typesupport_cpp/odri_ros2_interfaces/msg/driver_command__type_support.cpp",
+  "file": "/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_typesupport_cpp/odri_ros2_interfaces/msg/driver_command__type_support.cpp"
+},
+{
+  "directory": "/home/hidro/galactic_ws/build/odri_ros2_interfaces",
+  "command": "/usr/bin/c++  -DRCUTILS_ENABLE_FAULT_INJECTION -Dodri_ros2_interfaces__rosidl_typesupport_cpp_EXPORTS -I/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_generator_cpp -I/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_typesupport_introspection_cpp -isystem /opt/ros/galactic/include  -O3 -DNDEBUG -fPIC   -Wall -std=gnu++14 -o CMakeFiles/odri_ros2_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/odri_ros2_interfaces/msg/master_board_command__type_support.cpp.o -c /home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_typesupport_cpp/odri_ros2_interfaces/msg/master_board_command__type_support.cpp",
+  "file": "/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_typesupport_cpp/odri_ros2_interfaces/msg/master_board_command__type_support.cpp"
+},
+{
+  "directory": "/home/hidro/galactic_ws/build/odri_ros2_interfaces",
+  "command": "/usr/bin/c++  -DRCUTILS_ENABLE_FAULT_INJECTION -Dodri_ros2_interfaces__rosidl_typesupport_cpp_EXPORTS -I/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_generator_cpp -I/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_typesupport_introspection_cpp -isystem /opt/ros/galactic/include  -O3 -DNDEBUG -fPIC   -Wall -std=gnu++14 -o CMakeFiles/odri_ros2_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/odri_ros2_interfaces/msg/robot_command__type_support.cpp.o -c /home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_typesupport_cpp/odri_ros2_interfaces/msg/robot_command__type_support.cpp",
+  "file": "/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_typesupport_cpp/odri_ros2_interfaces/msg/robot_command__type_support.cpp"
+},
+{
+  "directory": "/home/hidro/galactic_ws/build/odri_ros2_interfaces",
+  "command": "/usr/bin/c++  -DRCUTILS_ENABLE_FAULT_INJECTION -Dodri_ros2_interfaces__rosidl_typesupport_cpp_EXPORTS -I/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_generator_cpp -I/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_typesupport_introspection_cpp -isystem /opt/ros/galactic/include  -O3 -DNDEBUG -fPIC   -Wall -std=gnu++14 -o CMakeFiles/odri_ros2_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/odri_ros2_interfaces/msg/robot_state__type_support.cpp.o -c /home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_typesupport_cpp/odri_ros2_interfaces/msg/robot_state__type_support.cpp",
+  "file": "/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_typesupport_cpp/odri_ros2_interfaces/msg/robot_state__type_support.cpp"
+},
+{
+  "directory": "/home/hidro/galactic_ws/build/odri_ros2_interfaces",
+  "command": "/usr/bin/c++  -DRCUTILS_ENABLE_FAULT_INJECTION -Dodri_ros2_interfaces__rosidl_typesupport_cpp_EXPORTS -I/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_generator_cpp -I/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_typesupport_introspection_cpp -isystem /opt/ros/galactic/include  -O3 -DNDEBUG -fPIC   -Wall -std=gnu++14 -o CMakeFiles/odri_ros2_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/odri_ros2_interfaces/msg/state_command__type_support.cpp.o -c /home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_typesupport_cpp/odri_ros2_interfaces/msg/state_command__type_support.cpp",
+  "file": "/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_typesupport_cpp/odri_ros2_interfaces/msg/state_command__type_support.cpp"
+},
+{
+  "directory": "/home/hidro/galactic_ws/build/odri_ros2_interfaces",
+  "command": "/usr/bin/cc -DRCUTILS_ENABLE_FAULT_INJECTION -Dodri_ros2_interfaces__python_EXPORTS -I/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_generator_c -I/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_generator_py -I/usr/include/python3.8 -I/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_typesupport_c -I/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_typesupport_introspection_c -isystem /opt/ros/galactic/include  -O3 -DNDEBUG -fPIC   -Wall -Wextra -o CMakeFiles/odri_ros2_interfaces__python.dir/rosidl_generator_py/odri_ros2_interfaces/msg/_motor_state_s.c.o   -c /home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_generator_py/odri_ros2_interfaces/msg/_motor_state_s.c",
+  "file": "/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_generator_py/odri_ros2_interfaces/msg/_motor_state_s.c"
+},
+{
+  "directory": "/home/hidro/galactic_ws/build/odri_ros2_interfaces",
+  "command": "/usr/bin/cc -DRCUTILS_ENABLE_FAULT_INJECTION -Dodri_ros2_interfaces__python_EXPORTS -I/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_generator_c -I/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_generator_py -I/usr/include/python3.8 -I/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_typesupport_c -I/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_typesupport_introspection_c -isystem /opt/ros/galactic/include  -O3 -DNDEBUG -fPIC   -Wall -Wextra -o CMakeFiles/odri_ros2_interfaces__python.dir/rosidl_generator_py/odri_ros2_interfaces/msg/_driver_state_s.c.o   -c /home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_generator_py/odri_ros2_interfaces/msg/_driver_state_s.c",
+  "file": "/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_generator_py/odri_ros2_interfaces/msg/_driver_state_s.c"
+},
+{
+  "directory": "/home/hidro/galactic_ws/build/odri_ros2_interfaces",
+  "command": "/usr/bin/cc -DRCUTILS_ENABLE_FAULT_INJECTION -Dodri_ros2_interfaces__python_EXPORTS -I/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_generator_c -I/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_generator_py -I/usr/include/python3.8 -I/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_typesupport_c -I/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_typesupport_introspection_c -isystem /opt/ros/galactic/include  -O3 -DNDEBUG -fPIC   -Wall -Wextra -o CMakeFiles/odri_ros2_interfaces__python.dir/rosidl_generator_py/odri_ros2_interfaces/msg/_master_board_state_s.c.o   -c /home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_generator_py/odri_ros2_interfaces/msg/_master_board_state_s.c",
+  "file": "/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_generator_py/odri_ros2_interfaces/msg/_master_board_state_s.c"
+},
+{
+  "directory": "/home/hidro/galactic_ws/build/odri_ros2_interfaces",
+  "command": "/usr/bin/cc -DRCUTILS_ENABLE_FAULT_INJECTION -Dodri_ros2_interfaces__python_EXPORTS -I/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_generator_c -I/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_generator_py -I/usr/include/python3.8 -I/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_typesupport_c -I/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_typesupport_introspection_c -isystem /opt/ros/galactic/include  -O3 -DNDEBUG -fPIC   -Wall -Wextra -o CMakeFiles/odri_ros2_interfaces__python.dir/rosidl_generator_py/odri_ros2_interfaces/msg/_motor_command_s.c.o   -c /home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_generator_py/odri_ros2_interfaces/msg/_motor_command_s.c",
+  "file": "/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_generator_py/odri_ros2_interfaces/msg/_motor_command_s.c"
+},
+{
+  "directory": "/home/hidro/galactic_ws/build/odri_ros2_interfaces",
+  "command": "/usr/bin/cc -DRCUTILS_ENABLE_FAULT_INJECTION -Dodri_ros2_interfaces__python_EXPORTS -I/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_generator_c -I/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_generator_py -I/usr/include/python3.8 -I/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_typesupport_c -I/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_typesupport_introspection_c -isystem /opt/ros/galactic/include  -O3 -DNDEBUG -fPIC   -Wall -Wextra -o CMakeFiles/odri_ros2_interfaces__python.dir/rosidl_generator_py/odri_ros2_interfaces/msg/_driver_command_s.c.o   -c /home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_generator_py/odri_ros2_interfaces/msg/_driver_command_s.c",
+  "file": "/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_generator_py/odri_ros2_interfaces/msg/_driver_command_s.c"
+},
+{
+  "directory": "/home/hidro/galactic_ws/build/odri_ros2_interfaces",
+  "command": "/usr/bin/cc -DRCUTILS_ENABLE_FAULT_INJECTION -Dodri_ros2_interfaces__python_EXPORTS -I/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_generator_c -I/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_generator_py -I/usr/include/python3.8 -I/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_typesupport_c -I/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_typesupport_introspection_c -isystem /opt/ros/galactic/include  -O3 -DNDEBUG -fPIC   -Wall -Wextra -o CMakeFiles/odri_ros2_interfaces__python.dir/rosidl_generator_py/odri_ros2_interfaces/msg/_master_board_command_s.c.o   -c /home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_generator_py/odri_ros2_interfaces/msg/_master_board_command_s.c",
+  "file": "/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_generator_py/odri_ros2_interfaces/msg/_master_board_command_s.c"
+},
+{
+  "directory": "/home/hidro/galactic_ws/build/odri_ros2_interfaces",
+  "command": "/usr/bin/cc -DRCUTILS_ENABLE_FAULT_INJECTION -Dodri_ros2_interfaces__python_EXPORTS -I/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_generator_c -I/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_generator_py -I/usr/include/python3.8 -I/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_typesupport_c -I/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_typesupport_introspection_c -isystem /opt/ros/galactic/include  -O3 -DNDEBUG -fPIC   -Wall -Wextra -o CMakeFiles/odri_ros2_interfaces__python.dir/rosidl_generator_py/odri_ros2_interfaces/msg/_robot_command_s.c.o   -c /home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_generator_py/odri_ros2_interfaces/msg/_robot_command_s.c",
+  "file": "/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_generator_py/odri_ros2_interfaces/msg/_robot_command_s.c"
+},
+{
+  "directory": "/home/hidro/galactic_ws/build/odri_ros2_interfaces",
+  "command": "/usr/bin/cc -DRCUTILS_ENABLE_FAULT_INJECTION -Dodri_ros2_interfaces__python_EXPORTS -I/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_generator_c -I/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_generator_py -I/usr/include/python3.8 -I/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_typesupport_c -I/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_typesupport_introspection_c -isystem /opt/ros/galactic/include  -O3 -DNDEBUG -fPIC   -Wall -Wextra -o CMakeFiles/odri_ros2_interfaces__python.dir/rosidl_generator_py/odri_ros2_interfaces/msg/_robot_state_s.c.o   -c /home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_generator_py/odri_ros2_interfaces/msg/_robot_state_s.c",
+  "file": "/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_generator_py/odri_ros2_interfaces/msg/_robot_state_s.c"
+},
+{
+  "directory": "/home/hidro/galactic_ws/build/odri_ros2_interfaces",
+  "command": "/usr/bin/cc -DRCUTILS_ENABLE_FAULT_INJECTION -Dodri_ros2_interfaces__python_EXPORTS -I/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_generator_c -I/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_generator_py -I/usr/include/python3.8 -I/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_typesupport_c -I/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_typesupport_introspection_c -isystem /opt/ros/galactic/include  -O3 -DNDEBUG -fPIC   -Wall -Wextra -o CMakeFiles/odri_ros2_interfaces__python.dir/rosidl_generator_py/odri_ros2_interfaces/msg/_state_command_s.c.o   -c /home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_generator_py/odri_ros2_interfaces/msg/_state_command_s.c",
+  "file": "/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_generator_py/odri_ros2_interfaces/msg/_state_command_s.c"
+},
+{
+  "directory": "/home/hidro/galactic_ws/build/odri_ros2_interfaces",
+  "command": "/usr/bin/cc -DRCUTILS_ENABLE_FAULT_INJECTION -Dodri_ros2_interfaces__rosidl_typesupport_c__pyext_EXPORTS -I/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_generator_c -I/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_generator_py -I/usr/include/python3.8 -I/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_typesupport_c -I/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_typesupport_introspection_c -isystem /opt/ros/galactic/include  -O3 -DNDEBUG -fPIC   -Wall -Wextra -o CMakeFiles/odri_ros2_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/odri_ros2_interfaces/_odri_ros2_interfaces_s.ep.rosidl_typesupport_c.c.o   -c /home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_generator_py/odri_ros2_interfaces/_odri_ros2_interfaces_s.ep.rosidl_typesupport_c.c",
+  "file": "/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_generator_py/odri_ros2_interfaces/_odri_ros2_interfaces_s.ep.rosidl_typesupport_c.c"
+},
+{
+  "directory": "/home/hidro/galactic_ws/build/odri_ros2_interfaces",
+  "command": "/usr/bin/cc -DRCUTILS_ENABLE_FAULT_INJECTION -Dodri_ros2_interfaces__rosidl_typesupport_introspection_c_EXPORTS -I/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_generator_c -I/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_typesupport_introspection_c -isystem /opt/ros/galactic/include  -O3 -DNDEBUG -fPIC   -Wall -std=gnu11 -o CMakeFiles/odri_ros2_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/odri_ros2_interfaces/msg/detail/motor_state__type_support.c.o   -c /home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_typesupport_introspection_c/odri_ros2_interfaces/msg/detail/motor_state__type_support.c",
+  "file": "/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_typesupport_introspection_c/odri_ros2_interfaces/msg/detail/motor_state__type_support.c"
+},
+{
+  "directory": "/home/hidro/galactic_ws/build/odri_ros2_interfaces",
+  "command": "/usr/bin/cc -DRCUTILS_ENABLE_FAULT_INJECTION -Dodri_ros2_interfaces__rosidl_typesupport_introspection_c_EXPORTS -I/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_generator_c -I/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_typesupport_introspection_c -isystem /opt/ros/galactic/include  -O3 -DNDEBUG -fPIC   -Wall -std=gnu11 -o CMakeFiles/odri_ros2_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/odri_ros2_interfaces/msg/detail/driver_state__type_support.c.o   -c /home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_typesupport_introspection_c/odri_ros2_interfaces/msg/detail/driver_state__type_support.c",
+  "file": "/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_typesupport_introspection_c/odri_ros2_interfaces/msg/detail/driver_state__type_support.c"
+},
+{
+  "directory": "/home/hidro/galactic_ws/build/odri_ros2_interfaces",
+  "command": "/usr/bin/cc -DRCUTILS_ENABLE_FAULT_INJECTION -Dodri_ros2_interfaces__rosidl_typesupport_introspection_c_EXPORTS -I/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_generator_c -I/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_typesupport_introspection_c -isystem /opt/ros/galactic/include  -O3 -DNDEBUG -fPIC   -Wall -std=gnu11 -o CMakeFiles/odri_ros2_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/odri_ros2_interfaces/msg/detail/master_board_state__type_support.c.o   -c /home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_typesupport_introspection_c/odri_ros2_interfaces/msg/detail/master_board_state__type_support.c",
+  "file": "/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_typesupport_introspection_c/odri_ros2_interfaces/msg/detail/master_board_state__type_support.c"
+},
+{
+  "directory": "/home/hidro/galactic_ws/build/odri_ros2_interfaces",
+  "command": "/usr/bin/cc -DRCUTILS_ENABLE_FAULT_INJECTION -Dodri_ros2_interfaces__rosidl_typesupport_introspection_c_EXPORTS -I/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_generator_c -I/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_typesupport_introspection_c -isystem /opt/ros/galactic/include  -O3 -DNDEBUG -fPIC   -Wall -std=gnu11 -o CMakeFiles/odri_ros2_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/odri_ros2_interfaces/msg/detail/motor_command__type_support.c.o   -c /home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_typesupport_introspection_c/odri_ros2_interfaces/msg/detail/motor_command__type_support.c",
+  "file": "/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_typesupport_introspection_c/odri_ros2_interfaces/msg/detail/motor_command__type_support.c"
+},
+{
+  "directory": "/home/hidro/galactic_ws/build/odri_ros2_interfaces",
+  "command": "/usr/bin/cc -DRCUTILS_ENABLE_FAULT_INJECTION -Dodri_ros2_interfaces__rosidl_typesupport_introspection_c_EXPORTS -I/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_generator_c -I/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_typesupport_introspection_c -isystem /opt/ros/galactic/include  -O3 -DNDEBUG -fPIC   -Wall -std=gnu11 -o CMakeFiles/odri_ros2_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/odri_ros2_interfaces/msg/detail/driver_command__type_support.c.o   -c /home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_typesupport_introspection_c/odri_ros2_interfaces/msg/detail/driver_command__type_support.c",
+  "file": "/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_typesupport_introspection_c/odri_ros2_interfaces/msg/detail/driver_command__type_support.c"
+},
+{
+  "directory": "/home/hidro/galactic_ws/build/odri_ros2_interfaces",
+  "command": "/usr/bin/cc -DRCUTILS_ENABLE_FAULT_INJECTION -Dodri_ros2_interfaces__rosidl_typesupport_introspection_c_EXPORTS -I/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_generator_c -I/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_typesupport_introspection_c -isystem /opt/ros/galactic/include  -O3 -DNDEBUG -fPIC   -Wall -std=gnu11 -o CMakeFiles/odri_ros2_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/odri_ros2_interfaces/msg/detail/master_board_command__type_support.c.o   -c /home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_typesupport_introspection_c/odri_ros2_interfaces/msg/detail/master_board_command__type_support.c",
+  "file": "/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_typesupport_introspection_c/odri_ros2_interfaces/msg/detail/master_board_command__type_support.c"
+},
+{
+  "directory": "/home/hidro/galactic_ws/build/odri_ros2_interfaces",
+  "command": "/usr/bin/cc -DRCUTILS_ENABLE_FAULT_INJECTION -Dodri_ros2_interfaces__rosidl_typesupport_introspection_c_EXPORTS -I/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_generator_c -I/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_typesupport_introspection_c -isystem /opt/ros/galactic/include  -O3 -DNDEBUG -fPIC   -Wall -std=gnu11 -o CMakeFiles/odri_ros2_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/odri_ros2_interfaces/msg/detail/robot_command__type_support.c.o   -c /home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_typesupport_introspection_c/odri_ros2_interfaces/msg/detail/robot_command__type_support.c",
+  "file": "/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_typesupport_introspection_c/odri_ros2_interfaces/msg/detail/robot_command__type_support.c"
+},
+{
+  "directory": "/home/hidro/galactic_ws/build/odri_ros2_interfaces",
+  "command": "/usr/bin/cc -DRCUTILS_ENABLE_FAULT_INJECTION -Dodri_ros2_interfaces__rosidl_typesupport_introspection_c_EXPORTS -I/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_generator_c -I/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_typesupport_introspection_c -isystem /opt/ros/galactic/include  -O3 -DNDEBUG -fPIC   -Wall -std=gnu11 -o CMakeFiles/odri_ros2_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/odri_ros2_interfaces/msg/detail/robot_state__type_support.c.o   -c /home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_typesupport_introspection_c/odri_ros2_interfaces/msg/detail/robot_state__type_support.c",
+  "file": "/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_typesupport_introspection_c/odri_ros2_interfaces/msg/detail/robot_state__type_support.c"
+},
+{
+  "directory": "/home/hidro/galactic_ws/build/odri_ros2_interfaces",
+  "command": "/usr/bin/cc -DRCUTILS_ENABLE_FAULT_INJECTION -Dodri_ros2_interfaces__rosidl_typesupport_introspection_c_EXPORTS -I/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_generator_c -I/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_typesupport_introspection_c -isystem /opt/ros/galactic/include  -O3 -DNDEBUG -fPIC   -Wall -std=gnu11 -o CMakeFiles/odri_ros2_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/odri_ros2_interfaces/msg/detail/state_command__type_support.c.o   -c /home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_typesupport_introspection_c/odri_ros2_interfaces/msg/detail/state_command__type_support.c",
+  "file": "/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_typesupport_introspection_c/odri_ros2_interfaces/msg/detail/state_command__type_support.c"
+},
+{
+  "directory": "/home/hidro/galactic_ws/build/odri_ros2_interfaces",
+  "command": "/usr/bin/cc -DRCUTILS_ENABLE_FAULT_INJECTION -Dodri_ros2_interfaces__rosidl_typesupport_introspection_c__pyext_EXPORTS -I/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_generator_c -I/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_generator_py -I/usr/include/python3.8 -I/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_typesupport_c -I/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_typesupport_introspection_c -isystem /opt/ros/galactic/include  -O3 -DNDEBUG -fPIC   -Wall -Wextra -o CMakeFiles/odri_ros2_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/odri_ros2_interfaces/_odri_ros2_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o   -c /home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_generator_py/odri_ros2_interfaces/_odri_ros2_interfaces_s.ep.rosidl_typesupport_introspection_c.c",
+  "file": "/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_generator_py/odri_ros2_interfaces/_odri_ros2_interfaces_s.ep.rosidl_typesupport_introspection_c.c"
+},
+
+{
+  "directory": "/home/hidro/galactic_ws/build/offline_trajectory_publisher_state_machine_interface",
+  "command": "/usr/bin/c++  -DDEFAULT_RMW_IMPLEMENTATION=rmw_cyclonedds_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -I/usr/include/eigen3 -isystem /opt/ros/galactic/include -isystem /home/hidro/galactic_ws/install/hidro_ros2_utils/include -isystem /home/hidro/galactic_ws/install/odri_ros2_interfaces/include  -O3 -DNDEBUG   -Wall -Wextra -Wpedantic -std=gnu++17 -o CMakeFiles/talker.dir/src/offline_trajectory_publisher_state_machine_interface.cpp.o -c /home/hidro/galactic_ws/src/offline_trajectory_publisher/src/offline_trajectory_publisher_state_machine_interface.cpp",
+  "file": "/home/hidro/galactic_ws/src/offline_trajectory_publisher/src/offline_trajectory_publisher_state_machine_interface.cpp"
+},
+
+{
+  "directory": "/home/hidro/galactic_ws/build/vrpn_client_ros",
+  "command": "/usr/bin/c++  -DDEFAULT_RMW_IMPLEMENTATION=rmw_cyclonedds_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -I/home/hidro/galactic_ws/src/vrpn_client_ros/include -isystem /opt/ros/galactic/include -isystem /usr/include/eigen3  -O3 -DNDEBUG   -Wall -Wextra -Wpedantic -std=gnu++17 -o CMakeFiles/vrpn_client_node.dir/src/vrpn_client_node.cpp.o -c /home/hidro/galactic_ws/src/vrpn_client_ros/src/vrpn_client_node.cpp",
+  "file": "/home/hidro/galactic_ws/src/vrpn_client_ros/src/vrpn_client_node.cpp"
+},
+{
+  "directory": "/home/hidro/galactic_ws/build/vrpn_client_ros",
+  "command": "/usr/bin/c++  -DDEFAULT_RMW_IMPLEMENTATION=rmw_cyclonedds_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -I/home/hidro/galactic_ws/src/vrpn_client_ros/include -isystem /opt/ros/galactic/include -isystem /usr/include/eigen3  -O3 -DNDEBUG   -Wall -Wextra -Wpedantic -std=gnu++17 -o CMakeFiles/vrpn_tracker_node.dir/src/vrpn_tracker_node.cpp.o -c /home/hidro/galactic_ws/src/vrpn_client_ros/src/vrpn_tracker_node.cpp",
+  "file": "/home/hidro/galactic_ws/src/vrpn_client_ros/src/vrpn_tracker_node.cpp"
+},
+{
+  "directory": "/home/hidro/galactic_ws/build/vrpn_client_ros",
+  "command": "/usr/bin/c++  -DDEFAULT_RMW_IMPLEMENTATION=rmw_cyclonedds_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -I/home/hidro/galactic_ws/src/vrpn_client_ros/include -isystem /opt/ros/galactic/include -isystem /usr/include/eigen3  -O3 -DNDEBUG   -Wall -Wextra -Wpedantic -std=gnu++17 -o CMakeFiles/vrpn_client_ros.dir/src/vrpn_client_ros.cpp.o -c /home/hidro/galactic_ws/src/vrpn_client_ros/src/vrpn_client_ros.cpp",
+  "file": "/home/hidro/galactic_ws/src/vrpn_client_ros/src/vrpn_client_ros.cpp"
+}
+]

@@ -1,0 +1,17 @@
+[
+{
+  "directory": "/home/hidro/galactic_ws/build/vrpn_client_ros",
+  "command": "/usr/bin/c++  -DDEFAULT_RMW_IMPLEMENTATION=rmw_cyclonedds_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -I/home/hidro/galactic_ws/src/vrpn_client_ros/include -isystem /opt/ros/galactic/include -isystem /usr/include/eigen3  -O3 -DNDEBUG   -Wall -Wextra -Wpedantic -std=gnu++17 -o CMakeFiles/vrpn_client_node.dir/src/vrpn_client_node.cpp.o -c /home/hidro/galactic_ws/src/vrpn_client_ros/src/vrpn_client_node.cpp",
+  "file": "/home/hidro/galactic_ws/src/vrpn_client_ros/src/vrpn_client_node.cpp"
+},
+{
+  "directory": "/home/hidro/galactic_ws/build/vrpn_client_ros",
+  "command": "/usr/bin/c++  -DDEFAULT_RMW_IMPLEMENTATION=rmw_cyclonedds_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -I/home/hidro/galactic_ws/src/vrpn_client_ros/include -isystem /opt/ros/galactic/include -isystem /usr/include/eigen3  -O3 -DNDEBUG   -Wall -Wextra -Wpedantic -std=gnu++17 -o CMakeFiles/vrpn_tracker_node.dir/src/vrpn_tracker_node.cpp.o -c /home/hidro/galactic_ws/src/vrpn_client_ros/src/vrpn_tracker_node.cpp",
+  "file": "/home/hidro/galactic_ws/src/vrpn_client_ros/src/vrpn_tracker_node.cpp"
+},
+{
+  "directory": "/home/hidro/galactic_ws/build/vrpn_client_ros",
+  "command": "/usr/bin/c++  -DDEFAULT_RMW_IMPLEMENTATION=rmw_cyclonedds_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -I/home/hidro/galactic_ws/src/vrpn_client_ros/include -isystem /opt/ros/galactic/include -isystem /usr/include/eigen3  -O3 -DNDEBUG   -Wall -Wextra -Wpedantic -std=gnu++17 -o CMakeFiles/vrpn_client_ros.dir/src/vrpn_client_ros.cpp.o -c /home/hidro/galactic_ws/src/vrpn_client_ros/src/vrpn_client_ros.cpp",
+  "file": "/home/hidro/galactic_ws/src/vrpn_client_ros/src/vrpn_client_ros.cpp"
+}
+]

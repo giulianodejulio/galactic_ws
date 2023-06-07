@@ -1,0 +1,25 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from hidro_ros2_utils/interfaces/srv/TransitionCommand.srv
+// generated code does not contain a copyright notice
+
+
+module hidro_ros2_utils {
+  module srv {
+    struct TransitionCommand_Request {
+      string command;
+    };
+    struct TransitionCommand_Response {
+      @verbatim (language="comment", text=
+        " true if the command has been accepted")
+      boolean accepted;
+
+      @verbatim (language="comment", text=
+        " result of the command (only valid is accepted is true)")
+      boolean result;
+
+      @verbatim (language="comment", text=
+        " diagnostic message")
+      string message;
+    };
+  };
+};

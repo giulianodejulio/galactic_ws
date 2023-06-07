@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/hidro/galactic_ws/build/offline_trajectory_publisher_state_machine_interface",
+  "command": "/usr/bin/c++  -DDEFAULT_RMW_IMPLEMENTATION=rmw_cyclonedds_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -I/usr/include/eigen3 -isystem /opt/ros/galactic/include -isystem /home/hidro/galactic_ws/install/hidro_ros2_utils/include -isystem /home/hidro/galactic_ws/install/odri_ros2_interfaces/include  -O3 -DNDEBUG   -Wall -Wextra -Wpedantic -std=gnu++17 -o CMakeFiles/talker.dir/src/offline_trajectory_publisher_state_machine_interface.cpp.o -c /home/hidro/galactic_ws/src/offline_trajectory_publisher/src/offline_trajectory_publisher_state_machine_interface.cpp",
+  "file": "/home/hidro/galactic_ws/src/offline_trajectory_publisher/src/offline_trajectory_publisher_state_machine_interface.cpp"
+}
+]

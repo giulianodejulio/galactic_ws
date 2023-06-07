@@ -1,0 +1,4 @@
+source;share/offline_trajectory_publisher_state_machine_interface/local_setup.bash
+source;share/offline_trajectory_publisher_state_machine_interface/local_setup.dsv
+source;share/offline_trajectory_publisher_state_machine_interface/local_setup.sh
+source;share/offline_trajectory_publisher_state_machine_interface/local_setup.zsh

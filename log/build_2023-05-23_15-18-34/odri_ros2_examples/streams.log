@@ -1,0 +1,82 @@
+[0.021s] Invoking command in '/home/hidro/galactic_ws/build/odri_ros2_examples': CMAKE_PREFIX_PATH=/home/hidro/galactic_ws/install/odri_ros2_hardware:/home/hidro/galactic_ws/install/odri_ros2_interfaces:/home/hidro/galactic_ws/install/hidro_ros2_utils:/home/hidro/galactic_ws/install/vrpn_client_ros:/home/hidro/galactic_ws/install/solo12_bringup:/home/hidro/galactic_ws/install/offline_trajectory_publisher_state_machine_interface:/home/hidro/galactic_ws/install/odri_ros2_examples:/home/hidro/galactic_ws/install/odri_ros2_gazebo:/home/hidro/galactic_ws/install/hidro_robots:/opt/openrobots:/opt/openrobots:/opt/ros/galactic LD_LIBRARY_PATH=/home/hidro/galactic_ws/install/odri_ros2_interfaces/lib:/home/hidro/galactic_ws/install/hidro_ros2_utils/lib:/home/hidro/galactic_ws/install/odri_ros2_gazebo/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/opt/openrobots/lib:/usr/local/lib:/opt/openrobots/lib:/usr/local/lib PYTHONPATH=/home/hidro/galactic_ws/install/odri_ros2_interfaces/lib/python3.8/site-packages:/home/hidro/galactic_ws/install/hidro_ros2_utils/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages:/opt/openrobots/lib/python3.8/site-packages:/usr/local/lib/python3.8/site-packages:/opt/openrobots/lib/python3.8/site-packages:/usr/local/lib/python3.8/site-packages /usr/bin/cmake /home/hidro/galactic_ws/src/odri_ros2/odri_ros2_examples -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/hidro/galactic_ws/install/odri_ros2_examples
+[0.074s] -- The C compiler identification is GNU 9.4.0
+[0.130s] -- The CXX compiler identification is GNU 9.4.0
+[0.135s] -- Check for working C compiler: /usr/bin/cc
+[0.200s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.201s] -- Detecting C compiler ABI info
+[0.266s] -- Detecting C compiler ABI info - done
+[0.276s] -- Detecting C compile features
+[0.276s] -- Detecting C compile features - done
+[0.279s] -- Check for working CXX compiler: /usr/bin/c++
+[0.353s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.354s] -- Detecting CXX compiler ABI info
+[0.429s] -- Detecting CXX compiler ABI info - done
+[0.440s] -- Detecting CXX compile features
+[0.441s] -- Detecting CXX compile features - done
+[0.443s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.461s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.462s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.534s] -- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)
+[0.579s] -- Using single rosidl_typesupport_c: rosidl_typesupport_introspection_c
+[0.585s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.604s] -- Using single rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp
+[0.665s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[0.668s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[0.687s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.687s] -- Looking for pthread.h
+[0.756s] -- Looking for pthread.h - found
+[0.756s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.829s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.829s] -- Looking for pthread_create in pthreads
+[0.885s] -- Looking for pthread_create in pthreads - not found
+[0.886s] -- Looking for pthread_create in pthread
+[0.955s] -- Looking for pthread_create in pthread - found
+[0.956s] -- Found Threads: TRUE  
+[1.099s] -- Found hidro_ros2_utils: 0.0.0 (/home/hidro/galactic_ws/install/hidro_ros2_utils/share/hidro_ros2_utils/cmake)
+[1.146s] -- Found odri_ros2_interfaces: 0.0.0 (/home/hidro/galactic_ws/install/odri_ros2_interfaces/share/odri_ros2_interfaces/cmake)
+[1.177s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[1.247s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.247s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.248s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/hidro/galactic_ws/src/odri_ros2/odri_ros2_examples/include>
+[1.248s] -- Configured cppcheck exclude dirs and/or files: 
+[1.249s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.249s] -- Configured cpplint exclude dirs and/or files: 
+[1.249s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.250s] -- Added test 'lint_cmake' to check CMake code style
+[1.251s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[1.252s] -- Added test 'uncrustify' to check C / C++ code style
+[1.252s] -- Configured uncrustify additional arguments: 
+[1.253s] -- Added test 'xmllint' to check XML markup files
+[1.257s] -- Configuring done
+[1.265s] -- Generating done
+[1.267s] -- Build files have been written to: /home/hidro/galactic_ws/build/odri_ros2_examples
+[1.272s] Invoked command in '/home/hidro/galactic_ws/build/odri_ros2_examples' returned '0': CMAKE_PREFIX_PATH=/home/hidro/galactic_ws/install/odri_ros2_hardware:/home/hidro/galactic_ws/install/odri_ros2_interfaces:/home/hidro/galactic_ws/install/hidro_ros2_utils:/home/hidro/galactic_ws/install/vrpn_client_ros:/home/hidro/galactic_ws/install/solo12_bringup:/home/hidro/galactic_ws/install/offline_trajectory_publisher_state_machine_interface:/home/hidro/galactic_ws/install/odri_ros2_examples:/home/hidro/galactic_ws/install/odri_ros2_gazebo:/home/hidro/galactic_ws/install/hidro_robots:/opt/openrobots:/opt/openrobots:/opt/ros/galactic LD_LIBRARY_PATH=/home/hidro/galactic_ws/install/odri_ros2_interfaces/lib:/home/hidro/galactic_ws/install/hidro_ros2_utils/lib:/home/hidro/galactic_ws/install/odri_ros2_gazebo/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/opt/openrobots/lib:/usr/local/lib:/opt/openrobots/lib:/usr/local/lib PYTHONPATH=/home/hidro/galactic_ws/install/odri_ros2_interfaces/lib/python3.8/site-packages:/home/hidro/galactic_ws/install/hidro_ros2_utils/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages:/opt/openrobots/lib/python3.8/site-packages:/usr/local/lib/python3.8/site-packages:/opt/openrobots/lib/python3.8/site-packages:/usr/local/lib/python3.8/site-packages /usr/bin/cmake /home/hidro/galactic_ws/src/odri_ros2/odri_ros2_examples -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/hidro/galactic_ws/install/odri_ros2_examples
+[1.275s] Invoking command in '/home/hidro/galactic_ws/build/odri_ros2_examples': CMAKE_PREFIX_PATH=/home/hidro/galactic_ws/install/odri_ros2_hardware:/home/hidro/galactic_ws/install/odri_ros2_interfaces:/home/hidro/galactic_ws/install/hidro_ros2_utils:/home/hidro/galactic_ws/install/vrpn_client_ros:/home/hidro/galactic_ws/install/solo12_bringup:/home/hidro/galactic_ws/install/offline_trajectory_publisher_state_machine_interface:/home/hidro/galactic_ws/install/odri_ros2_examples:/home/hidro/galactic_ws/install/odri_ros2_gazebo:/home/hidro/galactic_ws/install/hidro_robots:/opt/openrobots:/opt/openrobots:/opt/ros/galactic LD_LIBRARY_PATH=/home/hidro/galactic_ws/install/odri_ros2_interfaces/lib:/home/hidro/galactic_ws/install/hidro_ros2_utils/lib:/home/hidro/galactic_ws/install/odri_ros2_gazebo/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/opt/openrobots/lib:/usr/local/lib:/opt/openrobots/lib:/usr/local/lib PYTHONPATH=/home/hidro/galactic_ws/install/odri_ros2_interfaces/lib/python3.8/site-packages:/home/hidro/galactic_ws/install/hidro_ros2_utils/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages:/opt/openrobots/lib/python3.8/site-packages:/usr/local/lib/python3.8/site-packages:/opt/openrobots/lib/python3.8/site-packages:/usr/local/lib/python3.8/site-packages /usr/bin/cmake --build /home/hidro/galactic_ws/build/odri_ros2_examples -- -j8 -l8
+[1.314s] [35m[1mScanning dependencies of target example_robot[0m
+[1.376s] [ 50%] [32mBuilding CXX object CMakeFiles/example_robot.dir/src/example_robot.cpp.o[0m
+[11.287s] [100%] [32m[1mLinking CXX executable example_robot[0m
+[11.443s] [100%] Built target example_robot
+[11.457s] Invoked command in '/home/hidro/galactic_ws/build/odri_ros2_examples' returned '0': CMAKE_PREFIX_PATH=/home/hidro/galactic_ws/install/odri_ros2_hardware:/home/hidro/galactic_ws/install/odri_ros2_interfaces:/home/hidro/galactic_ws/install/hidro_ros2_utils:/home/hidro/galactic_ws/install/vrpn_client_ros:/home/hidro/galactic_ws/install/solo12_bringup:/home/hidro/galactic_ws/install/offline_trajectory_publisher_state_machine_interface:/home/hidro/galactic_ws/install/odri_ros2_examples:/home/hidro/galactic_ws/install/odri_ros2_gazebo:/home/hidro/galactic_ws/install/hidro_robots:/opt/openrobots:/opt/openrobots:/opt/ros/galactic LD_LIBRARY_PATH=/home/hidro/galactic_ws/install/odri_ros2_interfaces/lib:/home/hidro/galactic_ws/install/hidro_ros2_utils/lib:/home/hidro/galactic_ws/install/odri_ros2_gazebo/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/opt/openrobots/lib:/usr/local/lib:/opt/openrobots/lib:/usr/local/lib PYTHONPATH=/home/hidro/galactic_ws/install/odri_ros2_interfaces/lib/python3.8/site-packages:/home/hidro/galactic_ws/install/hidro_ros2_utils/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages:/opt/openrobots/lib/python3.8/site-packages:/usr/local/lib/python3.8/site-packages:/opt/openrobots/lib/python3.8/site-packages:/usr/local/lib/python3.8/site-packages /usr/bin/cmake --build /home/hidro/galactic_ws/build/odri_ros2_examples -- -j8 -l8
+[11.483s] Invoking command in '/home/hidro/galactic_ws/build/odri_ros2_examples': CMAKE_PREFIX_PATH=/home/hidro/galactic_ws/install/odri_ros2_hardware:/home/hidro/galactic_ws/install/odri_ros2_interfaces:/home/hidro/galactic_ws/install/hidro_ros2_utils:/home/hidro/galactic_ws/install/vrpn_client_ros:/home/hidro/galactic_ws/install/solo12_bringup:/home/hidro/galactic_ws/install/offline_trajectory_publisher_state_machine_interface:/home/hidro/galactic_ws/install/odri_ros2_examples:/home/hidro/galactic_ws/install/odri_ros2_gazebo:/home/hidro/galactic_ws/install/hidro_robots:/opt/openrobots:/opt/openrobots:/opt/ros/galactic LD_LIBRARY_PATH=/home/hidro/galactic_ws/install/odri_ros2_interfaces/lib:/home/hidro/galactic_ws/install/hidro_ros2_utils/lib:/home/hidro/galactic_ws/install/odri_ros2_gazebo/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/opt/openrobots/lib:/usr/local/lib:/opt/openrobots/lib:/usr/local/lib PYTHONPATH=/home/hidro/galactic_ws/install/odri_ros2_interfaces/lib/python3.8/site-packages:/home/hidro/galactic_ws/install/hidro_ros2_utils/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages:/opt/openrobots/lib/python3.8/site-packages:/usr/local/lib/python3.8/site-packages:/opt/openrobots/lib/python3.8/site-packages:/usr/local/lib/python3.8/site-packages /usr/bin/cmake --install /home/hidro/galactic_ws/build/odri_ros2_examples
+[11.492s] -- Install configuration: "Release"
+[11.492s] -- Installing: /home/hidro/galactic_ws/install/odri_ros2_examples/lib/odri_ros2_examples/example_robot
+[11.493s] -- Set runtime path of "/home/hidro/galactic_ws/install/odri_ros2_examples/lib/odri_ros2_examples/example_robot" to ""
+[11.494s] -- Up-to-date: /home/hidro/galactic_ws/install/odri_ros2_examples/lib/odri_ros2_examples/example_robot
+[11.494s] -- Installing: /home/hidro/galactic_ws/install/odri_ros2_examples/share/odri_ros2_examples/launch
+[11.494s] -- Installing: /home/hidro/galactic_ws/install/odri_ros2_examples/share/odri_ros2_examples/launch/example_robot.launch.py
+[11.494s] -- Installing: /home/hidro/galactic_ws/install/odri_ros2_examples/share/ament_index/resource_index/package_run_dependencies/odri_ros2_examples
+[11.494s] -- Installing: /home/hidro/galactic_ws/install/odri_ros2_examples/share/ament_index/resource_index/parent_prefix_path/odri_ros2_examples
+[11.494s] -- Installing: /home/hidro/galactic_ws/install/odri_ros2_examples/share/odri_ros2_examples/environment/ament_prefix_path.sh
+[11.495s] -- Installing: /home/hidro/galactic_ws/install/odri_ros2_examples/share/odri_ros2_examples/environment/ament_prefix_path.dsv
+[11.495s] -- Installing: /home/hidro/galactic_ws/install/odri_ros2_examples/share/odri_ros2_examples/environment/path.sh
+[11.495s] -- Installing: /home/hidro/galactic_ws/install/odri_ros2_examples/share/odri_ros2_examples/environment/path.dsv
+[11.495s] -- Installing: /home/hidro/galactic_ws/install/odri_ros2_examples/share/odri_ros2_examples/local_setup.bash
+[11.495s] -- Installing: /home/hidro/galactic_ws/install/odri_ros2_examples/share/odri_ros2_examples/local_setup.sh
+[11.495s] -- Installing: /home/hidro/galactic_ws/install/odri_ros2_examples/share/odri_ros2_examples/local_setup.zsh
+[11.496s] -- Installing: /home/hidro/galactic_ws/install/odri_ros2_examples/share/odri_ros2_examples/local_setup.dsv
+[11.496s] -- Installing: /home/hidro/galactic_ws/install/odri_ros2_examples/share/odri_ros2_examples/package.dsv
+[11.496s] -- Installing: /home/hidro/galactic_ws/install/odri_ros2_examples/share/ament_index/resource_index/packages/odri_ros2_examples
+[11.496s] -- Installing: /home/hidro/galactic_ws/install/odri_ros2_examples/share/odri_ros2_examples/cmake/odri_ros2_examplesConfig.cmake
+[11.496s] -- Installing: /home/hidro/galactic_ws/install/odri_ros2_examples/share/odri_ros2_examples/cmake/odri_ros2_examplesConfig-version.cmake
+[11.496s] -- Installing: /home/hidro/galactic_ws/install/odri_ros2_examples/share/odri_ros2_examples/package.xml
+[11.501s] Invoked command in '/home/hidro/galactic_ws/build/odri_ros2_examples' returned '0': CMAKE_PREFIX_PATH=/home/hidro/galactic_ws/install/odri_ros2_hardware:/home/hidro/galactic_ws/install/odri_ros2_interfaces:/home/hidro/galactic_ws/install/hidro_ros2_utils:/home/hidro/galactic_ws/install/vrpn_client_ros:/home/hidro/galactic_ws/install/solo12_bringup:/home/hidro/galactic_ws/install/offline_trajectory_publisher_state_machine_interface:/home/hidro/galactic_ws/install/odri_ros2_examples:/home/hidro/galactic_ws/install/odri_ros2_gazebo:/home/hidro/galactic_ws/install/hidro_robots:/opt/openrobots:/opt/openrobots:/opt/ros/galactic LD_LIBRARY_PATH=/home/hidro/galactic_ws/install/odri_ros2_interfaces/lib:/home/hidro/galactic_ws/install/hidro_ros2_utils/lib:/home/hidro/galactic_ws/install/odri_ros2_gazebo/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/opt/openrobots/lib:/usr/local/lib:/opt/openrobots/lib:/usr/local/lib PYTHONPATH=/home/hidro/galactic_ws/install/odri_ros2_interfaces/lib/python3.8/site-packages:/home/hidro/galactic_ws/install/hidro_ros2_utils/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages:/opt/openrobots/lib/python3.8/site-packages:/usr/local/lib/python3.8/site-packages:/opt/openrobots/lib/python3.8/site-packages:/usr/local/lib/python3.8/site-packages /usr/bin/cmake --install /home/hidro/galactic_ws/build/odri_ros2_examples

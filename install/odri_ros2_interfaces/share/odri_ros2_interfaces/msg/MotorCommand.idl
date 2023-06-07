@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from odri_ros2_interfaces/interfaces/msg/MotorCommand.msg
+// generated code does not contain a copyright notice
+
+
+module odri_ros2_interfaces {
+  module msg {
+    struct MotorCommand {
+      double position_ref;
+
+      double velocity_ref;
+
+      double torque_ref;
+
+      double kp;
+
+      double kd;
+
+      double i_sat;
+    };
+  };
+};

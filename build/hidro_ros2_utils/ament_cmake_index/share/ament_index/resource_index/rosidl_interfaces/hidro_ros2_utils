@@ -1,0 +1,6 @@
+msg/StateMachineStatus.idl
+msg/StateMachineStatus.msg
+srv/TransitionCommand.idl
+srv/TransitionCommand.srv
+srv/TransitionCommand_Request.msg
+srv/TransitionCommand_Response.msg

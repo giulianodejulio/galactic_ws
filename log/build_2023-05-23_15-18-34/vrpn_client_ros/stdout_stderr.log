@@ -1,0 +1,95 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found quatlib: /usr/local/lib/libquat.a  
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found VRPN: /usr/local/lib/libvrpn.a  
+-- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)
+-- Using single rosidl_typesupport_c: rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+-- Using single rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+-- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+-- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+-- Found geometry_msgs: 2.2.4 (/opt/ros/galactic/share/geometry_msgs/cmake)
+-- Found tf2: 0.17.5 (/opt/ros/galactic/share/tf2/cmake)
+-- Found tf2_ros: 0.17.5 (/opt/ros/galactic/share/tf2_ros/cmake)
+-- Found tf2_kdl: 0.17.5 (/opt/ros/galactic/share/tf2_kdl/cmake)
+-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/galactic/share/eigen3_cmake_module/cmake)
+-- Found Eigen3: TRUE (found version "3.3.7") 
+-- Found tf2_geometry_msgs: 0.17.5 (/opt/ros/galactic/share/tf2_geometry_msgs/cmake)
+-- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/hidro/galactic_ws/src/vrpn_client_ros/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/hidro/galactic_ws/build/vrpn_client_ros
+[35m[1mScanning dependencies of target vrpn_client_ros[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/vrpn_client_ros.dir/src/vrpn_client_ros.cpp.o[0m
+[ 33%] [32m[1mLinking CXX static library libvrpn_client_ros.a[0m
+[ 33%] Built target vrpn_client_ros
+[35m[1mScanning dependencies of target vrpn_tracker_node[0m
+[35m[1mScanning dependencies of target vrpn_client_node[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/vrpn_tracker_node.dir/src/vrpn_tracker_node.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/vrpn_client_node.dir/src/vrpn_client_node.cpp.o[0m
+[ 83%] [32m[1mLinking CXX executable vrpn_client_node[0m
+[100%] [32m[1mLinking CXX executable vrpn_tracker_node[0m
+[100%] Built target vrpn_client_node
+[100%] Built target vrpn_tracker_node
+-- Install configuration: "Release"
+-- Installing: /home/hidro/galactic_ws/install/vrpn_client_ros/share/vrpn_client_ros//launch
+-- Installing: /home/hidro/galactic_ws/install/vrpn_client_ros/share/vrpn_client_ros//launch/sample.launch.py
+-- Installing: /home/hidro/galactic_ws/install/vrpn_client_ros/share/vrpn_client_ros//config
+-- Installing: /home/hidro/galactic_ws/install/vrpn_client_ros/share/vrpn_client_ros//config/sample.params.yaml
+-- Installing: /home/hidro/galactic_ws/install/vrpn_client_ros/lib/libvrpn_client_ros.a
+-- Installing: /home/hidro/galactic_ws/install/vrpn_client_ros/lib/vrpn_client_ros/vrpn_tracker_node
+-- Set runtime path of "/home/hidro/galactic_ws/install/vrpn_client_ros/lib/vrpn_client_ros/vrpn_tracker_node" to ""
+-- Installing: /home/hidro/galactic_ws/install/vrpn_client_ros/lib/vrpn_client_ros/vrpn_client_node
+-- Set runtime path of "/home/hidro/galactic_ws/install/vrpn_client_ros/lib/vrpn_client_ros/vrpn_client_node" to ""
+-- Installing: /home/hidro/galactic_ws/install/vrpn_client_ros/share/ament_index/resource_index/package_run_dependencies/vrpn_client_ros
+-- Installing: /home/hidro/galactic_ws/install/vrpn_client_ros/share/ament_index/resource_index/parent_prefix_path/vrpn_client_ros
+-- Installing: /home/hidro/galactic_ws/install/vrpn_client_ros/share/vrpn_client_ros/environment/ament_prefix_path.sh
+-- Installing: /home/hidro/galactic_ws/install/vrpn_client_ros/share/vrpn_client_ros/environment/ament_prefix_path.dsv
+-- Installing: /home/hidro/galactic_ws/install/vrpn_client_ros/share/vrpn_client_ros/environment/path.sh
+-- Installing: /home/hidro/galactic_ws/install/vrpn_client_ros/share/vrpn_client_ros/environment/path.dsv
+-- Installing: /home/hidro/galactic_ws/install/vrpn_client_ros/share/vrpn_client_ros/local_setup.bash
+-- Installing: /home/hidro/galactic_ws/install/vrpn_client_ros/share/vrpn_client_ros/local_setup.sh
+-- Installing: /home/hidro/galactic_ws/install/vrpn_client_ros/share/vrpn_client_ros/local_setup.zsh
+-- Installing: /home/hidro/galactic_ws/install/vrpn_client_ros/share/vrpn_client_ros/local_setup.dsv
+-- Installing: /home/hidro/galactic_ws/install/vrpn_client_ros/share/vrpn_client_ros/package.dsv
+-- Installing: /home/hidro/galactic_ws/install/vrpn_client_ros/share/ament_index/resource_index/packages/vrpn_client_ros
+-- Installing: /home/hidro/galactic_ws/install/vrpn_client_ros/share/vrpn_client_ros/cmake/vrpn_client_rosConfig.cmake
+-- Installing: /home/hidro/galactic_ws/install/vrpn_client_ros/share/vrpn_client_ros/cmake/vrpn_client_rosConfig-version.cmake
+-- Installing: /home/hidro/galactic_ws/install/vrpn_client_ros/share/vrpn_client_ros/package.xml

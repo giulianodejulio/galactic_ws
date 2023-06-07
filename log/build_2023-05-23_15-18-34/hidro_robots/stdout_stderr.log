@@ -1,0 +1,110 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/hidro/galactic_ws/build/hidro_robots
+-- Install configuration: "Release"
+-- Installing: /home/hidro/galactic_ws/install/hidro_robots/share/hidro_robots//robots
+-- Installing: /home/hidro/galactic_ws/install/hidro_robots/share/hidro_robots//robots/borinot
+-- Installing: /home/hidro/galactic_ws/install/hidro_robots/share/hidro_robots//robots/borinot/meshes
+-- Installing: /home/hidro/galactic_ws/install/hidro_robots/share/hidro_robots//robots/borinot/meshes/borinot__base_link.dae
+-- Installing: /home/hidro/galactic_ws/install/hidro_robots/share/hidro_robots//robots/borinot/meshes/hexacopter370.dae
+-- Installing: /home/hidro/galactic_ws/install/hidro_robots/share/hidro_robots//robots/borinot/meshes/propeller_cw.dae
+-- Installing: /home/hidro/galactic_ws/install/hidro_robots/share/hidro_robots//robots/borinot/meshes/propeller_ccw.dae
+-- Installing: /home/hidro/galactic_ws/install/hidro_robots/share/hidro_robots//robots/borinot/model.config
+-- Installing: /home/hidro/galactic_ws/install/hidro_robots/share/hidro_robots//robots/borinot/borinot.urdf
+-- Installing: /home/hidro/galactic_ws/install/hidro_robots/share/hidro_robots//robots/borinot/borinot.sdf
+-- Installing: /home/hidro/galactic_ws/install/hidro_robots/share/hidro_robots//robots/iris_px4
+-- Installing: /home/hidro/galactic_ws/install/hidro_robots/share/hidro_robots//robots/iris_px4/meshes
+-- Installing: /home/hidro/galactic_ws/install/hidro_robots/share/hidro_robots//robots/iris_px4/meshes/iris_prop_ccw.dae
+-- Installing: /home/hidro/galactic_ws/install/hidro_robots/share/hidro_robots//robots/iris_px4/meshes/iris.stl
+-- Installing: /home/hidro/galactic_ws/install/hidro_robots/share/hidro_robots//robots/iris_px4/meshes/iris_prop_cw.dae
+-- Installing: /home/hidro/galactic_ws/install/hidro_robots/share/hidro_robots//robots/iris_px4/iris_px4.urdf
+-- Installing: /home/hidro/galactic_ws/install/hidro_robots/share/hidro_robots//robots/hexacopter370_flying_arm_3
+-- Installing: /home/hidro/galactic_ws/install/hidro_robots/share/hidro_robots//robots/hexacopter370_flying_arm_3/hexacopter370_flying_arm_3.urdf
+-- Installing: /home/hidro/galactic_ws/install/hidro_robots/share/hidro_robots//robots/hexacopter370_flying_arm_3/meshes
+-- Installing: /home/hidro/galactic_ws/install/hidro_robots/share/hidro_robots//robots/hexacopter370_flying_arm_3/meshes/hexacopter370.dae
+-- Installing: /home/hidro/galactic_ws/install/hidro_robots/share/hidro_robots//robots/hexacopter370_flying_arm_3/meshes/base_link.dae
+-- Installing: /home/hidro/galactic_ws/install/hidro_robots/share/hidro_robots//robots/hexacopter370_flying_arm_3/meshes/propeller_cw.dae
+-- Installing: /home/hidro/galactic_ws/install/hidro_robots/share/hidro_robots//robots/hexacopter370_flying_arm_3/meshes/link_1.dae
+-- Installing: /home/hidro/galactic_ws/install/hidro_robots/share/hidro_robots//robots/hexacopter370_flying_arm_3/meshes/link_2.dae
+-- Installing: /home/hidro/galactic_ws/install/hidro_robots/share/hidro_robots//robots/hexacopter370_flying_arm_3/meshes/link_3.dae
+-- Installing: /home/hidro/galactic_ws/install/hidro_robots/share/hidro_robots//robots/hexacopter370_flying_arm_3/meshes/propeller_ccw.dae
+-- Installing: /home/hidro/galactic_ws/install/hidro_robots/share/hidro_robots//robots/borinot_flying_arm_2
+-- Installing: /home/hidro/galactic_ws/install/hidro_robots/share/hidro_robots//robots/borinot_flying_arm_2/borinot_flying_arm_2.urdf
+-- Installing: /home/hidro/galactic_ws/install/hidro_robots/share/hidro_robots//robots/borinot_flying_arm_2/meshes
+-- Installing: /home/hidro/galactic_ws/install/hidro_robots/share/hidro_robots//robots/borinot_flying_arm_2/meshes/borinot__base_link.dae
+-- Installing: /home/hidro/galactic_ws/install/hidro_robots/share/hidro_robots//robots/borinot_flying_arm_2/meshes/flying_arm_2__link2.dae
+-- Installing: /home/hidro/galactic_ws/install/hidro_robots/share/hidro_robots//robots/borinot_flying_arm_2/meshes/propeller_cw.dae
+-- Installing: /home/hidro/galactic_ws/install/hidro_robots/share/hidro_robots//robots/borinot_flying_arm_2/meshes/flying_arm_2__link1.dae
+-- Installing: /home/hidro/galactic_ws/install/hidro_robots/share/hidro_robots//robots/borinot_flying_arm_2/meshes/propeller_ccw.dae
+-- Installing: /home/hidro/galactic_ws/install/hidro_robots/share/hidro_robots//robots/borinot_flying_arm_2/model.config
+-- Installing: /home/hidro/galactic_ws/install/hidro_robots/share/hidro_robots//robots/borinot_flying_arm_2/borinot_flying_arm_2.sdf
+-- Installing: /home/hidro/galactic_ws/install/hidro_robots/share/hidro_robots//robots/iris
+-- Installing: /home/hidro/galactic_ws/install/hidro_robots/share/hidro_robots//robots/iris/meshes
+-- Installing: /home/hidro/galactic_ws/install/hidro_robots/share/hidro_robots//robots/iris/meshes/iris_prop_ccw.dae
+-- Installing: /home/hidro/galactic_ws/install/hidro_robots/share/hidro_robots//robots/iris/meshes/iris.stl
+-- Installing: /home/hidro/galactic_ws/install/hidro_robots/share/hidro_robots//robots/iris/meshes/iris_prop_cw.dae
+-- Installing: /home/hidro/galactic_ws/install/hidro_robots/share/hidro_robots//robots/iris/iris_px4.urdf
+-- Installing: /home/hidro/galactic_ws/install/hidro_robots/share/hidro_robots//robots/iris/iris.urdf
+-- Installing: /home/hidro/galactic_ws/install/hidro_robots/share/hidro_robots//robots/hextilt
+-- Installing: /home/hidro/galactic_ws/install/hidro_robots/share/hidro_robots//robots/hextilt/meshes
+-- Installing: /home/hidro/galactic_ws/install/hidro_robots/share/hidro_robots//robots/hextilt/meshes/hextilt.dae
+-- Installing: /home/hidro/galactic_ws/install/hidro_robots/share/hidro_robots//robots/hextilt/hextilt.urdf
+-- Installing: /home/hidro/galactic_ws/install/hidro_robots/share/hidro_robots//robots/hextilt_flying_arm_5
+-- Installing: /home/hidro/galactic_ws/install/hidro_robots/share/hidro_robots//robots/hextilt_flying_arm_5/meshes
+-- Installing: /home/hidro/galactic_ws/install/hidro_robots/share/hidro_robots//robots/hextilt_flying_arm_5/meshes/base_link.dae
+-- Installing: /home/hidro/galactic_ws/install/hidro_robots/share/hidro_robots//robots/hextilt_flying_arm_5/meshes/link_5.dae
+-- Installing: /home/hidro/galactic_ws/install/hidro_robots/share/hidro_robots//robots/hextilt_flying_arm_5/meshes/link_1.dae
+-- Installing: /home/hidro/galactic_ws/install/hidro_robots/share/hidro_robots//robots/hextilt_flying_arm_5/meshes/link_4.dae
+-- Installing: /home/hidro/galactic_ws/install/hidro_robots/share/hidro_robots//robots/hextilt_flying_arm_5/meshes/hextilt.dae
+-- Installing: /home/hidro/galactic_ws/install/hidro_robots/share/hidro_robots//robots/hextilt_flying_arm_5/meshes/link_2.dae
+-- Installing: /home/hidro/galactic_ws/install/hidro_robots/share/hidro_robots//robots/hextilt_flying_arm_5/meshes/link_3.dae
+-- Installing: /home/hidro/galactic_ws/install/hidro_robots/share/hidro_robots//robots/hextilt_flying_arm_5/hextilt_flying_arm_5.urdf
+-- Installing: /home/hidro/galactic_ws/install/hidro_robots/share/hidro_robots//robots/hexacopter370
+-- Installing: /home/hidro/galactic_ws/install/hidro_robots/share/hidro_robots//robots/hexacopter370/hexacopter370.urdf
+-- Installing: /home/hidro/galactic_ws/install/hidro_robots/share/hidro_robots//robots/hexacopter370/meshes
+-- Installing: /home/hidro/galactic_ws/install/hidro_robots/share/hidro_robots//robots/hexacopter370/meshes/hexacopter370.dae
+-- Installing: /home/hidro/galactic_ws/install/hidro_robots/share/hidro_robots//robots/hexacopter370/meshes/propeller_cw.dae
+-- Installing: /home/hidro/galactic_ws/install/hidro_robots/share/hidro_robots//robots/hexacopter370/meshes/propeller_ccw.dae
+-- Installing: /home/hidro/galactic_ws/install/hidro_robots/share/hidro_robots//robots/hexacopter680_flying_arm_2
+-- Installing: /home/hidro/galactic_ws/install/hidro_robots/share/hidro_robots//robots/hexacopter680_flying_arm_2/meshes
+-- Installing: /home/hidro/galactic_ws/install/hidro_robots/share/hidro_robots//robots/hexacopter680_flying_arm_2/meshes/link1.dae
+-- Installing: /home/hidro/galactic_ws/install/hidro_robots/share/hidro_robots//robots/hexacopter680_flying_arm_2/meshes/base_link.dae
+-- Installing: /home/hidro/galactic_ws/install/hidro_robots/share/hidro_robots//robots/hexacopter680_flying_arm_2/meshes/link2.dae
+-- Installing: /home/hidro/galactic_ws/install/hidro_robots/share/hidro_robots//robots/hexacopter680_flying_arm_2/meshes/hexacopter680.dae
+-- Installing: /home/hidro/galactic_ws/install/hidro_robots/share/hidro_robots//robots/hexacopter680_flying_arm_2/hexacopter680_flying_arm_2.urdf
+-- Installing: /home/hidro/galactic_ws/install/hidro_robots/share/ament_index/resource_index/package_run_dependencies/hidro_robots
+-- Installing: /home/hidro/galactic_ws/install/hidro_robots/share/ament_index/resource_index/parent_prefix_path/hidro_robots
+-- Installing: /home/hidro/galactic_ws/install/hidro_robots/share/hidro_robots/environment/ament_prefix_path.sh
+-- Installing: /home/hidro/galactic_ws/install/hidro_robots/share/hidro_robots/environment/ament_prefix_path.dsv
+-- Installing: /home/hidro/galactic_ws/install/hidro_robots/share/hidro_robots/environment/path.sh
+-- Installing: /home/hidro/galactic_ws/install/hidro_robots/share/hidro_robots/environment/path.dsv
+-- Installing: /home/hidro/galactic_ws/install/hidro_robots/share/hidro_robots/local_setup.bash
+-- Installing: /home/hidro/galactic_ws/install/hidro_robots/share/hidro_robots/local_setup.sh
+-- Installing: /home/hidro/galactic_ws/install/hidro_robots/share/hidro_robots/local_setup.zsh
+-- Installing: /home/hidro/galactic_ws/install/hidro_robots/share/hidro_robots/local_setup.dsv
+-- Installing: /home/hidro/galactic_ws/install/hidro_robots/share/hidro_robots/package.dsv
+-- Installing: /home/hidro/galactic_ws/install/hidro_robots/share/ament_index/resource_index/packages/hidro_robots
+-- Installing: /home/hidro/galactic_ws/install/hidro_robots/share/hidro_robots/cmake/hidro_robotsConfig.cmake
+-- Installing: /home/hidro/galactic_ws/install/hidro_robots/share/hidro_robots/cmake/hidro_robotsConfig-version.cmake
+-- Installing: /home/hidro/galactic_ws/install/hidro_robots/share/hidro_robots/package.xml

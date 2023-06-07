@@ -1,0 +1,20 @@
+[01m[K/home/hidro/galactic_ws/src/offline_trajectory_publisher/src/offline_trajectory_publisher_state_machine_interface.cpp:[m[K In member function ‘[01m[Kvirtual bool OfflineTrajectoryPublisher::transEnableCallback(std::string&)[m[K’:
+[01m[K/home/hidro/galactic_ws/src/offline_trajectory_publisher/src/offline_trajectory_publisher_state_machine_interface.cpp:246:51:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmessage[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  246 |     virtual bool transEnableCallback([01;35m[Kstd::string &message[m[K) override {
+      |                                      [01;35m[K~~~~~~~~~~~~~^~~~~~~[m[K
+[01m[K/home/hidro/galactic_ws/src/offline_trajectory_publisher/src/offline_trajectory_publisher_state_machine_interface.cpp:[m[K In member function ‘[01m[Kvirtual bool OfflineTrajectoryPublisher::transStartCallback(std::string&)[m[K’:
+[01m[K/home/hidro/galactic_ws/src/offline_trajectory_publisher/src/offline_trajectory_publisher_state_machine_interface.cpp:302:50:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmessage[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  302 |     virtual bool transStartCallback([01;35m[Kstd::string &message[m[K) override {
+      |                                     [01;35m[K~~~~~~~~~~~~~^~~~~~~[m[K
+[01m[K/home/hidro/galactic_ws/src/offline_trajectory_publisher/src/offline_trajectory_publisher_state_machine_interface.cpp:[m[K In member function ‘[01m[Kvirtual bool OfflineTrajectoryPublisher::transDisableCallback(std::string&)[m[K’:
+[01m[K/home/hidro/galactic_ws/src/offline_trajectory_publisher/src/offline_trajectory_publisher_state_machine_interface.cpp:306:52:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmessage[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  306 |     virtual bool transDisableCallback([01;35m[Kstd::string &message[m[K) override {
+      |                                       [01;35m[K~~~~~~~~~~~~~^~~~~~~[m[K
+[01m[K/home/hidro/galactic_ws/src/offline_trajectory_publisher/src/offline_trajectory_publisher_state_machine_interface.cpp:[m[K In member function ‘[01m[Kvirtual bool OfflineTrajectoryPublisher::transStopCallback(std::string&)[m[K’:
+[01m[K/home/hidro/galactic_ws/src/offline_trajectory_publisher/src/offline_trajectory_publisher_state_machine_interface.cpp:310:49:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmessage[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  310 |     virtual bool transStopCallback([01;35m[Kstd::string &message[m[K) override {
+      |                                    [01;35m[K~~~~~~~~~~~~~^~~~~~~[m[K
+[01m[K/home/hidro/galactic_ws/src/offline_trajectory_publisher/src/offline_trajectory_publisher_state_machine_interface.cpp:[m[K In member function ‘[01m[Kbool OfflineTrajectoryPublisher::transStop1Callback(std::string&)[m[K’:
+[01m[K/home/hidro/galactic_ws/src/offline_trajectory_publisher/src/offline_trajectory_publisher_state_machine_interface.cpp:314:42:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmessage[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  314 |     bool transStop1Callback([01;35m[Kstd::string &message[m[K) {
+      |                             [01;35m[K~~~~~~~~~~~~~^~~~~~~[m[K

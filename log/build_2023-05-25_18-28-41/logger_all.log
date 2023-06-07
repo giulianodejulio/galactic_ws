@@ -1,0 +1,844 @@
+[0.242s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--event-handlers', 'console_direct+', '--cmake-args', '-DCMAKE_EXPORT_COMPILE_COMMANDS=ON', '-DCMAKE_BUILD_TYPE=Release']
+[0.242s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=['-DCMAKE_EXPORT_COMPILE_COMMANDS=ON', '-DCMAKE_BUILD_TYPE=Release'], cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=['console_direct+'], executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f08e22be430>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=8, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f08e22be430>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f08e22be970>)
+[0.265s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.265s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.265s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.265s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.265s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.266s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.266s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/hidro/galactic_ws'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(bag) by extensions ['ignore', 'ignore_ament_install']
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(bag) by extension 'ignore'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(bag) by extension 'ignore_ament_install'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(bag) by extensions ['colcon_pkg']
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(bag) by extension 'colcon_pkg'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(bag) by extensions ['colcon_meta']
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(bag) by extension 'colcon_meta'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(bag) by extensions ['ros']
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(bag) by extension 'ros'
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(bag) by extensions ['cmake', 'python']
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(bag) by extension 'cmake'
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(bag) by extension 'python'
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(bag) by extensions ['python_setup_py']
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(bag) by extension 'python_setup_py'
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(bag/23_5_joint_limits_test) by extensions ['ignore', 'ignore_ament_install']
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(bag/23_5_joint_limits_test) by extension 'ignore'
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(bag/23_5_joint_limits_test) by extension 'ignore_ament_install'
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(bag/23_5_joint_limits_test) by extensions ['colcon_pkg']
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(bag/23_5_joint_limits_test) by extension 'colcon_pkg'
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(bag/23_5_joint_limits_test) by extensions ['colcon_meta']
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(bag/23_5_joint_limits_test) by extension 'colcon_meta'
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(bag/23_5_joint_limits_test) by extensions ['ros']
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(bag/23_5_joint_limits_test) by extension 'ros'
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(bag/23_5_joint_limits_test) by extensions ['cmake', 'python']
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(bag/23_5_joint_limits_test) by extension 'cmake'
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(bag/23_5_joint_limits_test) by extension 'python'
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(bag/23_5_joint_limits_test) by extensions ['python_setup_py']
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(bag/23_5_joint_limits_test) by extension 'python_setup_py'
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(bag/23_5_joint_limits_test/rosbag2_2023_05_23-18_21_08) by extensions ['ignore', 'ignore_ament_install']
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(bag/23_5_joint_limits_test/rosbag2_2023_05_23-18_21_08) by extension 'ignore'
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(bag/23_5_joint_limits_test/rosbag2_2023_05_23-18_21_08) by extension 'ignore_ament_install'
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(bag/23_5_joint_limits_test/rosbag2_2023_05_23-18_21_08) by extensions ['colcon_pkg']
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(bag/23_5_joint_limits_test/rosbag2_2023_05_23-18_21_08) by extension 'colcon_pkg'
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(bag/23_5_joint_limits_test/rosbag2_2023_05_23-18_21_08) by extensions ['colcon_meta']
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(bag/23_5_joint_limits_test/rosbag2_2023_05_23-18_21_08) by extension 'colcon_meta'
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(bag/23_5_joint_limits_test/rosbag2_2023_05_23-18_21_08) by extensions ['ros']
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(bag/23_5_joint_limits_test/rosbag2_2023_05_23-18_21_08) by extension 'ros'
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(bag/23_5_joint_limits_test/rosbag2_2023_05_23-18_21_08) by extensions ['cmake', 'python']
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(bag/23_5_joint_limits_test/rosbag2_2023_05_23-18_21_08) by extension 'cmake'
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(bag/23_5_joint_limits_test/rosbag2_2023_05_23-18_21_08) by extension 'python'
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(bag/23_5_joint_limits_test/rosbag2_2023_05_23-18_21_08) by extensions ['python_setup_py']
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(bag/23_5_joint_limits_test/rosbag2_2023_05_23-18_21_08) by extension 'python_setup_py'
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(bag/23_halfbackflip) by extensions ['ignore', 'ignore_ament_install']
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(bag/23_halfbackflip) by extension 'ignore'
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(bag/23_halfbackflip) by extension 'ignore_ament_install'
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(bag/23_halfbackflip) by extensions ['colcon_pkg']
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(bag/23_halfbackflip) by extension 'colcon_pkg'
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(bag/23_halfbackflip) by extensions ['colcon_meta']
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(bag/23_halfbackflip) by extension 'colcon_meta'
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(bag/23_halfbackflip) by extensions ['ros']
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(bag/23_halfbackflip) by extension 'ros'
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(bag/23_halfbackflip) by extensions ['cmake', 'python']
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(bag/23_halfbackflip) by extension 'cmake'
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(bag/23_halfbackflip) by extension 'python'
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(bag/23_halfbackflip) by extensions ['python_setup_py']
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(bag/23_halfbackflip) by extension 'python_setup_py'
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(bag/23_halfbackflip/rosbag2_2023_05_23-16_53_01) by extensions ['ignore', 'ignore_ament_install']
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(bag/23_halfbackflip/rosbag2_2023_05_23-16_53_01) by extension 'ignore'
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(bag/23_halfbackflip/rosbag2_2023_05_23-16_53_01) by extension 'ignore_ament_install'
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(bag/23_halfbackflip/rosbag2_2023_05_23-16_53_01) by extensions ['colcon_pkg']
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(bag/23_halfbackflip/rosbag2_2023_05_23-16_53_01) by extension 'colcon_pkg'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(bag/23_halfbackflip/rosbag2_2023_05_23-16_53_01) by extensions ['colcon_meta']
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(bag/23_halfbackflip/rosbag2_2023_05_23-16_53_01) by extension 'colcon_meta'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(bag/23_halfbackflip/rosbag2_2023_05_23-16_53_01) by extensions ['ros']
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(bag/23_halfbackflip/rosbag2_2023_05_23-16_53_01) by extension 'ros'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(bag/23_halfbackflip/rosbag2_2023_05_23-16_53_01) by extensions ['cmake', 'python']
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(bag/23_halfbackflip/rosbag2_2023_05_23-16_53_01) by extension 'cmake'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(bag/23_halfbackflip/rosbag2_2023_05_23-16_53_01) by extension 'python'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(bag/23_halfbackflip/rosbag2_2023_05_23-16_53_01) by extensions ['python_setup_py']
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(bag/23_halfbackflip/rosbag2_2023_05_23-16_53_01) by extension 'python_setup_py'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(bag/23_jump) by extensions ['ignore', 'ignore_ament_install']
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(bag/23_jump) by extension 'ignore'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(bag/23_jump) by extension 'ignore_ament_install'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(bag/23_jump) by extensions ['colcon_pkg']
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(bag/23_jump) by extension 'colcon_pkg'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(bag/23_jump) by extensions ['colcon_meta']
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(bag/23_jump) by extension 'colcon_meta'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(bag/23_jump) by extensions ['ros']
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(bag/23_jump) by extension 'ros'
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(bag/23_jump) by extensions ['cmake', 'python']
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(bag/23_jump) by extension 'cmake'
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(bag/23_jump) by extension 'python'
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(bag/23_jump) by extensions ['python_setup_py']
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(bag/23_jump) by extension 'python_setup_py'
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(bag/23_jump/rosbag2_2023_05_23-15_43_24) by extensions ['ignore', 'ignore_ament_install']
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(bag/23_jump/rosbag2_2023_05_23-15_43_24) by extension 'ignore'
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(bag/23_jump/rosbag2_2023_05_23-15_43_24) by extension 'ignore_ament_install'
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(bag/23_jump/rosbag2_2023_05_23-15_43_24) by extensions ['colcon_pkg']
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(bag/23_jump/rosbag2_2023_05_23-15_43_24) by extension 'colcon_pkg'
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(bag/23_jump/rosbag2_2023_05_23-15_43_24) by extensions ['colcon_meta']
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(bag/23_jump/rosbag2_2023_05_23-15_43_24) by extension 'colcon_meta'
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(bag/23_jump/rosbag2_2023_05_23-15_43_24) by extensions ['ros']
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(bag/23_jump/rosbag2_2023_05_23-15_43_24) by extension 'ros'
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(bag/23_jump/rosbag2_2023_05_23-15_43_24) by extensions ['cmake', 'python']
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(bag/23_jump/rosbag2_2023_05_23-15_43_24) by extension 'cmake'
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(bag/23_jump/rosbag2_2023_05_23-15_43_24) by extension 'python'
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(bag/23_jump/rosbag2_2023_05_23-15_43_24) by extensions ['python_setup_py']
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(bag/23_jump/rosbag2_2023_05_23-15_43_24) by extension 'python_setup_py'
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(bag/23_jump_2) by extensions ['ignore', 'ignore_ament_install']
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(bag/23_jump_2) by extension 'ignore'
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(bag/23_jump_2) by extension 'ignore_ament_install'
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(bag/23_jump_2) by extensions ['colcon_pkg']
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(bag/23_jump_2) by extension 'colcon_pkg'
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(bag/23_jump_2) by extensions ['colcon_meta']
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(bag/23_jump_2) by extension 'colcon_meta'
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(bag/23_jump_2) by extensions ['ros']
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(bag/23_jump_2) by extension 'ros'
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(bag/23_jump_2) by extensions ['cmake', 'python']
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(bag/23_jump_2) by extension 'cmake'
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(bag/23_jump_2) by extension 'python'
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(bag/23_jump_2) by extensions ['python_setup_py']
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(bag/23_jump_2) by extension 'python_setup_py'
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(bag/23_jump_2/rosbag2_2023_05_23-15_51_02) by extensions ['ignore', 'ignore_ament_install']
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(bag/23_jump_2/rosbag2_2023_05_23-15_51_02) by extension 'ignore'
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(bag/23_jump_2/rosbag2_2023_05_23-15_51_02) by extension 'ignore_ament_install'
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(bag/23_jump_2/rosbag2_2023_05_23-15_51_02) by extensions ['colcon_pkg']
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(bag/23_jump_2/rosbag2_2023_05_23-15_51_02) by extension 'colcon_pkg'
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(bag/23_jump_2/rosbag2_2023_05_23-15_51_02) by extensions ['colcon_meta']
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(bag/23_jump_2/rosbag2_2023_05_23-15_51_02) by extension 'colcon_meta'
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(bag/23_jump_2/rosbag2_2023_05_23-15_51_02) by extensions ['ros']
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(bag/23_jump_2/rosbag2_2023_05_23-15_51_02) by extension 'ros'
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(bag/23_jump_2/rosbag2_2023_05_23-15_51_02) by extensions ['cmake', 'python']
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(bag/23_jump_2/rosbag2_2023_05_23-15_51_02) by extension 'cmake'
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(bag/23_jump_2/rosbag2_2023_05_23-15_51_02) by extension 'python'
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(bag/23_jump_2/rosbag2_2023_05_23-15_51_02) by extensions ['python_setup_py']
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(bag/23_jump_2/rosbag2_2023_05_23-15_51_02) by extension 'python_setup_py'
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(bag/23_jump_aurelhugo) by extensions ['ignore', 'ignore_ament_install']
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(bag/23_jump_aurelhugo) by extension 'ignore'
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(bag/23_jump_aurelhugo) by extension 'ignore_ament_install'
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(bag/23_jump_aurelhugo) by extensions ['colcon_pkg']
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(bag/23_jump_aurelhugo) by extension 'colcon_pkg'
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(bag/23_jump_aurelhugo) by extensions ['colcon_meta']
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(bag/23_jump_aurelhugo) by extension 'colcon_meta'
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(bag/23_jump_aurelhugo) by extensions ['ros']
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(bag/23_jump_aurelhugo) by extension 'ros'
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(bag/23_jump_aurelhugo) by extensions ['cmake', 'python']
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(bag/23_jump_aurelhugo) by extension 'cmake'
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(bag/23_jump_aurelhugo) by extension 'python'
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(bag/23_jump_aurelhugo) by extensions ['python_setup_py']
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(bag/23_jump_aurelhugo) by extension 'python_setup_py'
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/hidro_robots) by extensions ['ignore', 'ignore_ament_install']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/hidro_robots) by extension 'ignore'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/hidro_robots) by extension 'ignore_ament_install'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/hidro_robots) by extensions ['colcon_pkg']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/hidro_robots) by extension 'colcon_pkg'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/hidro_robots) by extensions ['colcon_meta']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/hidro_robots) by extension 'colcon_meta'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/hidro_robots) by extensions ['ros']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/hidro_robots) by extension 'ros'
+[0.296s] DEBUG:colcon.colcon_core.package_identification:Package 'src/hidro_robots' with type 'ros.ament_cmake' and name 'hidro_robots'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/hidro_ros2_utils) by extensions ['ignore', 'ignore_ament_install']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/hidro_ros2_utils) by extension 'ignore'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/hidro_ros2_utils) by extension 'ignore_ament_install'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/hidro_ros2_utils) by extensions ['colcon_pkg']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/hidro_ros2_utils) by extension 'colcon_pkg'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/hidro_ros2_utils) by extensions ['colcon_meta']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/hidro_ros2_utils) by extension 'colcon_meta'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/hidro_ros2_utils) by extensions ['ros']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/hidro_ros2_utils) by extension 'ros'
+[0.297s] DEBUG:colcon.colcon_core.package_identification:Package 'src/hidro_ros2_utils' with type 'ros.ament_cmake' and name 'hidro_ros2_utils'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/odri_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/odri_ros2) by extension 'ignore'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/odri_ros2) by extension 'ignore_ament_install'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/odri_ros2) by extensions ['colcon_pkg']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/odri_ros2) by extension 'colcon_pkg'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/odri_ros2) by extensions ['colcon_meta']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/odri_ros2) by extension 'colcon_meta'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/odri_ros2) by extensions ['ros']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/odri_ros2) by extension 'ros'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/odri_ros2) by extensions ['cmake', 'python']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/odri_ros2) by extension 'cmake'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/odri_ros2) by extension 'python'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/odri_ros2) by extensions ['python_setup_py']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/odri_ros2) by extension 'python_setup_py'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/odri_ros2/odri_ros2_examples) by extensions ['ignore', 'ignore_ament_install']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/odri_ros2/odri_ros2_examples) by extension 'ignore'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/odri_ros2/odri_ros2_examples) by extension 'ignore_ament_install'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/odri_ros2/odri_ros2_examples) by extensions ['colcon_pkg']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/odri_ros2/odri_ros2_examples) by extension 'colcon_pkg'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/odri_ros2/odri_ros2_examples) by extensions ['colcon_meta']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/odri_ros2/odri_ros2_examples) by extension 'colcon_meta'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/odri_ros2/odri_ros2_examples) by extensions ['ros']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/odri_ros2/odri_ros2_examples) by extension 'ros'
+[0.300s] DEBUG:colcon.colcon_core.package_identification:Package 'src/odri_ros2/odri_ros2_examples' with type 'ros.ament_cmake' and name 'odri_ros2_examples'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/odri_ros2/odri_ros2_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/odri_ros2/odri_ros2_gazebo) by extension 'ignore'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/odri_ros2/odri_ros2_gazebo) by extension 'ignore_ament_install'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/odri_ros2/odri_ros2_gazebo) by extensions ['colcon_pkg']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/odri_ros2/odri_ros2_gazebo) by extension 'colcon_pkg'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/odri_ros2/odri_ros2_gazebo) by extensions ['colcon_meta']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/odri_ros2/odri_ros2_gazebo) by extension 'colcon_meta'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/odri_ros2/odri_ros2_gazebo) by extensions ['ros']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/odri_ros2/odri_ros2_gazebo) by extension 'ros'
+[0.301s] DEBUG:colcon.colcon_core.package_identification:Package 'src/odri_ros2/odri_ros2_gazebo' with type 'ros.ament_cmake' and name 'odri_ros2_gazebo'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/odri_ros2/odri_ros2_hardware) by extensions ['ignore', 'ignore_ament_install']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/odri_ros2/odri_ros2_hardware) by extension 'ignore'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/odri_ros2/odri_ros2_hardware) by extension 'ignore_ament_install'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/odri_ros2/odri_ros2_hardware) by extensions ['colcon_pkg']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/odri_ros2/odri_ros2_hardware) by extension 'colcon_pkg'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/odri_ros2/odri_ros2_hardware) by extensions ['colcon_meta']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/odri_ros2/odri_ros2_hardware) by extension 'colcon_meta'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/odri_ros2/odri_ros2_hardware) by extensions ['ros']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/odri_ros2/odri_ros2_hardware) by extension 'ros'
+[0.302s] DEBUG:colcon.colcon_core.package_identification:Package 'src/odri_ros2/odri_ros2_hardware' with type 'ros.ament_cmake' and name 'odri_ros2_hardware'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/odri_ros2/odri_ros2_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/odri_ros2/odri_ros2_interfaces) by extension 'ignore'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/odri_ros2/odri_ros2_interfaces) by extension 'ignore_ament_install'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/odri_ros2/odri_ros2_interfaces) by extensions ['colcon_pkg']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/odri_ros2/odri_ros2_interfaces) by extension 'colcon_pkg'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/odri_ros2/odri_ros2_interfaces) by extensions ['colcon_meta']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/odri_ros2/odri_ros2_interfaces) by extension 'colcon_meta'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/odri_ros2/odri_ros2_interfaces) by extensions ['ros']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/odri_ros2/odri_ros2_interfaces) by extension 'ros'
+[0.303s] DEBUG:colcon.colcon_core.package_identification:Package 'src/odri_ros2/odri_ros2_interfaces' with type 'ros.ament_cmake' and name 'odri_ros2_interfaces'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/offline_trajectory_publisher) by extensions ['ignore', 'ignore_ament_install']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/offline_trajectory_publisher) by extension 'ignore'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/offline_trajectory_publisher) by extension 'ignore_ament_install'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/offline_trajectory_publisher) by extensions ['colcon_pkg']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/offline_trajectory_publisher) by extension 'colcon_pkg'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/offline_trajectory_publisher) by extensions ['colcon_meta']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/offline_trajectory_publisher) by extension 'colcon_meta'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/offline_trajectory_publisher) by extensions ['ros']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/offline_trajectory_publisher) by extension 'ros'
+[0.304s] DEBUG:colcon.colcon_core.package_identification:Package 'src/offline_trajectory_publisher' with type 'ros.ament_cmake' and name 'offline_trajectory_publisher_state_machine_interface'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/solo12_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/solo12_bringup) by extension 'ignore'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/solo12_bringup) by extension 'ignore_ament_install'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/solo12_bringup) by extensions ['colcon_pkg']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/solo12_bringup) by extension 'colcon_pkg'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/solo12_bringup) by extensions ['colcon_meta']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/solo12_bringup) by extension 'colcon_meta'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/solo12_bringup) by extensions ['ros']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/solo12_bringup) by extension 'ros'
+[0.305s] DEBUG:colcon.colcon_core.package_identification:Package 'src/solo12_bringup' with type 'ros.ament_cmake' and name 'solo12_bringup'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrpn_client_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrpn_client_ros) by extension 'ignore'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrpn_client_ros) by extension 'ignore_ament_install'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrpn_client_ros) by extensions ['colcon_pkg']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrpn_client_ros) by extension 'colcon_pkg'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrpn_client_ros) by extensions ['colcon_meta']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrpn_client_ros) by extension 'colcon_meta'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrpn_client_ros) by extensions ['ros']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrpn_client_ros) by extension 'ros'
+[0.306s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vrpn_client_ros' with type 'ros.ament_cmake' and name 'vrpn_client_ros'
+[0.306s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.306s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.306s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.306s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.306s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.324s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.324s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.327s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 9 installed packages in /home/hidro/galactic_ws/install
+[0.328s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 176 installed packages in /opt/ros/galactic
+[0.329s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.370s] Level 5:colcon.colcon_core.verb:set package 'hidro_robots' build argument 'cmake_args' from command line to '['-DCMAKE_EXPORT_COMPILE_COMMANDS=ON', '-DCMAKE_BUILD_TYPE=Release']'
+[0.370s] Level 5:colcon.colcon_core.verb:set package 'hidro_robots' build argument 'cmake_target' from command line to 'None'
+[0.370s] Level 5:colcon.colcon_core.verb:set package 'hidro_robots' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.370s] Level 5:colcon.colcon_core.verb:set package 'hidro_robots' build argument 'cmake_clean_cache' from command line to 'False'
+[0.370s] Level 5:colcon.colcon_core.verb:set package 'hidro_robots' build argument 'cmake_clean_first' from command line to 'False'
+[0.370s] Level 5:colcon.colcon_core.verb:set package 'hidro_robots' build argument 'cmake_force_configure' from command line to 'False'
+[0.370s] Level 5:colcon.colcon_core.verb:set package 'hidro_robots' build argument 'ament_cmake_args' from command line to 'None'
+[0.370s] Level 5:colcon.colcon_core.verb:set package 'hidro_robots' build argument 'catkin_cmake_args' from command line to 'None'
+[0.370s] Level 5:colcon.colcon_core.verb:set package 'hidro_robots' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.370s] DEBUG:colcon.colcon_core.verb:Building package 'hidro_robots' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hidro/galactic_ws/build/hidro_robots', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_EXPORT_COMPILE_COMMANDS=ON', '-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hidro/galactic_ws/install/hidro_robots', 'merge_install': False, 'path': '/home/hidro/galactic_ws/src/hidro_robots', 'symlink_install': False, 'test_result_base': None}
+[0.371s] Level 5:colcon.colcon_core.verb:set package 'hidro_ros2_utils' build argument 'cmake_args' from command line to '['-DCMAKE_EXPORT_COMPILE_COMMANDS=ON', '-DCMAKE_BUILD_TYPE=Release']'
+[0.371s] Level 5:colcon.colcon_core.verb:set package 'hidro_ros2_utils' build argument 'cmake_target' from command line to 'None'
+[0.371s] Level 5:colcon.colcon_core.verb:set package 'hidro_ros2_utils' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.371s] Level 5:colcon.colcon_core.verb:set package 'hidro_ros2_utils' build argument 'cmake_clean_cache' from command line to 'False'
+[0.371s] Level 5:colcon.colcon_core.verb:set package 'hidro_ros2_utils' build argument 'cmake_clean_first' from command line to 'False'
+[0.371s] Level 5:colcon.colcon_core.verb:set package 'hidro_ros2_utils' build argument 'cmake_force_configure' from command line to 'False'
+[0.371s] Level 5:colcon.colcon_core.verb:set package 'hidro_ros2_utils' build argument 'ament_cmake_args' from command line to 'None'
+[0.371s] Level 5:colcon.colcon_core.verb:set package 'hidro_ros2_utils' build argument 'catkin_cmake_args' from command line to 'None'
+[0.371s] Level 5:colcon.colcon_core.verb:set package 'hidro_ros2_utils' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.371s] DEBUG:colcon.colcon_core.verb:Building package 'hidro_ros2_utils' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hidro/galactic_ws/build/hidro_ros2_utils', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_EXPORT_COMPILE_COMMANDS=ON', '-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hidro/galactic_ws/install/hidro_ros2_utils', 'merge_install': False, 'path': '/home/hidro/galactic_ws/src/hidro_ros2_utils', 'symlink_install': False, 'test_result_base': None}
+[0.372s] Level 5:colcon.colcon_core.verb:set package 'odri_ros2_interfaces' build argument 'cmake_args' from command line to '['-DCMAKE_EXPORT_COMPILE_COMMANDS=ON', '-DCMAKE_BUILD_TYPE=Release']'
+[0.372s] Level 5:colcon.colcon_core.verb:set package 'odri_ros2_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.372s] Level 5:colcon.colcon_core.verb:set package 'odri_ros2_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.372s] Level 5:colcon.colcon_core.verb:set package 'odri_ros2_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.372s] Level 5:colcon.colcon_core.verb:set package 'odri_ros2_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.372s] Level 5:colcon.colcon_core.verb:set package 'odri_ros2_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.372s] Level 5:colcon.colcon_core.verb:set package 'odri_ros2_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.372s] Level 5:colcon.colcon_core.verb:set package 'odri_ros2_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.372s] Level 5:colcon.colcon_core.verb:set package 'odri_ros2_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.372s] DEBUG:colcon.colcon_core.verb:Building package 'odri_ros2_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hidro/galactic_ws/build/odri_ros2_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_EXPORT_COMPILE_COMMANDS=ON', '-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hidro/galactic_ws/install/odri_ros2_interfaces', 'merge_install': False, 'path': '/home/hidro/galactic_ws/src/odri_ros2/odri_ros2_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.373s] Level 5:colcon.colcon_core.verb:set package 'solo12_bringup' build argument 'cmake_args' from command line to '['-DCMAKE_EXPORT_COMPILE_COMMANDS=ON', '-DCMAKE_BUILD_TYPE=Release']'
+[0.373s] Level 5:colcon.colcon_core.verb:set package 'solo12_bringup' build argument 'cmake_target' from command line to 'None'
+[0.373s] Level 5:colcon.colcon_core.verb:set package 'solo12_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.373s] Level 5:colcon.colcon_core.verb:set package 'solo12_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.373s] Level 5:colcon.colcon_core.verb:set package 'solo12_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.373s] Level 5:colcon.colcon_core.verb:set package 'solo12_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.373s] Level 5:colcon.colcon_core.verb:set package 'solo12_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.373s] Level 5:colcon.colcon_core.verb:set package 'solo12_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.373s] Level 5:colcon.colcon_core.verb:set package 'solo12_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.373s] DEBUG:colcon.colcon_core.verb:Building package 'solo12_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hidro/galactic_ws/build/solo12_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_EXPORT_COMPILE_COMMANDS=ON', '-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hidro/galactic_ws/install/solo12_bringup', 'merge_install': False, 'path': '/home/hidro/galactic_ws/src/solo12_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.374s] Level 5:colcon.colcon_core.verb:set package 'vrpn_client_ros' build argument 'cmake_args' from command line to '['-DCMAKE_EXPORT_COMPILE_COMMANDS=ON', '-DCMAKE_BUILD_TYPE=Release']'
+[0.374s] Level 5:colcon.colcon_core.verb:set package 'vrpn_client_ros' build argument 'cmake_target' from command line to 'None'
+[0.374s] Level 5:colcon.colcon_core.verb:set package 'vrpn_client_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.374s] Level 5:colcon.colcon_core.verb:set package 'vrpn_client_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[0.374s] Level 5:colcon.colcon_core.verb:set package 'vrpn_client_ros' build argument 'cmake_clean_first' from command line to 'False'
+[0.374s] Level 5:colcon.colcon_core.verb:set package 'vrpn_client_ros' build argument 'cmake_force_configure' from command line to 'False'
+[0.374s] Level 5:colcon.colcon_core.verb:set package 'vrpn_client_ros' build argument 'ament_cmake_args' from command line to 'None'
+[0.374s] Level 5:colcon.colcon_core.verb:set package 'vrpn_client_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[0.374s] Level 5:colcon.colcon_core.verb:set package 'vrpn_client_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.374s] DEBUG:colcon.colcon_core.verb:Building package 'vrpn_client_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hidro/galactic_ws/build/vrpn_client_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_EXPORT_COMPILE_COMMANDS=ON', '-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hidro/galactic_ws/install/vrpn_client_ros', 'merge_install': False, 'path': '/home/hidro/galactic_ws/src/vrpn_client_ros', 'symlink_install': False, 'test_result_base': None}
+[0.375s] Level 5:colcon.colcon_core.verb:set package 'odri_ros2_gazebo' build argument 'cmake_args' from command line to '['-DCMAKE_EXPORT_COMPILE_COMMANDS=ON', '-DCMAKE_BUILD_TYPE=Release']'
+[0.375s] Level 5:colcon.colcon_core.verb:set package 'odri_ros2_gazebo' build argument 'cmake_target' from command line to 'None'
+[0.375s] Level 5:colcon.colcon_core.verb:set package 'odri_ros2_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.375s] Level 5:colcon.colcon_core.verb:set package 'odri_ros2_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.375s] Level 5:colcon.colcon_core.verb:set package 'odri_ros2_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[0.375s] Level 5:colcon.colcon_core.verb:set package 'odri_ros2_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[0.375s] Level 5:colcon.colcon_core.verb:set package 'odri_ros2_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[0.375s] Level 5:colcon.colcon_core.verb:set package 'odri_ros2_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.375s] Level 5:colcon.colcon_core.verb:set package 'odri_ros2_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.375s] DEBUG:colcon.colcon_core.verb:Building package 'odri_ros2_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hidro/galactic_ws/build/odri_ros2_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_EXPORT_COMPILE_COMMANDS=ON', '-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hidro/galactic_ws/install/odri_ros2_gazebo', 'merge_install': False, 'path': '/home/hidro/galactic_ws/src/odri_ros2/odri_ros2_gazebo', 'symlink_install': False, 'test_result_base': None}
+[0.376s] Level 5:colcon.colcon_core.verb:set package 'odri_ros2_hardware' build argument 'cmake_args' from command line to '['-DCMAKE_EXPORT_COMPILE_COMMANDS=ON', '-DCMAKE_BUILD_TYPE=Release']'
+[0.376s] Level 5:colcon.colcon_core.verb:set package 'odri_ros2_hardware' build argument 'cmake_target' from command line to 'None'
+[0.376s] Level 5:colcon.colcon_core.verb:set package 'odri_ros2_hardware' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.376s] Level 5:colcon.colcon_core.verb:set package 'odri_ros2_hardware' build argument 'cmake_clean_cache' from command line to 'False'
+[0.376s] Level 5:colcon.colcon_core.verb:set package 'odri_ros2_hardware' build argument 'cmake_clean_first' from command line to 'False'
+[0.376s] Level 5:colcon.colcon_core.verb:set package 'odri_ros2_hardware' build argument 'cmake_force_configure' from command line to 'False'
+[0.376s] Level 5:colcon.colcon_core.verb:set package 'odri_ros2_hardware' build argument 'ament_cmake_args' from command line to 'None'
+[0.376s] Level 5:colcon.colcon_core.verb:set package 'odri_ros2_hardware' build argument 'catkin_cmake_args' from command line to 'None'
+[0.376s] Level 5:colcon.colcon_core.verb:set package 'odri_ros2_hardware' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.376s] DEBUG:colcon.colcon_core.verb:Building package 'odri_ros2_hardware' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hidro/galactic_ws/build/odri_ros2_hardware', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_EXPORT_COMPILE_COMMANDS=ON', '-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hidro/galactic_ws/install/odri_ros2_hardware', 'merge_install': False, 'path': '/home/hidro/galactic_ws/src/odri_ros2/odri_ros2_hardware', 'symlink_install': False, 'test_result_base': None}
+[0.377s] Level 5:colcon.colcon_core.verb:set package 'odri_ros2_examples' build argument 'cmake_args' from command line to '['-DCMAKE_EXPORT_COMPILE_COMMANDS=ON', '-DCMAKE_BUILD_TYPE=Release']'
+[0.377s] Level 5:colcon.colcon_core.verb:set package 'odri_ros2_examples' build argument 'cmake_target' from command line to 'None'
+[0.377s] Level 5:colcon.colcon_core.verb:set package 'odri_ros2_examples' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.377s] Level 5:colcon.colcon_core.verb:set package 'odri_ros2_examples' build argument 'cmake_clean_cache' from command line to 'False'
+[0.377s] Level 5:colcon.colcon_core.verb:set package 'odri_ros2_examples' build argument 'cmake_clean_first' from command line to 'False'
+[0.377s] Level 5:colcon.colcon_core.verb:set package 'odri_ros2_examples' build argument 'cmake_force_configure' from command line to 'False'
+[0.377s] Level 5:colcon.colcon_core.verb:set package 'odri_ros2_examples' build argument 'ament_cmake_args' from command line to 'None'
+[0.377s] Level 5:colcon.colcon_core.verb:set package 'odri_ros2_examples' build argument 'catkin_cmake_args' from command line to 'None'
+[0.377s] Level 5:colcon.colcon_core.verb:set package 'odri_ros2_examples' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.377s] DEBUG:colcon.colcon_core.verb:Building package 'odri_ros2_examples' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hidro/galactic_ws/build/odri_ros2_examples', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_EXPORT_COMPILE_COMMANDS=ON', '-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hidro/galactic_ws/install/odri_ros2_examples', 'merge_install': False, 'path': '/home/hidro/galactic_ws/src/odri_ros2/odri_ros2_examples', 'symlink_install': False, 'test_result_base': None}
+[0.378s] Level 5:colcon.colcon_core.verb:set package 'offline_trajectory_publisher_state_machine_interface' build argument 'cmake_args' from command line to '['-DCMAKE_EXPORT_COMPILE_COMMANDS=ON', '-DCMAKE_BUILD_TYPE=Release']'
+[0.378s] Level 5:colcon.colcon_core.verb:set package 'offline_trajectory_publisher_state_machine_interface' build argument 'cmake_target' from command line to 'None'
+[0.378s] Level 5:colcon.colcon_core.verb:set package 'offline_trajectory_publisher_state_machine_interface' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.378s] Level 5:colcon.colcon_core.verb:set package 'offline_trajectory_publisher_state_machine_interface' build argument 'cmake_clean_cache' from command line to 'False'
+[0.378s] Level 5:colcon.colcon_core.verb:set package 'offline_trajectory_publisher_state_machine_interface' build argument 'cmake_clean_first' from command line to 'False'
+[0.378s] Level 5:colcon.colcon_core.verb:set package 'offline_trajectory_publisher_state_machine_interface' build argument 'cmake_force_configure' from command line to 'False'
+[0.378s] Level 5:colcon.colcon_core.verb:set package 'offline_trajectory_publisher_state_machine_interface' build argument 'ament_cmake_args' from command line to 'None'
+[0.378s] Level 5:colcon.colcon_core.verb:set package 'offline_trajectory_publisher_state_machine_interface' build argument 'catkin_cmake_args' from command line to 'None'
+[0.378s] Level 5:colcon.colcon_core.verb:set package 'offline_trajectory_publisher_state_machine_interface' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.378s] DEBUG:colcon.colcon_core.verb:Building package 'offline_trajectory_publisher_state_machine_interface' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hidro/galactic_ws/build/offline_trajectory_publisher_state_machine_interface', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_EXPORT_COMPILE_COMMANDS=ON', '-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hidro/galactic_ws/install/offline_trajectory_publisher_state_machine_interface', 'merge_install': False, 'path': '/home/hidro/galactic_ws/src/offline_trajectory_publisher', 'symlink_install': False, 'test_result_base': None}
+[0.379s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.382s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.382s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/hidro/galactic_ws/src/odri_ros2/odri_ros2_interfaces' with build type 'ament_cmake'
+[0.382s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/hidro/galactic_ws/src/odri_ros2/odri_ros2_interfaces'
+[0.386s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.386s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.386s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.392s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/hidro/galactic_ws/src/hidro_ros2_utils' with build type 'ament_cmake'
+[0.392s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/hidro/galactic_ws/src/hidro_ros2_utils'
+[0.394s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.394s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.400s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/hidro/galactic_ws/src/hidro_robots' with build type 'ament_cmake'
+[0.401s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/hidro/galactic_ws/src/hidro_robots'
+[0.402s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.402s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.408s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/hidro/galactic_ws/src/solo12_bringup' with build type 'ament_cmake'
+[0.408s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/hidro/galactic_ws/src/solo12_bringup'
+[0.410s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.410s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.416s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/hidro/galactic_ws/src/vrpn_client_ros' with build type 'ament_cmake'
+[0.417s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/hidro/galactic_ws/src/vrpn_client_ros'
+[0.418s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.418s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.431s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hidro/galactic_ws/build/odri_ros2_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/hidro/galactic_ws/build/odri_ros2_interfaces -- -j8 -l8
+[0.437s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hidro/galactic_ws/build/hidro_ros2_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/hidro/galactic_ws/build/hidro_ros2_utils -- -j8 -l8
+[0.442s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hidro/galactic_ws/build/hidro_robots': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/hidro/galactic_ws/build/hidro_robots -- -j8 -l8
+[0.447s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hidro/galactic_ws/build/solo12_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/hidro/galactic_ws/build/solo12_bringup -- -j8 -l8
+[0.458s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hidro/galactic_ws/build/vrpn_client_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/hidro/galactic_ws/build/vrpn_client_ros -- -j8 -l8
+[0.492s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hidro/galactic_ws/build/hidro_robots' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/hidro/galactic_ws/build/hidro_robots -- -j8 -l8
+[0.512s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hidro/galactic_ws/build/solo12_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/hidro/galactic_ws/build/solo12_bringup -- -j8 -l8
+[0.543s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hidro/galactic_ws/build/hidro_robots': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/hidro/galactic_ws/build/hidro_robots
+[0.555s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hidro/galactic_ws/build/solo12_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/hidro/galactic_ws/build/solo12_bringup
+[0.565s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hidro_robots)
+[0.579s] Level 1:colcon.colcon_core.environment:checking '/home/hidro/galactic_ws/install/hidro_robots' for CMake module files
+[0.580s] Level 1:colcon.colcon_core.environment:checking '/home/hidro/galactic_ws/install/hidro_robots' for CMake config files
+[0.581s] Level 1:colcon.colcon_core.shell:create_environment_hook('hidro_robots', 'cmake_prefix_path')
+[0.584s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hidro/galactic_ws/install/hidro_robots/share/hidro_robots/hook/cmake_prefix_path.ps1'
+[0.587s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hidro/galactic_ws/install/hidro_robots/share/hidro_robots/hook/cmake_prefix_path.dsv'
+[0.588s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hidro/galactic_ws/install/hidro_robots/share/hidro_robots/hook/cmake_prefix_path.sh'
+[0.591s] Level 1:colcon.colcon_core.environment:checking '/home/hidro/galactic_ws/install/hidro_robots/bin'
+[0.592s] Level 1:colcon.colcon_core.environment:checking '/home/hidro/galactic_ws/install/hidro_robots/lib/pkgconfig/hidro_robots.pc'
+[0.593s] Level 1:colcon.colcon_core.environment:checking '/home/hidro/galactic_ws/install/hidro_robots/lib/python3.8/site-packages'
+[0.595s] Level 1:colcon.colcon_core.environment:checking '/home/hidro/galactic_ws/install/hidro_robots/bin'
+[0.598s] INFO:colcon.colcon_core.shell:Creating package script '/home/hidro/galactic_ws/install/hidro_robots/share/hidro_robots/package.ps1'
+[0.600s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hidro/galactic_ws/install/hidro_robots/share/hidro_robots/package.dsv'
+[0.602s] INFO:colcon.colcon_core.shell:Creating package script '/home/hidro/galactic_ws/install/hidro_robots/share/hidro_robots/package.sh'
+[0.604s] INFO:colcon.colcon_core.shell:Creating package script '/home/hidro/galactic_ws/install/hidro_robots/share/hidro_robots/package.bash'
+[0.606s] INFO:colcon.colcon_core.shell:Creating package script '/home/hidro/galactic_ws/install/hidro_robots/share/hidro_robots/package.zsh'
+[0.607s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hidro/galactic_ws/install/hidro_robots/share/colcon-core/packages/hidro_robots)
+[0.614s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(solo12_bringup)
+[0.619s] Level 1:colcon.colcon_core.environment:checking '/home/hidro/galactic_ws/install/solo12_bringup' for CMake module files
+[0.621s] Level 1:colcon.colcon_core.environment:checking '/home/hidro/galactic_ws/install/solo12_bringup' for CMake config files
+[0.623s] Level 1:colcon.colcon_core.shell:create_environment_hook('solo12_bringup', 'cmake_prefix_path')
+[0.625s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hidro/galactic_ws/install/solo12_bringup/share/solo12_bringup/hook/cmake_prefix_path.ps1'
+[0.626s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hidro/galactic_ws/install/solo12_bringup/share/solo12_bringup/hook/cmake_prefix_path.dsv'
+[0.627s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hidro/galactic_ws/install/solo12_bringup/share/solo12_bringup/hook/cmake_prefix_path.sh'
+[0.629s] Level 1:colcon.colcon_core.environment:checking '/home/hidro/galactic_ws/install/solo12_bringup/bin'
+[0.629s] Level 1:colcon.colcon_core.environment:checking '/home/hidro/galactic_ws/install/solo12_bringup/lib/pkgconfig/solo12_bringup.pc'
+[0.629s] Level 1:colcon.colcon_core.environment:checking '/home/hidro/galactic_ws/install/solo12_bringup/lib/python3.8/site-packages'
+[0.630s] Level 1:colcon.colcon_core.environment:checking '/home/hidro/galactic_ws/install/solo12_bringup/bin'
+[0.632s] INFO:colcon.colcon_core.shell:Creating package script '/home/hidro/galactic_ws/install/solo12_bringup/share/solo12_bringup/package.ps1'
+[0.634s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hidro/galactic_ws/install/solo12_bringup/share/solo12_bringup/package.dsv'
+[0.635s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hidro/galactic_ws/build/hidro_robots' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/hidro/galactic_ws/build/hidro_robots
+[0.635s] INFO:colcon.colcon_core.shell:Creating package script '/home/hidro/galactic_ws/install/solo12_bringup/share/solo12_bringup/package.sh'
+[0.636s] INFO:colcon.colcon_core.shell:Creating package script '/home/hidro/galactic_ws/install/solo12_bringup/share/solo12_bringup/package.bash'
+[0.637s] INFO:colcon.colcon_core.shell:Creating package script '/home/hidro/galactic_ws/install/solo12_bringup/share/solo12_bringup/package.zsh'
+[0.638s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hidro/galactic_ws/install/solo12_bringup/share/colcon-core/packages/solo12_bringup)
+[0.647s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hidro_robots)
+[0.651s] Level 1:colcon.colcon_core.environment:checking '/home/hidro/galactic_ws/install/hidro_robots' for CMake module files
+[0.654s] Level 1:colcon.colcon_core.environment:checking '/home/hidro/galactic_ws/install/hidro_robots' for CMake config files
+[0.655s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hidro/galactic_ws/build/solo12_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/hidro/galactic_ws/build/solo12_bringup
+[0.656s] Level 1:colcon.colcon_core.shell:create_environment_hook('hidro_robots', 'cmake_prefix_path')
+[0.658s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hidro/galactic_ws/install/hidro_robots/share/hidro_robots/hook/cmake_prefix_path.ps1'
+[0.659s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hidro/galactic_ws/install/hidro_robots/share/hidro_robots/hook/cmake_prefix_path.dsv'
+[0.659s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hidro/galactic_ws/install/hidro_robots/share/hidro_robots/hook/cmake_prefix_path.sh'
+[0.660s] Level 1:colcon.colcon_core.environment:checking '/home/hidro/galactic_ws/install/hidro_robots/bin'
+[0.660s] Level 1:colcon.colcon_core.environment:checking '/home/hidro/galactic_ws/install/hidro_robots/lib/pkgconfig/hidro_robots.pc'
+[0.660s] Level 1:colcon.colcon_core.environment:checking '/home/hidro/galactic_ws/install/hidro_robots/lib/python3.8/site-packages'
+[0.661s] Level 1:colcon.colcon_core.environment:checking '/home/hidro/galactic_ws/install/hidro_robots/bin'
+[0.662s] INFO:colcon.colcon_core.shell:Creating package script '/home/hidro/galactic_ws/install/hidro_robots/share/hidro_robots/package.ps1'
+[0.663s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hidro/galactic_ws/install/hidro_robots/share/hidro_robots/package.dsv'
+[0.663s] INFO:colcon.colcon_core.shell:Creating package script '/home/hidro/galactic_ws/install/hidro_robots/share/hidro_robots/package.sh'
+[0.664s] INFO:colcon.colcon_core.shell:Creating package script '/home/hidro/galactic_ws/install/hidro_robots/share/hidro_robots/package.bash'
+[0.664s] INFO:colcon.colcon_core.shell:Creating package script '/home/hidro/galactic_ws/install/hidro_robots/share/hidro_robots/package.zsh'
+[0.664s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hidro/galactic_ws/install/hidro_robots/share/colcon-core/packages/hidro_robots)
+[0.668s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hidro/galactic_ws/build/vrpn_client_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/hidro/galactic_ws/build/vrpn_client_ros -- -j8 -l8
+[0.672s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(solo12_bringup)
+[0.674s] Level 1:colcon.colcon_core.environment:checking '/home/hidro/galactic_ws/install/solo12_bringup' for CMake module files
+[0.675s] Level 1:colcon.colcon_core.environment:checking '/home/hidro/galactic_ws/install/solo12_bringup' for CMake config files
+[0.676s] Level 1:colcon.colcon_core.shell:create_environment_hook('solo12_bringup', 'cmake_prefix_path')
+[0.678s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hidro/galactic_ws/install/solo12_bringup/share/solo12_bringup/hook/cmake_prefix_path.ps1'
+[0.679s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hidro/galactic_ws/install/solo12_bringup/share/solo12_bringup/hook/cmake_prefix_path.dsv'
+[0.679s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hidro/galactic_ws/install/solo12_bringup/share/solo12_bringup/hook/cmake_prefix_path.sh'
+[0.680s] Level 1:colcon.colcon_core.environment:checking '/home/hidro/galactic_ws/install/solo12_bringup/bin'
+[0.680s] Level 1:colcon.colcon_core.environment:checking '/home/hidro/galactic_ws/install/solo12_bringup/lib/pkgconfig/solo12_bringup.pc'
+[0.680s] Level 1:colcon.colcon_core.environment:checking '/home/hidro/galactic_ws/install/solo12_bringup/lib/python3.8/site-packages'
+[0.680s] Level 1:colcon.colcon_core.environment:checking '/home/hidro/galactic_ws/install/solo12_bringup/bin'
+[0.682s] INFO:colcon.colcon_core.shell:Creating package script '/home/hidro/galactic_ws/install/solo12_bringup/share/solo12_bringup/package.ps1'
+[0.682s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hidro/galactic_ws/install/solo12_bringup/share/solo12_bringup/package.dsv'
+[0.683s] INFO:colcon.colcon_core.shell:Creating package script '/home/hidro/galactic_ws/install/solo12_bringup/share/solo12_bringup/package.sh'
+[0.683s] INFO:colcon.colcon_core.shell:Creating package script '/home/hidro/galactic_ws/install/solo12_bringup/share/solo12_bringup/package.bash'
+[0.683s] INFO:colcon.colcon_core.shell:Creating package script '/home/hidro/galactic_ws/install/solo12_bringup/share/solo12_bringup/package.zsh'
+[0.684s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hidro/galactic_ws/install/solo12_bringup/share/colcon-core/packages/solo12_bringup)
+[0.701s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hidro/galactic_ws/build/vrpn_client_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/hidro/galactic_ws/build/vrpn_client_ros
+[0.717s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vrpn_client_ros)
+[0.721s] Level 1:colcon.colcon_core.environment:checking '/home/hidro/galactic_ws/install/vrpn_client_ros' for CMake module files
+[0.722s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hidro/galactic_ws/build/vrpn_client_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/hidro/galactic_ws/build/vrpn_client_ros
+[0.723s] Level 1:colcon.colcon_core.environment:checking '/home/hidro/galactic_ws/install/vrpn_client_ros' for CMake config files
+[0.724s] Level 1:colcon.colcon_core.shell:create_environment_hook('vrpn_client_ros', 'cmake_prefix_path')
+[0.726s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hidro/galactic_ws/install/vrpn_client_ros/share/vrpn_client_ros/hook/cmake_prefix_path.ps1'
+[0.726s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hidro/galactic_ws/install/vrpn_client_ros/share/vrpn_client_ros/hook/cmake_prefix_path.dsv'
+[0.726s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hidro/galactic_ws/install/vrpn_client_ros/share/vrpn_client_ros/hook/cmake_prefix_path.sh'
+[0.727s] Level 1:colcon.colcon_core.environment:checking '/home/hidro/galactic_ws/install/vrpn_client_ros/lib'
+[0.727s] Level 1:colcon.colcon_core.environment:checking '/home/hidro/galactic_ws/install/vrpn_client_ros/bin'
+[0.727s] Level 1:colcon.colcon_core.environment:checking '/home/hidro/galactic_ws/install/vrpn_client_ros/lib/pkgconfig/vrpn_client_ros.pc'
+[0.728s] Level 1:colcon.colcon_core.environment:checking '/home/hidro/galactic_ws/install/vrpn_client_ros/lib/python3.8/site-packages'
+[0.728s] Level 1:colcon.colcon_core.environment:checking '/home/hidro/galactic_ws/install/vrpn_client_ros/bin'
+[0.730s] INFO:colcon.colcon_core.shell:Creating package script '/home/hidro/galactic_ws/install/vrpn_client_ros/share/vrpn_client_ros/package.ps1'
+[0.730s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hidro/galactic_ws/install/vrpn_client_ros/share/vrpn_client_ros/package.dsv'
+[0.731s] INFO:colcon.colcon_core.shell:Creating package script '/home/hidro/galactic_ws/install/vrpn_client_ros/share/vrpn_client_ros/package.sh'
+[0.731s] INFO:colcon.colcon_core.shell:Creating package script '/home/hidro/galactic_ws/install/vrpn_client_ros/share/vrpn_client_ros/package.bash'
+[0.732s] INFO:colcon.colcon_core.shell:Creating package script '/home/hidro/galactic_ws/install/vrpn_client_ros/share/vrpn_client_ros/package.zsh'
+[0.732s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hidro/galactic_ws/install/vrpn_client_ros/share/colcon-core/packages/vrpn_client_ros)
+[0.737s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hidro/galactic_ws/build/hidro_ros2_utils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/hidro/galactic_ws/build/hidro_ros2_utils -- -j8 -l8
+[0.747s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hidro/galactic_ws/build/odri_ros2_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/hidro/galactic_ws/build/odri_ros2_interfaces -- -j8 -l8
+[0.763s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vrpn_client_ros)
+[0.765s] Level 1:colcon.colcon_core.environment:checking '/home/hidro/galactic_ws/install/vrpn_client_ros' for CMake module files
+[0.766s] Level 1:colcon.colcon_core.environment:checking '/home/hidro/galactic_ws/install/vrpn_client_ros' for CMake config files
+[0.766s] Level 1:colcon.colcon_core.shell:create_environment_hook('vrpn_client_ros', 'cmake_prefix_path')
+[0.767s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hidro/galactic_ws/install/vrpn_client_ros/share/vrpn_client_ros/hook/cmake_prefix_path.ps1'
+[0.767s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hidro/galactic_ws/install/vrpn_client_ros/share/vrpn_client_ros/hook/cmake_prefix_path.dsv'
+[0.768s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hidro/galactic_ws/install/vrpn_client_ros/share/vrpn_client_ros/hook/cmake_prefix_path.sh'
+[0.768s] Level 1:colcon.colcon_core.environment:checking '/home/hidro/galactic_ws/install/vrpn_client_ros/lib'
+[0.768s] Level 1:colcon.colcon_core.environment:checking '/home/hidro/galactic_ws/install/vrpn_client_ros/bin'
+[0.768s] Level 1:colcon.colcon_core.environment:checking '/home/hidro/galactic_ws/install/vrpn_client_ros/lib/pkgconfig/vrpn_client_ros.pc'
+[0.769s] Level 1:colcon.colcon_core.environment:checking '/home/hidro/galactic_ws/install/vrpn_client_ros/lib/python3.8/site-packages'
+[0.769s] Level 1:colcon.colcon_core.environment:checking '/home/hidro/galactic_ws/install/vrpn_client_ros/bin'
+[0.770s] INFO:colcon.colcon_core.shell:Creating package script '/home/hidro/galactic_ws/install/vrpn_client_ros/share/vrpn_client_ros/package.ps1'
+[0.770s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hidro/galactic_ws/install/vrpn_client_ros/share/vrpn_client_ros/package.dsv'
+[0.771s] INFO:colcon.colcon_core.shell:Creating package script '/home/hidro/galactic_ws/install/vrpn_client_ros/share/vrpn_client_ros/package.sh'
+[0.771s] INFO:colcon.colcon_core.shell:Creating package script '/home/hidro/galactic_ws/install/vrpn_client_ros/share/vrpn_client_ros/package.bash'
+[0.771s] INFO:colcon.colcon_core.shell:Creating package script '/home/hidro/galactic_ws/install/vrpn_client_ros/share/vrpn_client_ros/package.zsh'
+[0.772s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hidro/galactic_ws/install/vrpn_client_ros/share/colcon-core/packages/vrpn_client_ros)
+[0.795s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hidro/galactic_ws/build/hidro_ros2_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/hidro/galactic_ws/build/hidro_ros2_utils
+[0.856s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hidro_ros2_utils)
+[0.859s] Level 1:colcon.colcon_core.environment:checking '/home/hidro/galactic_ws/install/hidro_ros2_utils' for CMake module files
+[0.860s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hidro/galactic_ws/build/hidro_ros2_utils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/hidro/galactic_ws/build/hidro_ros2_utils
+[0.860s] Level 1:colcon.colcon_core.environment:checking '/home/hidro/galactic_ws/install/hidro_ros2_utils' for CMake config files
+[0.861s] Level 1:colcon.colcon_core.shell:create_environment_hook('hidro_ros2_utils', 'cmake_prefix_path')
+[0.863s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hidro/galactic_ws/install/hidro_ros2_utils/share/hidro_ros2_utils/hook/cmake_prefix_path.ps1'
+[0.863s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hidro/galactic_ws/install/hidro_ros2_utils/share/hidro_ros2_utils/hook/cmake_prefix_path.dsv'
+[0.864s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hidro/galactic_ws/install/hidro_ros2_utils/share/hidro_ros2_utils/hook/cmake_prefix_path.sh'
+[0.864s] Level 1:colcon.colcon_core.environment:checking '/home/hidro/galactic_ws/install/hidro_ros2_utils/lib'
+[0.864s] Level 1:colcon.colcon_core.shell:create_environment_hook('hidro_ros2_utils', 'ld_library_path_lib')
+[0.866s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hidro/galactic_ws/install/hidro_ros2_utils/share/hidro_ros2_utils/hook/ld_library_path_lib.ps1'
+[0.866s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hidro/galactic_ws/install/hidro_ros2_utils/share/hidro_ros2_utils/hook/ld_library_path_lib.dsv'
+[0.866s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hidro/galactic_ws/install/hidro_ros2_utils/share/hidro_ros2_utils/hook/ld_library_path_lib.sh'
+[0.866s] Level 1:colcon.colcon_core.environment:checking '/home/hidro/galactic_ws/install/hidro_ros2_utils/bin'
+[0.867s] Level 1:colcon.colcon_core.environment:checking '/home/hidro/galactic_ws/install/hidro_ros2_utils/lib/pkgconfig/hidro_ros2_utils.pc'
+[0.867s] Level 1:colcon.colcon_core.environment:checking '/home/hidro/galactic_ws/install/hidro_ros2_utils/lib/python3.8/site-packages'
+[0.867s] Level 1:colcon.colcon_core.shell:create_environment_hook('hidro_ros2_utils', 'pythonpath')
+[0.868s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hidro/galactic_ws/install/hidro_ros2_utils/share/hidro_ros2_utils/hook/pythonpath.ps1'
+[0.868s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hidro/galactic_ws/install/hidro_ros2_utils/share/hidro_ros2_utils/hook/pythonpath.dsv'
+[0.868s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hidro/galactic_ws/install/hidro_ros2_utils/share/hidro_ros2_utils/hook/pythonpath.sh'
+[0.869s] Level 1:colcon.colcon_core.environment:checking '/home/hidro/galactic_ws/install/hidro_ros2_utils/bin'
+[0.870s] INFO:colcon.colcon_core.shell:Creating package script '/home/hidro/galactic_ws/install/hidro_ros2_utils/share/hidro_ros2_utils/package.ps1'
+[0.871s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hidro/galactic_ws/install/hidro_ros2_utils/share/hidro_ros2_utils/package.dsv'
+[0.871s] INFO:colcon.colcon_core.shell:Creating package script '/home/hidro/galactic_ws/install/hidro_ros2_utils/share/hidro_ros2_utils/package.sh'
+[0.872s] INFO:colcon.colcon_core.shell:Creating package script '/home/hidro/galactic_ws/install/hidro_ros2_utils/share/hidro_ros2_utils/package.bash'
+[0.872s] INFO:colcon.colcon_core.shell:Creating package script '/home/hidro/galactic_ws/install/hidro_ros2_utils/share/hidro_ros2_utils/package.zsh'
+[0.872s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hidro/galactic_ws/install/hidro_ros2_utils/share/colcon-core/packages/hidro_ros2_utils)
+[0.879s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hidro/galactic_ws/build/odri_ros2_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/hidro/galactic_ws/build/odri_ros2_interfaces
+[0.935s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hidro_ros2_utils)
+[0.938s] Level 1:colcon.colcon_core.environment:checking '/home/hidro/galactic_ws/install/hidro_ros2_utils' for CMake module files
+[0.942s] Level 1:colcon.colcon_core.environment:checking '/home/hidro/galactic_ws/install/hidro_ros2_utils' for CMake config files
+[0.945s] Level 1:colcon.colcon_core.shell:create_environment_hook('hidro_ros2_utils', 'cmake_prefix_path')
+[0.947s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hidro/galactic_ws/install/hidro_ros2_utils/share/hidro_ros2_utils/hook/cmake_prefix_path.ps1'
+[0.949s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hidro/galactic_ws/install/hidro_ros2_utils/share/hidro_ros2_utils/hook/cmake_prefix_path.dsv'
+[0.949s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hidro/galactic_ws/install/hidro_ros2_utils/share/hidro_ros2_utils/hook/cmake_prefix_path.sh'
+[0.950s] Level 1:colcon.colcon_core.environment:checking '/home/hidro/galactic_ws/install/hidro_ros2_utils/lib'
+[0.950s] Level 1:colcon.colcon_core.shell:create_environment_hook('hidro_ros2_utils', 'ld_library_path_lib')
+[0.952s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hidro/galactic_ws/install/hidro_ros2_utils/share/hidro_ros2_utils/hook/ld_library_path_lib.ps1'
+[0.952s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hidro/galactic_ws/install/hidro_ros2_utils/share/hidro_ros2_utils/hook/ld_library_path_lib.dsv'
+[0.953s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hidro/galactic_ws/install/hidro_ros2_utils/share/hidro_ros2_utils/hook/ld_library_path_lib.sh'
+[0.954s] Level 1:colcon.colcon_core.environment:checking '/home/hidro/galactic_ws/install/hidro_ros2_utils/bin'
+[0.954s] Level 1:colcon.colcon_core.environment:checking '/home/hidro/galactic_ws/install/hidro_ros2_utils/lib/pkgconfig/hidro_ros2_utils.pc'
+[0.954s] Level 1:colcon.colcon_core.environment:checking '/home/hidro/galactic_ws/install/hidro_ros2_utils/lib/python3.8/site-packages'
+[0.954s] Level 1:colcon.colcon_core.shell:create_environment_hook('hidro_ros2_utils', 'pythonpath')
+[0.955s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hidro/galactic_ws/install/hidro_ros2_utils/share/hidro_ros2_utils/hook/pythonpath.ps1'
+[0.956s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hidro/galactic_ws/install/hidro_ros2_utils/share/hidro_ros2_utils/hook/pythonpath.dsv'
+[0.956s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hidro/galactic_ws/install/hidro_ros2_utils/share/hidro_ros2_utils/hook/pythonpath.sh'
+[0.957s] Level 1:colcon.colcon_core.environment:checking '/home/hidro/galactic_ws/install/hidro_ros2_utils/bin'
+[0.959s] INFO:colcon.colcon_core.shell:Creating package script '/home/hidro/galactic_ws/install/hidro_ros2_utils/share/hidro_ros2_utils/package.ps1'
+[0.959s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hidro/galactic_ws/install/hidro_ros2_utils/share/hidro_ros2_utils/package.dsv'
+[0.960s] INFO:colcon.colcon_core.shell:Creating package script '/home/hidro/galactic_ws/install/hidro_ros2_utils/share/hidro_ros2_utils/package.sh'
+[0.961s] INFO:colcon.colcon_core.shell:Creating package script '/home/hidro/galactic_ws/install/hidro_ros2_utils/share/hidro_ros2_utils/package.bash'
+[0.962s] INFO:colcon.colcon_core.shell:Creating package script '/home/hidro/galactic_ws/install/hidro_ros2_utils/share/hidro_ros2_utils/package.zsh'
+[0.963s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hidro/galactic_ws/install/hidro_ros2_utils/share/colcon-core/packages/hidro_ros2_utils)
+[0.964s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(odri_ros2_interfaces)
+[0.968s] Level 1:colcon.colcon_core.environment:checking '/home/hidro/galactic_ws/install/odri_ros2_interfaces' for CMake module files
+[0.969s] Level 1:colcon.colcon_core.environment:checking '/home/hidro/galactic_ws/install/odri_ros2_interfaces' for CMake config files
+[0.971s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hidro/galactic_ws/build/odri_ros2_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/hidro/galactic_ws/build/odri_ros2_interfaces
+[0.971s] Level 1:colcon.colcon_core.shell:create_environment_hook('odri_ros2_interfaces', 'cmake_prefix_path')
+[0.972s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hidro/galactic_ws/install/odri_ros2_interfaces/share/odri_ros2_interfaces/hook/cmake_prefix_path.ps1'
+[0.972s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hidro/galactic_ws/install/odri_ros2_interfaces/share/odri_ros2_interfaces/hook/cmake_prefix_path.dsv'
+[0.973s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hidro/galactic_ws/install/odri_ros2_interfaces/share/odri_ros2_interfaces/hook/cmake_prefix_path.sh'
+[0.973s] Level 1:colcon.colcon_core.environment:checking '/home/hidro/galactic_ws/install/odri_ros2_interfaces/lib'
+[0.973s] Level 1:colcon.colcon_core.shell:create_environment_hook('odri_ros2_interfaces', 'ld_library_path_lib')
+[0.974s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hidro/galactic_ws/install/odri_ros2_interfaces/share/odri_ros2_interfaces/hook/ld_library_path_lib.ps1'
+[0.975s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hidro/galactic_ws/install/odri_ros2_interfaces/share/odri_ros2_interfaces/hook/ld_library_path_lib.dsv'
+[0.975s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hidro/galactic_ws/install/odri_ros2_interfaces/share/odri_ros2_interfaces/hook/ld_library_path_lib.sh'
+[0.975s] Level 1:colcon.colcon_core.environment:checking '/home/hidro/galactic_ws/install/odri_ros2_interfaces/bin'
+[0.975s] Level 1:colcon.colcon_core.environment:checking '/home/hidro/galactic_ws/install/odri_ros2_interfaces/lib/pkgconfig/odri_ros2_interfaces.pc'
+[0.976s] Level 1:colcon.colcon_core.environment:checking '/home/hidro/galactic_ws/install/odri_ros2_interfaces/lib/python3.8/site-packages'
+[0.976s] Level 1:colcon.colcon_core.shell:create_environment_hook('odri_ros2_interfaces', 'pythonpath')
+[0.977s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hidro/galactic_ws/install/odri_ros2_interfaces/share/odri_ros2_interfaces/hook/pythonpath.ps1'
+[0.977s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hidro/galactic_ws/install/odri_ros2_interfaces/share/odri_ros2_interfaces/hook/pythonpath.dsv'
+[0.977s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hidro/galactic_ws/install/odri_ros2_interfaces/share/odri_ros2_interfaces/hook/pythonpath.sh'
+[0.978s] Level 1:colcon.colcon_core.environment:checking '/home/hidro/galactic_ws/install/odri_ros2_interfaces/bin'
+[0.979s] INFO:colcon.colcon_core.shell:Creating package script '/home/hidro/galactic_ws/install/odri_ros2_interfaces/share/odri_ros2_interfaces/package.ps1'
+[0.980s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hidro/galactic_ws/install/odri_ros2_interfaces/share/odri_ros2_interfaces/package.dsv'
+[0.980s] INFO:colcon.colcon_core.shell:Creating package script '/home/hidro/galactic_ws/install/odri_ros2_interfaces/share/odri_ros2_interfaces/package.sh'
+[0.980s] INFO:colcon.colcon_core.shell:Creating package script '/home/hidro/galactic_ws/install/odri_ros2_interfaces/share/odri_ros2_interfaces/package.bash'
+[0.981s] INFO:colcon.colcon_core.shell:Creating package script '/home/hidro/galactic_ws/install/odri_ros2_interfaces/share/odri_ros2_interfaces/package.zsh'
+[0.981s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hidro/galactic_ws/install/odri_ros2_interfaces/share/colcon-core/packages/odri_ros2_interfaces)
+[1.111s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(odri_ros2_interfaces)
+[1.112s] Level 1:colcon.colcon_core.environment:checking '/home/hidro/galactic_ws/install/odri_ros2_interfaces' for CMake module files
+[1.113s] Level 1:colcon.colcon_core.environment:checking '/home/hidro/galactic_ws/install/odri_ros2_interfaces' for CMake config files
+[1.113s] Level 1:colcon.colcon_core.shell:create_environment_hook('odri_ros2_interfaces', 'cmake_prefix_path')
+[1.114s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hidro/galactic_ws/install/odri_ros2_interfaces/share/odri_ros2_interfaces/hook/cmake_prefix_path.ps1'
+[1.115s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hidro/galactic_ws/install/odri_ros2_interfaces/share/odri_ros2_interfaces/hook/cmake_prefix_path.dsv'
+[1.115s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hidro/galactic_ws/install/odri_ros2_interfaces/share/odri_ros2_interfaces/hook/cmake_prefix_path.sh'
+[1.116s] Level 1:colcon.colcon_core.environment:checking '/home/hidro/galactic_ws/install/odri_ros2_interfaces/lib'
+[1.116s] Level 1:colcon.colcon_core.shell:create_environment_hook('odri_ros2_interfaces', 'ld_library_path_lib')
+[1.117s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hidro/galactic_ws/install/odri_ros2_interfaces/share/odri_ros2_interfaces/hook/ld_library_path_lib.ps1'
+[1.117s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hidro/galactic_ws/install/odri_ros2_interfaces/share/odri_ros2_interfaces/hook/ld_library_path_lib.dsv'
+[1.117s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hidro/galactic_ws/install/odri_ros2_interfaces/share/odri_ros2_interfaces/hook/ld_library_path_lib.sh'
+[1.118s] Level 1:colcon.colcon_core.environment:checking '/home/hidro/galactic_ws/install/odri_ros2_interfaces/bin'
+[1.118s] Level 1:colcon.colcon_core.environment:checking '/home/hidro/galactic_ws/install/odri_ros2_interfaces/lib/pkgconfig/odri_ros2_interfaces.pc'
+[1.118s] Level 1:colcon.colcon_core.environment:checking '/home/hidro/galactic_ws/install/odri_ros2_interfaces/lib/python3.8/site-packages'
+[1.118s] Level 1:colcon.colcon_core.shell:create_environment_hook('odri_ros2_interfaces', 'pythonpath')
+[1.119s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hidro/galactic_ws/install/odri_ros2_interfaces/share/odri_ros2_interfaces/hook/pythonpath.ps1'
+[1.119s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hidro/galactic_ws/install/odri_ros2_interfaces/share/odri_ros2_interfaces/hook/pythonpath.dsv'
+[1.119s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hidro/galactic_ws/install/odri_ros2_interfaces/share/odri_ros2_interfaces/hook/pythonpath.sh'
+[1.120s] Level 1:colcon.colcon_core.environment:checking '/home/hidro/galactic_ws/install/odri_ros2_interfaces/bin'
+[1.121s] INFO:colcon.colcon_core.shell:Creating package script '/home/hidro/galactic_ws/install/odri_ros2_interfaces/share/odri_ros2_interfaces/package.ps1'
+[1.122s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hidro/galactic_ws/install/odri_ros2_interfaces/share/odri_ros2_interfaces/package.dsv'
+[1.122s] INFO:colcon.colcon_core.shell:Creating package script '/home/hidro/galactic_ws/install/odri_ros2_interfaces/share/odri_ros2_interfaces/package.sh'
+[1.122s] INFO:colcon.colcon_core.shell:Creating package script '/home/hidro/galactic_ws/install/odri_ros2_interfaces/share/odri_ros2_interfaces/package.bash'
+[1.123s] INFO:colcon.colcon_core.shell:Creating package script '/home/hidro/galactic_ws/install/odri_ros2_interfaces/share/odri_ros2_interfaces/package.zsh'
+[1.123s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hidro/galactic_ws/install/odri_ros2_interfaces/share/colcon-core/packages/odri_ros2_interfaces)
+[1.123s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/hidro/galactic_ws/src/odri_ros2/odri_ros2_hardware' with build type 'ament_cmake'
+[1.123s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/hidro/galactic_ws/src/odri_ros2/odri_ros2_hardware'
+[1.125s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.125s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.131s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/hidro/galactic_ws/src/odri_ros2/odri_ros2_gazebo' with build type 'ament_cmake'
+[1.132s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/hidro/galactic_ws/src/odri_ros2/odri_ros2_gazebo'
+[1.134s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.134s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.145s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hidro/galactic_ws/build/odri_ros2_hardware': CMAKE_PREFIX_PATH=/home/hidro/galactic_ws/install/odri_ros2_interfaces:/home/hidro/galactic_ws/install/hidro_ros2_utils:/home/hidro/galactic_ws/install/vrpn_client_ros:/home/hidro/galactic_ws/install/solo12_bringup:/home/hidro/galactic_ws/install/offline_trajectory_publisher_state_machine_interface:/home/hidro/galactic_ws/install/odri_ros2_examples:/home/hidro/galactic_ws/install/odri_ros2_hardware:/home/hidro/galactic_ws/install/odri_ros2_gazebo:/home/hidro/galactic_ws/install/hidro_robots:/opt/openrobots:/opt/openrobots:/opt/ros/galactic LD_LIBRARY_PATH=/home/hidro/galactic_ws/install/odri_ros2_interfaces/lib:/home/hidro/galactic_ws/install/hidro_ros2_utils/lib:/home/hidro/galactic_ws/install/odri_ros2_gazebo/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/opt/openrobots/lib:/usr/local/lib:/opt/openrobots/lib:/usr/local/lib PYTHONPATH=/home/hidro/galactic_ws/install/odri_ros2_interfaces/lib/python3.8/site-packages:/home/hidro/galactic_ws/install/hidro_ros2_utils/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages:/opt/openrobots/lib/python3.8/site-packages:/usr/local/lib/python3.8/site-packages:/opt/openrobots/lib/python3.8/site-packages:/usr/local/lib/python3.8/site-packages /usr/bin/cmake --build /home/hidro/galactic_ws/build/odri_ros2_hardware -- -j8 -l8
+[1.151s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hidro/galactic_ws/build/odri_ros2_gazebo': CMAKE_PREFIX_PATH=/home/hidro/galactic_ws/install/odri_ros2_interfaces:/home/hidro/galactic_ws/install/vrpn_client_ros:/home/hidro/galactic_ws/install/solo12_bringup:/home/hidro/galactic_ws/install/offline_trajectory_publisher_state_machine_interface:/home/hidro/galactic_ws/install/odri_ros2_examples:/home/hidro/galactic_ws/install/odri_ros2_hardware:/home/hidro/galactic_ws/install/odri_ros2_gazebo:/home/hidro/galactic_ws/install/hidro_ros2_utils:/home/hidro/galactic_ws/install/hidro_robots:/opt/openrobots:/opt/openrobots:/opt/ros/galactic LD_LIBRARY_PATH=/home/hidro/galactic_ws/install/odri_ros2_interfaces/lib:/home/hidro/galactic_ws/install/odri_ros2_gazebo/lib:/home/hidro/galactic_ws/install/hidro_ros2_utils/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/opt/openrobots/lib:/usr/local/lib:/opt/openrobots/lib:/usr/local/lib PYTHONPATH=/home/hidro/galactic_ws/install/odri_ros2_interfaces/lib/python3.8/site-packages:/home/hidro/galactic_ws/install/hidro_ros2_utils/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages:/opt/openrobots/lib/python3.8/site-packages:/usr/local/lib/python3.8/site-packages:/opt/openrobots/lib/python3.8/site-packages:/usr/local/lib/python3.8/site-packages /usr/bin/cmake --build /home/hidro/galactic_ws/build/odri_ros2_gazebo -- -j8 -l8
+[1.218s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hidro/galactic_ws/build/odri_ros2_hardware' returned '0': CMAKE_PREFIX_PATH=/home/hidro/galactic_ws/install/odri_ros2_interfaces:/home/hidro/galactic_ws/install/hidro_ros2_utils:/home/hidro/galactic_ws/install/vrpn_client_ros:/home/hidro/galactic_ws/install/solo12_bringup:/home/hidro/galactic_ws/install/offline_trajectory_publisher_state_machine_interface:/home/hidro/galactic_ws/install/odri_ros2_examples:/home/hidro/galactic_ws/install/odri_ros2_hardware:/home/hidro/galactic_ws/install/odri_ros2_gazebo:/home/hidro/galactic_ws/install/hidro_robots:/opt/openrobots:/opt/openrobots:/opt/ros/galactic LD_LIBRARY_PATH=/home/hidro/galactic_ws/install/odri_ros2_interfaces/lib:/home/hidro/galactic_ws/install/hidro_ros2_utils/lib:/home/hidro/galactic_ws/install/odri_ros2_gazebo/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/opt/openrobots/lib:/usr/local/lib:/opt/openrobots/lib:/usr/local/lib PYTHONPATH=/home/hidro/galactic_ws/install/odri_ros2_interfaces/lib/python3.8/site-packages:/home/hidro/galactic_ws/install/hidro_ros2_utils/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages:/opt/openrobots/lib/python3.8/site-packages:/usr/local/lib/python3.8/site-packages:/opt/openrobots/lib/python3.8/site-packages:/usr/local/lib/python3.8/site-packages /usr/bin/cmake --build /home/hidro/galactic_ws/build/odri_ros2_hardware -- -j8 -l8
+[1.240s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hidro/galactic_ws/build/odri_ros2_gazebo' returned '0': CMAKE_PREFIX_PATH=/home/hidro/galactic_ws/install/odri_ros2_interfaces:/home/hidro/galactic_ws/install/vrpn_client_ros:/home/hidro/galactic_ws/install/solo12_bringup:/home/hidro/galactic_ws/install/offline_trajectory_publisher_state_machine_interface:/home/hidro/galactic_ws/install/odri_ros2_examples:/home/hidro/galactic_ws/install/odri_ros2_hardware:/home/hidro/galactic_ws/install/odri_ros2_gazebo:/home/hidro/galactic_ws/install/hidro_ros2_utils:/home/hidro/galactic_ws/install/hidro_robots:/opt/openrobots:/opt/openrobots:/opt/ros/galactic LD_LIBRARY_PATH=/home/hidro/galactic_ws/install/odri_ros2_interfaces/lib:/home/hidro/galactic_ws/install/odri_ros2_gazebo/lib:/home/hidro/galactic_ws/install/hidro_ros2_utils/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/opt/openrobots/lib:/usr/local/lib:/opt/openrobots/lib:/usr/local/lib PYTHONPATH=/home/hidro/galactic_ws/install/odri_ros2_interfaces/lib/python3.8/site-packages:/home/hidro/galactic_ws/install/hidro_ros2_utils/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages:/opt/openrobots/lib/python3.8/site-packages:/usr/local/lib/python3.8/site-packages:/opt/openrobots/lib/python3.8/site-packages:/usr/local/lib/python3.8/site-packages /usr/bin/cmake --build /home/hidro/galactic_ws/build/odri_ros2_gazebo -- -j8 -l8
+[1.246s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hidro/galactic_ws/build/odri_ros2_hardware': CMAKE_PREFIX_PATH=/home/hidro/galactic_ws/install/odri_ros2_interfaces:/home/hidro/galactic_ws/install/hidro_ros2_utils:/home/hidro/galactic_ws/install/vrpn_client_ros:/home/hidro/galactic_ws/install/solo12_bringup:/home/hidro/galactic_ws/install/offline_trajectory_publisher_state_machine_interface:/home/hidro/galactic_ws/install/odri_ros2_examples:/home/hidro/galactic_ws/install/odri_ros2_hardware:/home/hidro/galactic_ws/install/odri_ros2_gazebo:/home/hidro/galactic_ws/install/hidro_robots:/opt/openrobots:/opt/openrobots:/opt/ros/galactic LD_LIBRARY_PATH=/home/hidro/galactic_ws/install/odri_ros2_interfaces/lib:/home/hidro/galactic_ws/install/hidro_ros2_utils/lib:/home/hidro/galactic_ws/install/odri_ros2_gazebo/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/opt/openrobots/lib:/usr/local/lib:/opt/openrobots/lib:/usr/local/lib PYTHONPATH=/home/hidro/galactic_ws/install/odri_ros2_interfaces/lib/python3.8/site-packages:/home/hidro/galactic_ws/install/hidro_ros2_utils/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages:/opt/openrobots/lib/python3.8/site-packages:/usr/local/lib/python3.8/site-packages:/opt/openrobots/lib/python3.8/site-packages:/usr/local/lib/python3.8/site-packages /usr/bin/cmake --install /home/hidro/galactic_ws/build/odri_ros2_hardware
+[1.259s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(odri_ros2_hardware)
+[1.262s] Level 1:colcon.colcon_core.environment:checking '/home/hidro/galactic_ws/install/odri_ros2_hardware' for CMake module files
+[1.264s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hidro/galactic_ws/build/odri_ros2_hardware' returned '0': CMAKE_PREFIX_PATH=/home/hidro/galactic_ws/install/odri_ros2_interfaces:/home/hidro/galactic_ws/install/hidro_ros2_utils:/home/hidro/galactic_ws/install/vrpn_client_ros:/home/hidro/galactic_ws/install/solo12_bringup:/home/hidro/galactic_ws/install/offline_trajectory_publisher_state_machine_interface:/home/hidro/galactic_ws/install/odri_ros2_examples:/home/hidro/galactic_ws/install/odri_ros2_hardware:/home/hidro/galactic_ws/install/odri_ros2_gazebo:/home/hidro/galactic_ws/install/hidro_robots:/opt/openrobots:/opt/openrobots:/opt/ros/galactic LD_LIBRARY_PATH=/home/hidro/galactic_ws/install/odri_ros2_interfaces/lib:/home/hidro/galactic_ws/install/hidro_ros2_utils/lib:/home/hidro/galactic_ws/install/odri_ros2_gazebo/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/opt/openrobots/lib:/usr/local/lib:/opt/openrobots/lib:/usr/local/lib PYTHONPATH=/home/hidro/galactic_ws/install/odri_ros2_interfaces/lib/python3.8/site-packages:/home/hidro/galactic_ws/install/hidro_ros2_utils/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages:/opt/openrobots/lib/python3.8/site-packages:/usr/local/lib/python3.8/site-packages:/opt/openrobots/lib/python3.8/site-packages:/usr/local/lib/python3.8/site-packages /usr/bin/cmake --install /home/hidro/galactic_ws/build/odri_ros2_hardware
+[1.264s] Level 1:colcon.colcon_core.environment:checking '/home/hidro/galactic_ws/install/odri_ros2_hardware' for CMake config files
+[1.264s] Level 1:colcon.colcon_core.shell:create_environment_hook('odri_ros2_hardware', 'cmake_prefix_path')
+[1.267s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hidro/galactic_ws/install/odri_ros2_hardware/share/odri_ros2_hardware/hook/cmake_prefix_path.ps1'
+[1.267s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hidro/galactic_ws/install/odri_ros2_hardware/share/odri_ros2_hardware/hook/cmake_prefix_path.dsv'
+[1.268s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hidro/galactic_ws/install/odri_ros2_hardware/share/odri_ros2_hardware/hook/cmake_prefix_path.sh'
+[1.268s] Level 1:colcon.colcon_core.environment:checking '/home/hidro/galactic_ws/install/odri_ros2_hardware/lib'
+[1.268s] Level 1:colcon.colcon_core.environment:checking '/home/hidro/galactic_ws/install/odri_ros2_hardware/bin'
+[1.268s] Level 1:colcon.colcon_core.environment:checking '/home/hidro/galactic_ws/install/odri_ros2_hardware/lib/pkgconfig/odri_ros2_hardware.pc'
+[1.269s] Level 1:colcon.colcon_core.environment:checking '/home/hidro/galactic_ws/install/odri_ros2_hardware/lib/python3.8/site-packages'
+[1.269s] Level 1:colcon.colcon_core.environment:checking '/home/hidro/galactic_ws/install/odri_ros2_hardware/bin'
+[1.270s] INFO:colcon.colcon_core.shell:Creating package script '/home/hidro/galactic_ws/install/odri_ros2_hardware/share/odri_ros2_hardware/package.ps1'
+[1.271s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hidro/galactic_ws/install/odri_ros2_hardware/share/odri_ros2_hardware/package.dsv'
+[1.271s] INFO:colcon.colcon_core.shell:Creating package script '/home/hidro/galactic_ws/install/odri_ros2_hardware/share/odri_ros2_hardware/package.sh'
+[1.271s] INFO:colcon.colcon_core.shell:Creating package script '/home/hidro/galactic_ws/install/odri_ros2_hardware/share/odri_ros2_hardware/package.bash'
+[1.272s] INFO:colcon.colcon_core.shell:Creating package script '/home/hidro/galactic_ws/install/odri_ros2_hardware/share/odri_ros2_hardware/package.zsh'
+[1.272s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hidro/galactic_ws/install/odri_ros2_hardware/share/colcon-core/packages/odri_ros2_hardware)
+[1.278s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hidro/galactic_ws/build/odri_ros2_gazebo': CMAKE_PREFIX_PATH=/home/hidro/galactic_ws/install/odri_ros2_interfaces:/home/hidro/galactic_ws/install/vrpn_client_ros:/home/hidro/galactic_ws/install/solo12_bringup:/home/hidro/galactic_ws/install/offline_trajectory_publisher_state_machine_interface:/home/hidro/galactic_ws/install/odri_ros2_examples:/home/hidro/galactic_ws/install/odri_ros2_hardware:/home/hidro/galactic_ws/install/odri_ros2_gazebo:/home/hidro/galactic_ws/install/hidro_ros2_utils:/home/hidro/galactic_ws/install/hidro_robots:/opt/openrobots:/opt/openrobots:/opt/ros/galactic LD_LIBRARY_PATH=/home/hidro/galactic_ws/install/odri_ros2_interfaces/lib:/home/hidro/galactic_ws/install/odri_ros2_gazebo/lib:/home/hidro/galactic_ws/install/hidro_ros2_utils/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/opt/openrobots/lib:/usr/local/lib:/opt/openrobots/lib:/usr/local/lib PYTHONPATH=/home/hidro/galactic_ws/install/odri_ros2_interfaces/lib/python3.8/site-packages:/home/hidro/galactic_ws/install/hidro_ros2_utils/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages:/opt/openrobots/lib/python3.8/site-packages:/usr/local/lib/python3.8/site-packages:/opt/openrobots/lib/python3.8/site-packages:/usr/local/lib/python3.8/site-packages /usr/bin/cmake --install /home/hidro/galactic_ws/build/odri_ros2_gazebo
+[1.290s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(odri_ros2_gazebo)
+[1.292s] Level 1:colcon.colcon_core.environment:checking '/home/hidro/galactic_ws/install/odri_ros2_gazebo' for CMake module files
+[1.294s] Level 1:colcon.colcon_core.environment:checking '/home/hidro/galactic_ws/install/odri_ros2_gazebo' for CMake config files
+[1.294s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hidro/galactic_ws/build/odri_ros2_gazebo' returned '0': CMAKE_PREFIX_PATH=/home/hidro/galactic_ws/install/odri_ros2_interfaces:/home/hidro/galactic_ws/install/vrpn_client_ros:/home/hidro/galactic_ws/install/solo12_bringup:/home/hidro/galactic_ws/install/offline_trajectory_publisher_state_machine_interface:/home/hidro/galactic_ws/install/odri_ros2_examples:/home/hidro/galactic_ws/install/odri_ros2_hardware:/home/hidro/galactic_ws/install/odri_ros2_gazebo:/home/hidro/galactic_ws/install/hidro_ros2_utils:/home/hidro/galactic_ws/install/hidro_robots:/opt/openrobots:/opt/openrobots:/opt/ros/galactic LD_LIBRARY_PATH=/home/hidro/galactic_ws/install/odri_ros2_interfaces/lib:/home/hidro/galactic_ws/install/odri_ros2_gazebo/lib:/home/hidro/galactic_ws/install/hidro_ros2_utils/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/opt/openrobots/lib:/usr/local/lib:/opt/openrobots/lib:/usr/local/lib PYTHONPATH=/home/hidro/galactic_ws/install/odri_ros2_interfaces/lib/python3.8/site-packages:/home/hidro/galactic_ws/install/hidro_ros2_utils/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages:/opt/openrobots/lib/python3.8/site-packages:/usr/local/lib/python3.8/site-packages:/opt/openrobots/lib/python3.8/site-packages:/usr/local/lib/python3.8/site-packages /usr/bin/cmake --install /home/hidro/galactic_ws/build/odri_ros2_gazebo
+[1.294s] Level 1:colcon.colcon_core.shell:create_environment_hook('odri_ros2_gazebo', 'cmake_prefix_path')
+[1.295s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hidro/galactic_ws/install/odri_ros2_gazebo/share/odri_ros2_gazebo/hook/cmake_prefix_path.ps1'
+[1.296s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hidro/galactic_ws/install/odri_ros2_gazebo/share/odri_ros2_gazebo/hook/cmake_prefix_path.dsv'
+[1.296s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hidro/galactic_ws/install/odri_ros2_gazebo/share/odri_ros2_gazebo/hook/cmake_prefix_path.sh'
+[1.297s] Level 1:colcon.colcon_core.environment:checking '/home/hidro/galactic_ws/install/odri_ros2_gazebo/lib'
+[1.297s] Level 1:colcon.colcon_core.shell:create_environment_hook('odri_ros2_gazebo', 'ld_library_path_lib')
+[1.298s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hidro/galactic_ws/install/odri_ros2_gazebo/share/odri_ros2_gazebo/hook/ld_library_path_lib.ps1'
+[1.298s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hidro/galactic_ws/install/odri_ros2_gazebo/share/odri_ros2_gazebo/hook/ld_library_path_lib.dsv'
+[1.299s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hidro/galactic_ws/install/odri_ros2_gazebo/share/odri_ros2_gazebo/hook/ld_library_path_lib.sh'
+[1.299s] Level 1:colcon.colcon_core.environment:checking '/home/hidro/galactic_ws/install/odri_ros2_gazebo/bin'
+[1.299s] Level 1:colcon.colcon_core.environment:checking '/home/hidro/galactic_ws/install/odri_ros2_gazebo/lib/pkgconfig/odri_ros2_gazebo.pc'
+[1.299s] Level 1:colcon.colcon_core.environment:checking '/home/hidro/galactic_ws/install/odri_ros2_gazebo/lib/python3.8/site-packages'
+[1.299s] Level 1:colcon.colcon_core.environment:checking '/home/hidro/galactic_ws/install/odri_ros2_gazebo/bin'
+[1.301s] INFO:colcon.colcon_core.shell:Creating package script '/home/hidro/galactic_ws/install/odri_ros2_gazebo/share/odri_ros2_gazebo/package.ps1'
+[1.301s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hidro/galactic_ws/install/odri_ros2_gazebo/share/odri_ros2_gazebo/package.dsv'
+[1.301s] INFO:colcon.colcon_core.shell:Creating package script '/home/hidro/galactic_ws/install/odri_ros2_gazebo/share/odri_ros2_gazebo/package.sh'
+[1.302s] INFO:colcon.colcon_core.shell:Creating package script '/home/hidro/galactic_ws/install/odri_ros2_gazebo/share/odri_ros2_gazebo/package.bash'
+[1.302s] INFO:colcon.colcon_core.shell:Creating package script '/home/hidro/galactic_ws/install/odri_ros2_gazebo/share/odri_ros2_gazebo/package.zsh'
+[1.302s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hidro/galactic_ws/install/odri_ros2_gazebo/share/colcon-core/packages/odri_ros2_gazebo)
+[1.307s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(odri_ros2_hardware)
+[1.309s] Level 1:colcon.colcon_core.environment:checking '/home/hidro/galactic_ws/install/odri_ros2_hardware' for CMake module files
+[1.309s] Level 1:colcon.colcon_core.environment:checking '/home/hidro/galactic_ws/install/odri_ros2_hardware' for CMake config files
+[1.310s] Level 1:colcon.colcon_core.shell:create_environment_hook('odri_ros2_hardware', 'cmake_prefix_path')
+[1.311s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hidro/galactic_ws/install/odri_ros2_hardware/share/odri_ros2_hardware/hook/cmake_prefix_path.ps1'
+[1.311s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hidro/galactic_ws/install/odri_ros2_hardware/share/odri_ros2_hardware/hook/cmake_prefix_path.dsv'
+[1.312s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hidro/galactic_ws/install/odri_ros2_hardware/share/odri_ros2_hardware/hook/cmake_prefix_path.sh'
+[1.312s] Level 1:colcon.colcon_core.environment:checking '/home/hidro/galactic_ws/install/odri_ros2_hardware/lib'
+[1.312s] Level 1:colcon.colcon_core.environment:checking '/home/hidro/galactic_ws/install/odri_ros2_hardware/bin'
+[1.312s] Level 1:colcon.colcon_core.environment:checking '/home/hidro/galactic_ws/install/odri_ros2_hardware/lib/pkgconfig/odri_ros2_hardware.pc'
+[1.313s] Level 1:colcon.colcon_core.environment:checking '/home/hidro/galactic_ws/install/odri_ros2_hardware/lib/python3.8/site-packages'
+[1.313s] Level 1:colcon.colcon_core.environment:checking '/home/hidro/galactic_ws/install/odri_ros2_hardware/bin'
+[1.314s] INFO:colcon.colcon_core.shell:Creating package script '/home/hidro/galactic_ws/install/odri_ros2_hardware/share/odri_ros2_hardware/package.ps1'
+[1.314s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hidro/galactic_ws/install/odri_ros2_hardware/share/odri_ros2_hardware/package.dsv'
+[1.315s] INFO:colcon.colcon_core.shell:Creating package script '/home/hidro/galactic_ws/install/odri_ros2_hardware/share/odri_ros2_hardware/package.sh'
+[1.315s] INFO:colcon.colcon_core.shell:Creating package script '/home/hidro/galactic_ws/install/odri_ros2_hardware/share/odri_ros2_hardware/package.bash'
+[1.315s] INFO:colcon.colcon_core.shell:Creating package script '/home/hidro/galactic_ws/install/odri_ros2_hardware/share/odri_ros2_hardware/package.zsh'
+[1.316s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hidro/galactic_ws/install/odri_ros2_hardware/share/colcon-core/packages/odri_ros2_hardware)
+[1.316s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/hidro/galactic_ws/src/offline_trajectory_publisher' with build type 'ament_cmake'
+[1.316s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/hidro/galactic_ws/src/offline_trajectory_publisher'
+[1.318s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.318s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.329s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(odri_ros2_gazebo)
+[1.331s] Level 1:colcon.colcon_core.environment:checking '/home/hidro/galactic_ws/install/odri_ros2_gazebo' for CMake module files
+[1.332s] Level 1:colcon.colcon_core.environment:checking '/home/hidro/galactic_ws/install/odri_ros2_gazebo' for CMake config files
+[1.332s] Level 1:colcon.colcon_core.shell:create_environment_hook('odri_ros2_gazebo', 'cmake_prefix_path')
+[1.333s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hidro/galactic_ws/install/odri_ros2_gazebo/share/odri_ros2_gazebo/hook/cmake_prefix_path.ps1'
+[1.334s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hidro/galactic_ws/install/odri_ros2_gazebo/share/odri_ros2_gazebo/hook/cmake_prefix_path.dsv'
+[1.334s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hidro/galactic_ws/install/odri_ros2_gazebo/share/odri_ros2_gazebo/hook/cmake_prefix_path.sh'
+[1.334s] Level 1:colcon.colcon_core.environment:checking '/home/hidro/galactic_ws/install/odri_ros2_gazebo/lib'
+[1.334s] Level 1:colcon.colcon_core.shell:create_environment_hook('odri_ros2_gazebo', 'ld_library_path_lib')
+[1.335s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hidro/galactic_ws/install/odri_ros2_gazebo/share/odri_ros2_gazebo/hook/ld_library_path_lib.ps1'
+[1.336s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hidro/galactic_ws/install/odri_ros2_gazebo/share/odri_ros2_gazebo/hook/ld_library_path_lib.dsv'
+[1.336s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hidro/galactic_ws/install/odri_ros2_gazebo/share/odri_ros2_gazebo/hook/ld_library_path_lib.sh'
+[1.336s] Level 1:colcon.colcon_core.environment:checking '/home/hidro/galactic_ws/install/odri_ros2_gazebo/bin'
+[1.336s] Level 1:colcon.colcon_core.environment:checking '/home/hidro/galactic_ws/install/odri_ros2_gazebo/lib/pkgconfig/odri_ros2_gazebo.pc'
+[1.337s] Level 1:colcon.colcon_core.environment:checking '/home/hidro/galactic_ws/install/odri_ros2_gazebo/lib/python3.8/site-packages'
+[1.337s] Level 1:colcon.colcon_core.environment:checking '/home/hidro/galactic_ws/install/odri_ros2_gazebo/bin'
+[1.338s] INFO:colcon.colcon_core.shell:Creating package script '/home/hidro/galactic_ws/install/odri_ros2_gazebo/share/odri_ros2_gazebo/package.ps1'
+[1.339s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hidro/galactic_ws/install/odri_ros2_gazebo/share/odri_ros2_gazebo/package.dsv'
+[1.339s] INFO:colcon.colcon_core.shell:Creating package script '/home/hidro/galactic_ws/install/odri_ros2_gazebo/share/odri_ros2_gazebo/package.sh'
+[1.339s] INFO:colcon.colcon_core.shell:Creating package script '/home/hidro/galactic_ws/install/odri_ros2_gazebo/share/odri_ros2_gazebo/package.bash'
+[1.340s] INFO:colcon.colcon_core.shell:Creating package script '/home/hidro/galactic_ws/install/odri_ros2_gazebo/share/odri_ros2_gazebo/package.zsh'
+[1.340s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hidro/galactic_ws/install/odri_ros2_gazebo/share/colcon-core/packages/odri_ros2_gazebo)
+[1.340s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/hidro/galactic_ws/src/odri_ros2/odri_ros2_examples' with build type 'ament_cmake'
+[1.341s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/hidro/galactic_ws/src/odri_ros2/odri_ros2_examples'
+[1.342s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.342s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.353s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hidro/galactic_ws/build/offline_trajectory_publisher_state_machine_interface': CMAKE_PREFIX_PATH=/home/hidro/galactic_ws/install/odri_ros2_hardware:/home/hidro/galactic_ws/install/odri_ros2_interfaces:/home/hidro/galactic_ws/install/hidro_ros2_utils:/home/hidro/galactic_ws/install/vrpn_client_ros:/home/hidro/galactic_ws/install/solo12_bringup:/home/hidro/galactic_ws/install/offline_trajectory_publisher_state_machine_interface:/home/hidro/galactic_ws/install/odri_ros2_examples:/home/hidro/galactic_ws/install/odri_ros2_gazebo:/home/hidro/galactic_ws/install/hidro_robots:/opt/openrobots:/opt/openrobots:/opt/ros/galactic LD_LIBRARY_PATH=/home/hidro/galactic_ws/install/odri_ros2_interfaces/lib:/home/hidro/galactic_ws/install/hidro_ros2_utils/lib:/home/hidro/galactic_ws/install/odri_ros2_gazebo/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/opt/openrobots/lib:/usr/local/lib:/opt/openrobots/lib:/usr/local/lib PYTHONPATH=/home/hidro/galactic_ws/install/odri_ros2_interfaces/lib/python3.8/site-packages:/home/hidro/galactic_ws/install/hidro_ros2_utils/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages:/opt/openrobots/lib/python3.8/site-packages:/usr/local/lib/python3.8/site-packages:/opt/openrobots/lib/python3.8/site-packages:/usr/local/lib/python3.8/site-packages /usr/bin/cmake --build /home/hidro/galactic_ws/build/offline_trajectory_publisher_state_machine_interface -- -j8 -l8
+[1.360s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hidro/galactic_ws/build/odri_ros2_examples': CMAKE_PREFIX_PATH=/home/hidro/galactic_ws/install/odri_ros2_hardware:/home/hidro/galactic_ws/install/odri_ros2_gazebo:/home/hidro/galactic_ws/install/odri_ros2_interfaces:/home/hidro/galactic_ws/install/hidro_ros2_utils:/home/hidro/galactic_ws/install/vrpn_client_ros:/home/hidro/galactic_ws/install/solo12_bringup:/home/hidro/galactic_ws/install/offline_trajectory_publisher_state_machine_interface:/home/hidro/galactic_ws/install/odri_ros2_examples:/home/hidro/galactic_ws/install/hidro_robots:/opt/openrobots:/opt/openrobots:/opt/ros/galactic LD_LIBRARY_PATH=/home/hidro/galactic_ws/install/odri_ros2_gazebo/lib:/home/hidro/galactic_ws/install/odri_ros2_interfaces/lib:/home/hidro/galactic_ws/install/hidro_ros2_utils/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/opt/openrobots/lib:/usr/local/lib:/opt/openrobots/lib:/usr/local/lib PYTHONPATH=/home/hidro/galactic_ws/install/odri_ros2_interfaces/lib/python3.8/site-packages:/home/hidro/galactic_ws/install/hidro_ros2_utils/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages:/opt/openrobots/lib/python3.8/site-packages:/usr/local/lib/python3.8/site-packages:/opt/openrobots/lib/python3.8/site-packages:/usr/local/lib/python3.8/site-packages /usr/bin/cmake --build /home/hidro/galactic_ws/build/odri_ros2_examples -- -j8 -l8
+[1.432s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hidro/galactic_ws/build/odri_ros2_examples' returned '0': CMAKE_PREFIX_PATH=/home/hidro/galactic_ws/install/odri_ros2_hardware:/home/hidro/galactic_ws/install/odri_ros2_gazebo:/home/hidro/galactic_ws/install/odri_ros2_interfaces:/home/hidro/galactic_ws/install/hidro_ros2_utils:/home/hidro/galactic_ws/install/vrpn_client_ros:/home/hidro/galactic_ws/install/solo12_bringup:/home/hidro/galactic_ws/install/offline_trajectory_publisher_state_machine_interface:/home/hidro/galactic_ws/install/odri_ros2_examples:/home/hidro/galactic_ws/install/hidro_robots:/opt/openrobots:/opt/openrobots:/opt/ros/galactic LD_LIBRARY_PATH=/home/hidro/galactic_ws/install/odri_ros2_gazebo/lib:/home/hidro/galactic_ws/install/odri_ros2_interfaces/lib:/home/hidro/galactic_ws/install/hidro_ros2_utils/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/opt/openrobots/lib:/usr/local/lib:/opt/openrobots/lib:/usr/local/lib PYTHONPATH=/home/hidro/galactic_ws/install/odri_ros2_interfaces/lib/python3.8/site-packages:/home/hidro/galactic_ws/install/hidro_ros2_utils/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages:/opt/openrobots/lib/python3.8/site-packages:/usr/local/lib/python3.8/site-packages:/opt/openrobots/lib/python3.8/site-packages:/usr/local/lib/python3.8/site-packages /usr/bin/cmake --build /home/hidro/galactic_ws/build/odri_ros2_examples -- -j8 -l8
+[1.460s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hidro/galactic_ws/build/odri_ros2_examples': CMAKE_PREFIX_PATH=/home/hidro/galactic_ws/install/odri_ros2_hardware:/home/hidro/galactic_ws/install/odri_ros2_gazebo:/home/hidro/galactic_ws/install/odri_ros2_interfaces:/home/hidro/galactic_ws/install/hidro_ros2_utils:/home/hidro/galactic_ws/install/vrpn_client_ros:/home/hidro/galactic_ws/install/solo12_bringup:/home/hidro/galactic_ws/install/offline_trajectory_publisher_state_machine_interface:/home/hidro/galactic_ws/install/odri_ros2_examples:/home/hidro/galactic_ws/install/hidro_robots:/opt/openrobots:/opt/openrobots:/opt/ros/galactic LD_LIBRARY_PATH=/home/hidro/galactic_ws/install/odri_ros2_gazebo/lib:/home/hidro/galactic_ws/install/odri_ros2_interfaces/lib:/home/hidro/galactic_ws/install/hidro_ros2_utils/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/opt/openrobots/lib:/usr/local/lib:/opt/openrobots/lib:/usr/local/lib PYTHONPATH=/home/hidro/galactic_ws/install/odri_ros2_interfaces/lib/python3.8/site-packages:/home/hidro/galactic_ws/install/hidro_ros2_utils/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages:/opt/openrobots/lib/python3.8/site-packages:/usr/local/lib/python3.8/site-packages:/opt/openrobots/lib/python3.8/site-packages:/usr/local/lib/python3.8/site-packages /usr/bin/cmake --install /home/hidro/galactic_ws/build/odri_ros2_examples
+[1.472s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(odri_ros2_examples)
+[1.474s] Level 1:colcon.colcon_core.environment:checking '/home/hidro/galactic_ws/install/odri_ros2_examples' for CMake module files
+[1.475s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hidro/galactic_ws/build/odri_ros2_examples' returned '0': CMAKE_PREFIX_PATH=/home/hidro/galactic_ws/install/odri_ros2_hardware:/home/hidro/galactic_ws/install/odri_ros2_gazebo:/home/hidro/galactic_ws/install/odri_ros2_interfaces:/home/hidro/galactic_ws/install/hidro_ros2_utils:/home/hidro/galactic_ws/install/vrpn_client_ros:/home/hidro/galactic_ws/install/solo12_bringup:/home/hidro/galactic_ws/install/offline_trajectory_publisher_state_machine_interface:/home/hidro/galactic_ws/install/odri_ros2_examples:/home/hidro/galactic_ws/install/hidro_robots:/opt/openrobots:/opt/openrobots:/opt/ros/galactic LD_LIBRARY_PATH=/home/hidro/galactic_ws/install/odri_ros2_gazebo/lib:/home/hidro/galactic_ws/install/odri_ros2_interfaces/lib:/home/hidro/galactic_ws/install/hidro_ros2_utils/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/opt/openrobots/lib:/usr/local/lib:/opt/openrobots/lib:/usr/local/lib PYTHONPATH=/home/hidro/galactic_ws/install/odri_ros2_interfaces/lib/python3.8/site-packages:/home/hidro/galactic_ws/install/hidro_ros2_utils/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages:/opt/openrobots/lib/python3.8/site-packages:/usr/local/lib/python3.8/site-packages:/opt/openrobots/lib/python3.8/site-packages:/usr/local/lib/python3.8/site-packages /usr/bin/cmake --install /home/hidro/galactic_ws/build/odri_ros2_examples
+[1.475s] Level 1:colcon.colcon_core.environment:checking '/home/hidro/galactic_ws/install/odri_ros2_examples' for CMake config files
+[1.475s] Level 1:colcon.colcon_core.shell:create_environment_hook('odri_ros2_examples', 'cmake_prefix_path')
+[1.478s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hidro/galactic_ws/install/odri_ros2_examples/share/odri_ros2_examples/hook/cmake_prefix_path.ps1'
+[1.478s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hidro/galactic_ws/install/odri_ros2_examples/share/odri_ros2_examples/hook/cmake_prefix_path.dsv'
+[1.479s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hidro/galactic_ws/install/odri_ros2_examples/share/odri_ros2_examples/hook/cmake_prefix_path.sh'
+[1.479s] Level 1:colcon.colcon_core.environment:checking '/home/hidro/galactic_ws/install/odri_ros2_examples/lib'
+[1.479s] Level 1:colcon.colcon_core.environment:checking '/home/hidro/galactic_ws/install/odri_ros2_examples/bin'
+[1.479s] Level 1:colcon.colcon_core.environment:checking '/home/hidro/galactic_ws/install/odri_ros2_examples/lib/pkgconfig/odri_ros2_examples.pc'
+[1.480s] Level 1:colcon.colcon_core.environment:checking '/home/hidro/galactic_ws/install/odri_ros2_examples/lib/python3.8/site-packages'
+[1.480s] Level 1:colcon.colcon_core.environment:checking '/home/hidro/galactic_ws/install/odri_ros2_examples/bin'
+[1.481s] INFO:colcon.colcon_core.shell:Creating package script '/home/hidro/galactic_ws/install/odri_ros2_examples/share/odri_ros2_examples/package.ps1'
+[1.482s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hidro/galactic_ws/install/odri_ros2_examples/share/odri_ros2_examples/package.dsv'
+[1.482s] INFO:colcon.colcon_core.shell:Creating package script '/home/hidro/galactic_ws/install/odri_ros2_examples/share/odri_ros2_examples/package.sh'
+[1.482s] INFO:colcon.colcon_core.shell:Creating package script '/home/hidro/galactic_ws/install/odri_ros2_examples/share/odri_ros2_examples/package.bash'
+[1.483s] INFO:colcon.colcon_core.shell:Creating package script '/home/hidro/galactic_ws/install/odri_ros2_examples/share/odri_ros2_examples/package.zsh'
+[1.483s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hidro/galactic_ws/install/odri_ros2_examples/share/colcon-core/packages/odri_ros2_examples)
+[1.508s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(odri_ros2_examples)
+[1.510s] Level 1:colcon.colcon_core.environment:checking '/home/hidro/galactic_ws/install/odri_ros2_examples' for CMake module files
+[1.510s] Level 1:colcon.colcon_core.environment:checking '/home/hidro/galactic_ws/install/odri_ros2_examples' for CMake config files
+[1.510s] Level 1:colcon.colcon_core.shell:create_environment_hook('odri_ros2_examples', 'cmake_prefix_path')
+[1.511s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hidro/galactic_ws/install/odri_ros2_examples/share/odri_ros2_examples/hook/cmake_prefix_path.ps1'
+[1.512s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hidro/galactic_ws/install/odri_ros2_examples/share/odri_ros2_examples/hook/cmake_prefix_path.dsv'
+[1.512s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hidro/galactic_ws/install/odri_ros2_examples/share/odri_ros2_examples/hook/cmake_prefix_path.sh'
+[1.512s] Level 1:colcon.colcon_core.environment:checking '/home/hidro/galactic_ws/install/odri_ros2_examples/lib'
+[1.513s] Level 1:colcon.colcon_core.environment:checking '/home/hidro/galactic_ws/install/odri_ros2_examples/bin'
+[1.513s] Level 1:colcon.colcon_core.environment:checking '/home/hidro/galactic_ws/install/odri_ros2_examples/lib/pkgconfig/odri_ros2_examples.pc'
+[1.513s] Level 1:colcon.colcon_core.environment:checking '/home/hidro/galactic_ws/install/odri_ros2_examples/lib/python3.8/site-packages'
+[1.513s] Level 1:colcon.colcon_core.environment:checking '/home/hidro/galactic_ws/install/odri_ros2_examples/bin'
+[1.514s] INFO:colcon.colcon_core.shell:Creating package script '/home/hidro/galactic_ws/install/odri_ros2_examples/share/odri_ros2_examples/package.ps1'
+[1.515s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hidro/galactic_ws/install/odri_ros2_examples/share/odri_ros2_examples/package.dsv'
+[1.515s] INFO:colcon.colcon_core.shell:Creating package script '/home/hidro/galactic_ws/install/odri_ros2_examples/share/odri_ros2_examples/package.sh'
+[1.515s] INFO:colcon.colcon_core.shell:Creating package script '/home/hidro/galactic_ws/install/odri_ros2_examples/share/odri_ros2_examples/package.bash'
+[1.516s] INFO:colcon.colcon_core.shell:Creating package script '/home/hidro/galactic_ws/install/odri_ros2_examples/share/odri_ros2_examples/package.zsh'
+[1.516s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hidro/galactic_ws/install/odri_ros2_examples/share/colcon-core/packages/odri_ros2_examples)
+[7.361s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hidro/galactic_ws/build/offline_trajectory_publisher_state_machine_interface' returned '0': CMAKE_PREFIX_PATH=/home/hidro/galactic_ws/install/odri_ros2_hardware:/home/hidro/galactic_ws/install/odri_ros2_interfaces:/home/hidro/galactic_ws/install/hidro_ros2_utils:/home/hidro/galactic_ws/install/vrpn_client_ros:/home/hidro/galactic_ws/install/solo12_bringup:/home/hidro/galactic_ws/install/offline_trajectory_publisher_state_machine_interface:/home/hidro/galactic_ws/install/odri_ros2_examples:/home/hidro/galactic_ws/install/odri_ros2_gazebo:/home/hidro/galactic_ws/install/hidro_robots:/opt/openrobots:/opt/openrobots:/opt/ros/galactic LD_LIBRARY_PATH=/home/hidro/galactic_ws/install/odri_ros2_interfaces/lib:/home/hidro/galactic_ws/install/hidro_ros2_utils/lib:/home/hidro/galactic_ws/install/odri_ros2_gazebo/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/opt/openrobots/lib:/usr/local/lib:/opt/openrobots/lib:/usr/local/lib PYTHONPATH=/home/hidro/galactic_ws/install/odri_ros2_interfaces/lib/python3.8/site-packages:/home/hidro/galactic_ws/install/hidro_ros2_utils/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages:/opt/openrobots/lib/python3.8/site-packages:/usr/local/lib/python3.8/site-packages:/opt/openrobots/lib/python3.8/site-packages:/usr/local/lib/python3.8/site-packages /usr/bin/cmake --build /home/hidro/galactic_ws/build/offline_trajectory_publisher_state_machine_interface -- -j8 -l8
+[7.390s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hidro/galactic_ws/build/offline_trajectory_publisher_state_machine_interface': CMAKE_PREFIX_PATH=/home/hidro/galactic_ws/install/odri_ros2_hardware:/home/hidro/galactic_ws/install/odri_ros2_interfaces:/home/hidro/galactic_ws/install/hidro_ros2_utils:/home/hidro/galactic_ws/install/vrpn_client_ros:/home/hidro/galactic_ws/install/solo12_bringup:/home/hidro/galactic_ws/install/offline_trajectory_publisher_state_machine_interface:/home/hidro/galactic_ws/install/odri_ros2_examples:/home/hidro/galactic_ws/install/odri_ros2_gazebo:/home/hidro/galactic_ws/install/hidro_robots:/opt/openrobots:/opt/openrobots:/opt/ros/galactic LD_LIBRARY_PATH=/home/hidro/galactic_ws/install/odri_ros2_interfaces/lib:/home/hidro/galactic_ws/install/hidro_ros2_utils/lib:/home/hidro/galactic_ws/install/odri_ros2_gazebo/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/opt/openrobots/lib:/usr/local/lib:/opt/openrobots/lib:/usr/local/lib PYTHONPATH=/home/hidro/galactic_ws/install/odri_ros2_interfaces/lib/python3.8/site-packages:/home/hidro/galactic_ws/install/hidro_ros2_utils/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages:/opt/openrobots/lib/python3.8/site-packages:/usr/local/lib/python3.8/site-packages:/opt/openrobots/lib/python3.8/site-packages:/usr/local/lib/python3.8/site-packages /usr/bin/cmake --install /home/hidro/galactic_ws/build/offline_trajectory_publisher_state_machine_interface
+[7.404s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(offline_trajectory_publisher_state_machine_interface)
+[7.406s] Level 1:colcon.colcon_core.environment:checking '/home/hidro/galactic_ws/install/offline_trajectory_publisher_state_machine_interface' for CMake module files
+[7.407s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hidro/galactic_ws/build/offline_trajectory_publisher_state_machine_interface' returned '0': CMAKE_PREFIX_PATH=/home/hidro/galactic_ws/install/odri_ros2_hardware:/home/hidro/galactic_ws/install/odri_ros2_interfaces:/home/hidro/galactic_ws/install/hidro_ros2_utils:/home/hidro/galactic_ws/install/vrpn_client_ros:/home/hidro/galactic_ws/install/solo12_bringup:/home/hidro/galactic_ws/install/offline_trajectory_publisher_state_machine_interface:/home/hidro/galactic_ws/install/odri_ros2_examples:/home/hidro/galactic_ws/install/odri_ros2_gazebo:/home/hidro/galactic_ws/install/hidro_robots:/opt/openrobots:/opt/openrobots:/opt/ros/galactic LD_LIBRARY_PATH=/home/hidro/galactic_ws/install/odri_ros2_interfaces/lib:/home/hidro/galactic_ws/install/hidro_ros2_utils/lib:/home/hidro/galactic_ws/install/odri_ros2_gazebo/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/opt/openrobots/lib:/usr/local/lib:/opt/openrobots/lib:/usr/local/lib PYTHONPATH=/home/hidro/galactic_ws/install/odri_ros2_interfaces/lib/python3.8/site-packages:/home/hidro/galactic_ws/install/hidro_ros2_utils/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages:/opt/openrobots/lib/python3.8/site-packages:/usr/local/lib/python3.8/site-packages:/opt/openrobots/lib/python3.8/site-packages:/usr/local/lib/python3.8/site-packages /usr/bin/cmake --install /home/hidro/galactic_ws/build/offline_trajectory_publisher_state_machine_interface
+[7.407s] Level 1:colcon.colcon_core.environment:checking '/home/hidro/galactic_ws/install/offline_trajectory_publisher_state_machine_interface' for CMake config files
+[7.408s] Level 1:colcon.colcon_core.shell:create_environment_hook('offline_trajectory_publisher_state_machine_interface', 'cmake_prefix_path')
+[7.409s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hidro/galactic_ws/install/offline_trajectory_publisher_state_machine_interface/share/offline_trajectory_publisher_state_machine_interface/hook/cmake_prefix_path.ps1'
+[7.411s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hidro/galactic_ws/install/offline_trajectory_publisher_state_machine_interface/share/offline_trajectory_publisher_state_machine_interface/hook/cmake_prefix_path.dsv'
+[7.411s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hidro/galactic_ws/install/offline_trajectory_publisher_state_machine_interface/share/offline_trajectory_publisher_state_machine_interface/hook/cmake_prefix_path.sh'
+[7.412s] Level 1:colcon.colcon_core.environment:checking '/home/hidro/galactic_ws/install/offline_trajectory_publisher_state_machine_interface/lib'
+[7.412s] Level 1:colcon.colcon_core.environment:checking '/home/hidro/galactic_ws/install/offline_trajectory_publisher_state_machine_interface/bin'
+[7.412s] Level 1:colcon.colcon_core.environment:checking '/home/hidro/galactic_ws/install/offline_trajectory_publisher_state_machine_interface/lib/pkgconfig/offline_trajectory_publisher_state_machine_interface.pc'
+[7.412s] Level 1:colcon.colcon_core.environment:checking '/home/hidro/galactic_ws/install/offline_trajectory_publisher_state_machine_interface/lib/python3.8/site-packages'
+[7.412s] Level 1:colcon.colcon_core.environment:checking '/home/hidro/galactic_ws/install/offline_trajectory_publisher_state_machine_interface/bin'
+[7.414s] INFO:colcon.colcon_core.shell:Creating package script '/home/hidro/galactic_ws/install/offline_trajectory_publisher_state_machine_interface/share/offline_trajectory_publisher_state_machine_interface/package.ps1'
+[7.414s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hidro/galactic_ws/install/offline_trajectory_publisher_state_machine_interface/share/offline_trajectory_publisher_state_machine_interface/package.dsv'
+[7.414s] INFO:colcon.colcon_core.shell:Creating package script '/home/hidro/galactic_ws/install/offline_trajectory_publisher_state_machine_interface/share/offline_trajectory_publisher_state_machine_interface/package.sh'
+[7.415s] INFO:colcon.colcon_core.shell:Creating package script '/home/hidro/galactic_ws/install/offline_trajectory_publisher_state_machine_interface/share/offline_trajectory_publisher_state_machine_interface/package.bash'
+[7.415s] INFO:colcon.colcon_core.shell:Creating package script '/home/hidro/galactic_ws/install/offline_trajectory_publisher_state_machine_interface/share/offline_trajectory_publisher_state_machine_interface/package.zsh'
+[7.415s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hidro/galactic_ws/install/offline_trajectory_publisher_state_machine_interface/share/colcon-core/packages/offline_trajectory_publisher_state_machine_interface)
+[7.445s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(offline_trajectory_publisher_state_machine_interface)
+[7.449s] Level 1:colcon.colcon_core.environment:checking '/home/hidro/galactic_ws/install/offline_trajectory_publisher_state_machine_interface' for CMake module files
+[7.450s] Level 1:colcon.colcon_core.environment:checking '/home/hidro/galactic_ws/install/offline_trajectory_publisher_state_machine_interface' for CMake config files
+[7.450s] Level 1:colcon.colcon_core.shell:create_environment_hook('offline_trajectory_publisher_state_machine_interface', 'cmake_prefix_path')
+[7.452s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hidro/galactic_ws/install/offline_trajectory_publisher_state_machine_interface/share/offline_trajectory_publisher_state_machine_interface/hook/cmake_prefix_path.ps1'
+[7.453s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hidro/galactic_ws/install/offline_trajectory_publisher_state_machine_interface/share/offline_trajectory_publisher_state_machine_interface/hook/cmake_prefix_path.dsv'
+[7.453s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hidro/galactic_ws/install/offline_trajectory_publisher_state_machine_interface/share/offline_trajectory_publisher_state_machine_interface/hook/cmake_prefix_path.sh'
+[7.454s] Level 1:colcon.colcon_core.environment:checking '/home/hidro/galactic_ws/install/offline_trajectory_publisher_state_machine_interface/lib'
+[7.454s] Level 1:colcon.colcon_core.environment:checking '/home/hidro/galactic_ws/install/offline_trajectory_publisher_state_machine_interface/bin'
+[7.454s] Level 1:colcon.colcon_core.environment:checking '/home/hidro/galactic_ws/install/offline_trajectory_publisher_state_machine_interface/lib/pkgconfig/offline_trajectory_publisher_state_machine_interface.pc'
+[7.454s] Level 1:colcon.colcon_core.environment:checking '/home/hidro/galactic_ws/install/offline_trajectory_publisher_state_machine_interface/lib/python3.8/site-packages'
+[7.455s] Level 1:colcon.colcon_core.environment:checking '/home/hidro/galactic_ws/install/offline_trajectory_publisher_state_machine_interface/bin'
+[7.456s] INFO:colcon.colcon_core.shell:Creating package script '/home/hidro/galactic_ws/install/offline_trajectory_publisher_state_machine_interface/share/offline_trajectory_publisher_state_machine_interface/package.ps1'
+[7.456s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hidro/galactic_ws/install/offline_trajectory_publisher_state_machine_interface/share/offline_trajectory_publisher_state_machine_interface/package.dsv'
+[7.457s] INFO:colcon.colcon_core.shell:Creating package script '/home/hidro/galactic_ws/install/offline_trajectory_publisher_state_machine_interface/share/offline_trajectory_publisher_state_machine_interface/package.sh'
+[7.457s] INFO:colcon.colcon_core.shell:Creating package script '/home/hidro/galactic_ws/install/offline_trajectory_publisher_state_machine_interface/share/offline_trajectory_publisher_state_machine_interface/package.bash'
+[7.458s] INFO:colcon.colcon_core.shell:Creating package script '/home/hidro/galactic_ws/install/offline_trajectory_publisher_state_machine_interface/share/offline_trajectory_publisher_state_machine_interface/package.zsh'
+[7.458s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hidro/galactic_ws/install/offline_trajectory_publisher_state_machine_interface/share/colcon-core/packages/offline_trajectory_publisher_state_machine_interface)
+[7.458s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[7.459s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[7.459s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[7.459s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[7.465s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[7.465s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[7.465s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[7.467s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[7.467s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[7.468s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hidro/galactic_ws/install/local_setup.ps1'
+[7.469s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/hidro/galactic_ws/install/_local_setup_util_ps1.py'
+[7.470s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hidro/galactic_ws/install/setup.ps1'
+[7.472s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hidro/galactic_ws/install/local_setup.sh'
+[7.472s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/hidro/galactic_ws/install/_local_setup_util_sh.py'
+[7.473s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hidro/galactic_ws/install/setup.sh'
+[7.474s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hidro/galactic_ws/install/local_setup.bash'
+[7.475s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hidro/galactic_ws/install/setup.bash'
+[7.476s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hidro/galactic_ws/install/local_setup.zsh'
+[7.477s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hidro/galactic_ws/install/setup.zsh'

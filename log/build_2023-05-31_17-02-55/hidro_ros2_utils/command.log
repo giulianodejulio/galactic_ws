@@ -1,0 +1,4 @@
+Invoking command in '/home/hidro/galactic_ws/build/hidro_ros2_utils': /usr/bin/cmake --build /home/hidro/galactic_ws/build/hidro_ros2_utils -- -j8 -l8
+Invoked command in '/home/hidro/galactic_ws/build/hidro_ros2_utils' returned '0': /usr/bin/cmake --build /home/hidro/galactic_ws/build/hidro_ros2_utils -- -j8 -l8
+Invoking command in '/home/hidro/galactic_ws/build/hidro_ros2_utils': /usr/bin/cmake --install /home/hidro/galactic_ws/build/hidro_ros2_utils
+Invoked command in '/home/hidro/galactic_ws/build/hidro_ros2_utils' returned '0': /usr/bin/cmake --install /home/hidro/galactic_ws/build/hidro_ros2_utils

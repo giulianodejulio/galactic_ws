@@ -1,0 +1,53 @@
+[35m[1mScanning dependencies of target talker[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/offline_trajectory_publisher_state_machine_interface.cpp.o[0m
+[01m[K/home/hidro/galactic_ws/src/offline_trajectory_publisher/src/offline_trajectory_publisher_state_machine_interface.cpp:[m[K In member function ‘[01m[Kvirtual bool OfflineTrajectoryPublisher::transEnableCallback(std::string&)[m[K’:
+[01m[K/home/hidro/galactic_ws/src/offline_trajectory_publisher/src/offline_trajectory_publisher_state_machine_interface.cpp:249:51:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmessage[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  249 | sEnableCallback([01;35m[Kstd::string &message[m[K) override {
+      |                 [01;35m[K~~~~~~~~~~~~~^~~~~~~[m[K
+
+[01m[K/home/hidro/galactic_ws/src/offline_trajectory_publisher/src/offline_trajectory_publisher_state_machine_interface.cpp:[m[K In member function ‘[01m[Kvirtual bool OfflineTrajectoryPublisher::transStartCallback(std::string&)[m[K’:
+[01m[K/home/hidro/galactic_ws/src/offline_trajectory_publisher/src/offline_trajectory_publisher_state_machine_interface.cpp:304:50:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmessage[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  304 | nsStartCallback([01;35m[Kstd::string &message[m[K) override {
+      |                 [01;35m[K~~~~~~~~~~~~~^~~~~~~[m[K
+
+[01m[K/home/hidro/galactic_ws/src/offline_trajectory_publisher/src/offline_trajectory_publisher_state_machine_interface.cpp:[m[K In member function ‘[01m[Kvirtual bool OfflineTrajectoryPublisher::transDisableCallback(std::string&)[m[K’:
+[01m[K/home/hidro/galactic_ws/src/offline_trajectory_publisher/src/offline_trajectory_publisher_state_machine_interface.cpp:308:52:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmessage[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  308 | DisableCallback([01;35m[Kstd::string &message[m[K) override {
+      |                 [01;35m[K~~~~~~~~~~~~~^~~~~~~[m[K
+
+[01m[K/home/hidro/galactic_ws/src/offline_trajectory_publisher/src/offline_trajectory_publisher_state_machine_interface.cpp:[m[K In member function ‘[01m[Kvirtual bool OfflineTrajectoryPublisher::transStopCallback(std::string&)[m[K’:
+[01m[K/home/hidro/galactic_ws/src/offline_trajectory_publisher/src/offline_trajectory_publisher_state_machine_interface.cpp:312:49:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmessage[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  312 | ansStopCallback([01;35m[Kstd::string &message[m[K) override {
+      |                 [01;35m[K~~~~~~~~~~~~~^~~~~~~[m[K
+
+[01m[K/home/hidro/galactic_ws/src/offline_trajectory_publisher/src/offline_trajectory_publisher_state_machine_interface.cpp:[m[K In member function ‘[01m[Kbool OfflineTrajectoryPublisher::transStop1Callback(std::string&)[m[K’:
+[01m[K/home/hidro/galactic_ws/src/offline_trajectory_publisher/src/offline_trajectory_publisher_state_machine_interface.cpp:316:42:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmessage[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  316 | bool transStop1Callback([01;35m[Kstd::string &message[m[K) {
+      |                         [01;35m[K~~~~~~~~~~~~~^~~~~~~[m[K
+
+[100%] [32m[1mLinking CXX executable talker[0m
+[100%] Built target talker
+-- Install configuration: "Release"
+-- Up-to-date: /home/hidro/galactic_ws/install/offline_trajectory_publisher_state_machine_interface/share/offline_trajectory_publisher_state_machine_interface/config
+-- Up-to-date: /home/hidro/galactic_ws/install/offline_trajectory_publisher_state_machine_interface/share/offline_trajectory_publisher_state_machine_interface/config/params.yaml
+-- Up-to-date: /home/hidro/galactic_ws/install/offline_trajectory_publisher_state_machine_interface/share/offline_trajectory_publisher_state_machine_interface/config/bringup.yaml
+-- Installing: /home/hidro/galactic_ws/install/offline_trajectory_publisher_state_machine_interface/lib/offline_trajectory_publisher_state_machine_interface/talker
+-- Set runtime path of "/home/hidro/galactic_ws/install/offline_trajectory_publisher_state_machine_interface/lib/offline_trajectory_publisher_state_machine_interface/talker" to ""
+-- Up-to-date: /home/hidro/galactic_ws/install/offline_trajectory_publisher_state_machine_interface/share/offline_trajectory_publisher_state_machine_interface/launch
+-- Up-to-date: /home/hidro/galactic_ws/install/offline_trajectory_publisher_state_machine_interface/share/offline_trajectory_publisher_state_machine_interface/launch/_offline_trajectory_publisher_state_machine_interface.launch.py
+-- Up-to-date: /home/hidro/galactic_ws/install/offline_trajectory_publisher_state_machine_interface/share/offline_trajectory_publisher_state_machine_interface/launch/otp_smi_odri.launch.py
+-- Up-to-date: /home/hidro/galactic_ws/install/offline_trajectory_publisher_state_machine_interface/share/ament_index/resource_index/package_run_dependencies/offline_trajectory_publisher_state_machine_interface
+-- Up-to-date: /home/hidro/galactic_ws/install/offline_trajectory_publisher_state_machine_interface/share/ament_index/resource_index/parent_prefix_path/offline_trajectory_publisher_state_machine_interface
+-- Up-to-date: /home/hidro/galactic_ws/install/offline_trajectory_publisher_state_machine_interface/share/offline_trajectory_publisher_state_machine_interface/environment/ament_prefix_path.sh
+-- Up-to-date: /home/hidro/galactic_ws/install/offline_trajectory_publisher_state_machine_interface/share/offline_trajectory_publisher_state_machine_interface/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/hidro/galactic_ws/install/offline_trajectory_publisher_state_machine_interface/share/offline_trajectory_publisher_state_machine_interface/environment/path.sh
+-- Up-to-date: /home/hidro/galactic_ws/install/offline_trajectory_publisher_state_machine_interface/share/offline_trajectory_publisher_state_machine_interface/environment/path.dsv
+-- Up-to-date: /home/hidro/galactic_ws/install/offline_trajectory_publisher_state_machine_interface/share/offline_trajectory_publisher_state_machine_interface/local_setup.bash
+-- Up-to-date: /home/hidro/galactic_ws/install/offline_trajectory_publisher_state_machine_interface/share/offline_trajectory_publisher_state_machine_interface/local_setup.sh
+-- Up-to-date: /home/hidro/galactic_ws/install/offline_trajectory_publisher_state_machine_interface/share/offline_trajectory_publisher_state_machine_interface/local_setup.zsh
+-- Up-to-date: /home/hidro/galactic_ws/install/offline_trajectory_publisher_state_machine_interface/share/offline_trajectory_publisher_state_machine_interface/local_setup.dsv
+-- Installing: /home/hidro/galactic_ws/install/offline_trajectory_publisher_state_machine_interface/share/offline_trajectory_publisher_state_machine_interface/package.dsv
+-- Up-to-date: /home/hidro/galactic_ws/install/offline_trajectory_publisher_state_machine_interface/share/ament_index/resource_index/packages/offline_trajectory_publisher_state_machine_interface
+-- Up-to-date: /home/hidro/galactic_ws/install/offline_trajectory_publisher_state_machine_interface/share/offline_trajectory_publisher_state_machine_interface/cmake/offline_trajectory_publisher_state_machine_interfaceConfig.cmake
+-- Up-to-date: /home/hidro/galactic_ws/install/offline_trajectory_publisher_state_machine_interface/share/offline_trajectory_publisher_state_machine_interface/cmake/offline_trajectory_publisher_state_machine_interfaceConfig-version.cmake
+-- Up-to-date: /home/hidro/galactic_ws/install/offline_trajectory_publisher_state_machine_interface/share/offline_trajectory_publisher_state_machine_interface/package.xml

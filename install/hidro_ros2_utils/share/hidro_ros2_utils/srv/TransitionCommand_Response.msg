@@ -1,0 +1,4 @@
+
+bool accepted # true if the command has been accepted
+bool result # result of the command (only valid is accepted is true)
+string message # diagnostic message

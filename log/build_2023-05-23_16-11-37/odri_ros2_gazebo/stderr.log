@@ -1,0 +1,8 @@
+[01m[K/home/hidro/galactic_ws/src/odri_ros2/odri_ros2_gazebo/src/odri_gazebo_plugin.cpp:[m[K In member function ‘[01m[Kvoid odri_ros2_gazebo_plugin::OdriGazeboPlugin::Update()[m[K’:
+[01m[K/home/hidro/galactic_ws/src/odri_ros2/odri_ros2_gazebo/src/odri_gazebo_plugin.cpp:167:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kdt[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  167 |     auto [01;35m[Kdt[m[K = (cur_time - last_sim_time_).Double();
+      |          [01;35m[K^~[m[K
+[01m[K/home/hidro/galactic_ws/src/odri_ros2/odri_ros2_gazebo/src/odri_gazebo_plugin.cpp:[m[K In member function ‘[01m[Kvoid odri_ros2_gazebo_plugin::OdriGazeboPlugin::callbackRobotCommand(odri_ros2_interfaces::msg::RobotCommand_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/hidro/galactic_ws/src/odri_ros2/odri_ros2_gazebo/src/odri_gazebo_plugin.cpp:212:35:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kstd::size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K-Wsign-compare[m[K]
+  212 |         for (std::size_t i = 0; [01;35m[Ki < nj[m[K; ++i)
+      |                                 [01;35m[K~~^~~~[m[K

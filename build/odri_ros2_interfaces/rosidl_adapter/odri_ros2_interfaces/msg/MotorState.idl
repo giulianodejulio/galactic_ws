@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from odri_ros2_interfaces/interfaces/msg/MotorState.msg
+// generated code does not contain a copyright notice
+
+
+module odri_ros2_interfaces {
+  module msg {
+    struct MotorState {
+      double position;
+
+      double velocity;
+
+      double torque;
+
+      boolean is_enabled;
+
+      boolean has_index_been_detected;
+
+      boolean index_toogle_bit;
+    };
+  };
+};

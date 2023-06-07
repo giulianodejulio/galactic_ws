@@ -1,0 +1,30 @@
+[0.035s] Invoking command in '/home/hidro/galactic_ws/build/vrpn_client_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/hidro/galactic_ws/build/vrpn_client_ros -- -j8 -l8
+[0.135s] [ 33%] Built target vrpn_client_ros
+[0.230s] [ 66%] Built target vrpn_client_node
+[0.231s] [100%] Built target vrpn_tracker_node
+[0.238s] Invoked command in '/home/hidro/galactic_ws/build/vrpn_client_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/hidro/galactic_ws/build/vrpn_client_ros -- -j8 -l8
+[0.278s] Invoking command in '/home/hidro/galactic_ws/build/vrpn_client_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/hidro/galactic_ws/build/vrpn_client_ros
+[0.286s] -- Install configuration: "Release"
+[0.286s] -- Up-to-date: /home/hidro/galactic_ws/install/vrpn_client_ros/share/vrpn_client_ros//launch
+[0.287s] -- Up-to-date: /home/hidro/galactic_ws/install/vrpn_client_ros/share/vrpn_client_ros//launch/sample.launch.py
+[0.287s] -- Up-to-date: /home/hidro/galactic_ws/install/vrpn_client_ros/share/vrpn_client_ros//config
+[0.287s] -- Up-to-date: /home/hidro/galactic_ws/install/vrpn_client_ros/share/vrpn_client_ros//config/sample.params.yaml
+[0.287s] -- Up-to-date: /home/hidro/galactic_ws/install/vrpn_client_ros/lib/libvrpn_client_ros.a
+[0.287s] -- Up-to-date: /home/hidro/galactic_ws/install/vrpn_client_ros/lib/vrpn_client_ros/vrpn_tracker_node
+[0.287s] -- Up-to-date: /home/hidro/galactic_ws/install/vrpn_client_ros/lib/vrpn_client_ros/vrpn_client_node
+[0.288s] -- Up-to-date: /home/hidro/galactic_ws/install/vrpn_client_ros/share/ament_index/resource_index/package_run_dependencies/vrpn_client_ros
+[0.288s] -- Up-to-date: /home/hidro/galactic_ws/install/vrpn_client_ros/share/ament_index/resource_index/parent_prefix_path/vrpn_client_ros
+[0.288s] -- Up-to-date: /home/hidro/galactic_ws/install/vrpn_client_ros/share/vrpn_client_ros/environment/ament_prefix_path.sh
+[0.288s] -- Up-to-date: /home/hidro/galactic_ws/install/vrpn_client_ros/share/vrpn_client_ros/environment/ament_prefix_path.dsv
+[0.288s] -- Up-to-date: /home/hidro/galactic_ws/install/vrpn_client_ros/share/vrpn_client_ros/environment/path.sh
+[0.289s] -- Up-to-date: /home/hidro/galactic_ws/install/vrpn_client_ros/share/vrpn_client_ros/environment/path.dsv
+[0.289s] -- Up-to-date: /home/hidro/galactic_ws/install/vrpn_client_ros/share/vrpn_client_ros/local_setup.bash
+[0.289s] -- Up-to-date: /home/hidro/galactic_ws/install/vrpn_client_ros/share/vrpn_client_ros/local_setup.sh
+[0.289s] -- Up-to-date: /home/hidro/galactic_ws/install/vrpn_client_ros/share/vrpn_client_ros/local_setup.zsh
+[0.289s] -- Up-to-date: /home/hidro/galactic_ws/install/vrpn_client_ros/share/vrpn_client_ros/local_setup.dsv
+[0.289s] -- Installing: /home/hidro/galactic_ws/install/vrpn_client_ros/share/vrpn_client_ros/package.dsv
+[0.290s] -- Up-to-date: /home/hidro/galactic_ws/install/vrpn_client_ros/share/ament_index/resource_index/packages/vrpn_client_ros
+[0.290s] -- Up-to-date: /home/hidro/galactic_ws/install/vrpn_client_ros/share/vrpn_client_ros/cmake/vrpn_client_rosConfig.cmake
+[0.290s] -- Up-to-date: /home/hidro/galactic_ws/install/vrpn_client_ros/share/vrpn_client_ros/cmake/vrpn_client_rosConfig-version.cmake
+[0.290s] -- Up-to-date: /home/hidro/galactic_ws/install/vrpn_client_ros/share/vrpn_client_ros/package.xml
+[0.294s] Invoked command in '/home/hidro/galactic_ws/build/vrpn_client_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/hidro/galactic_ws/build/vrpn_client_ros

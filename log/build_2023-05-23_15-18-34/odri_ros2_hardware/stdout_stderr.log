@@ -1,0 +1,95 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found hidro_ros2_utils: 0.0.0 (/home/hidro/galactic_ws/install/hidro_ros2_utils/share/hidro_ros2_utils/cmake)
+-- Using single rosidl_typesupport_c: rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+-- Using single rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+-- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+-- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Default C++ standard: 201402
+-- Minimal C++ standard upgraded to 11
+-- C++ standard sufficient: Minimal required 11, currently defined: 14
+-- eigenpy FOUND. eigenpy at /opt/openrobots/lib/libeigenpy.so
+-- Found Python3: /usr/bin/python3 (found version "3.8.10") found components: Interpreter NumPy Development 
+-- PythonLibraryDirs: /usr/lib/x86_64-linux-gnu
+-- PythonLibVersionString: 3.8.10
+-- Python site lib: lib/python3/dist-packages
+-- Python include dirs: /usr/include/python3.8
+-- Checking for NumPy
+--   NUMPY_INCLUDE_DIRS=/usr/lib/python3/dist-packages/numpy/core/include
+--   NUMPY_VERSION=1.17.4
+-- NumPy include dir: /usr/lib/python3/dist-packages/numpy/core/include
+-- Found Boost: /usr/include (found version "1.71.0") found components: python38 
+-- Boost_PYTHON_LIBRARY: /usr/lib/x86_64-linux-gnu/libboost_python38.so
+-- C++ standard sufficient: Minimal required 11, currently defined: 14
+-- Found odri_ros2_interfaces: 0.0.0 (/home/hidro/galactic_ws/install/odri_ros2_interfaces/share/odri_ros2_interfaces/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/hidro/galactic_ws/build/odri_ros2_hardware
+[35m[1mScanning dependencies of target robot_interface[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/robot_interface.dir/src/robot_interface.cpp.o[0m
+[01m[K/home/hidro/galactic_ws/src/odri_ros2/odri_ros2_hardware/src/robot_interface.cpp:[m[K In member function ‘[01m[Kvirtual bool odri_interface::RobotInterface::transDisableCallback(std::string&)[m[K’:
+[01m[K/home/hidro/galactic_ws/src/odri_ros2/odri_ros2_hardware/src/robot_interface.cpp:183:56:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmessage[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  183 | bool RobotInterface::transDisableCallback([01;35m[Kstd::string& message[m[K) { return true; }
+      |                                           [01;35m[K~~~~~~~~~~~~~^~~~~~~[m[K
+[01m[K/home/hidro/galactic_ws/src/odri_ros2/odri_ros2_hardware/src/robot_interface.cpp:[m[K In member function ‘[01m[Kvirtual bool odri_interface::RobotInterface::transStartCallback(std::string&)[m[K’:
+[01m[K/home/hidro/galactic_ws/src/odri_ros2/odri_ros2_hardware/src/robot_interface.cpp:185:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmessage[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  185 | bool RobotInterface::transStartCallback([01;35m[Kstd::string& message[m[K) { return true; }
+      |                                         [01;35m[K~~~~~~~~~~~~~^~~~~~~[m[K
+[01m[K/home/hidro/galactic_ws/src/odri_ros2/odri_ros2_hardware/src/robot_interface.cpp:[m[K In member function ‘[01m[Kvirtual bool odri_interface::RobotInterface::transStopCallback(std::string&)[m[K’:
+[01m[K/home/hidro/galactic_ws/src/odri_ros2/odri_ros2_hardware/src/robot_interface.cpp:187:53:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmessage[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  187 | bool RobotInterface::transStopCallback([01;35m[Kstd::string& message[m[K) { return true; }
+      |                                        [01;35m[K~~~~~~~~~~~~~^~~~~~~[m[K
+[100%] [32m[1mLinking CXX executable robot_interface[0m
+[100%] Built target robot_interface
+-- Install configuration: "Release"
+-- Installing: /home/hidro/galactic_ws/install/odri_ros2_hardware/share/odri_ros2_hardware/launch
+-- Installing: /home/hidro/galactic_ws/install/odri_ros2_hardware/share/odri_ros2_hardware/launch/_robot_interface.launch.py
+-- Installing: /home/hidro/galactic_ws/install/odri_ros2_hardware/share/odri_ros2_hardware/config
+-- Installing: /home/hidro/galactic_ws/install/odri_ros2_hardware/share/odri_ros2_hardware/config/flying_arm_2.yaml
+-- Installing: /home/hidro/galactic_ws/install/odri_ros2_hardware/share/odri_ros2_hardware/config/solo12_out.yaml
+-- Installing: /home/hidro/galactic_ws/install/odri_ros2_hardware/share/odri_ros2_hardware/config/robots
+-- Installing: /home/hidro/galactic_ws/install/odri_ros2_hardware/share/odri_ros2_hardware/config/robots/flying_arm_2.yaml
+-- Installing: /home/hidro/galactic_ws/install/odri_ros2_hardware/share/odri_ros2_hardware/config/robots/solo12_in.yaml
+-- Installing: /home/hidro/galactic_ws/install/odri_ros2_hardware/lib/odri_ros2_hardware/robot_interface
+-- Set runtime path of "/home/hidro/galactic_ws/install/odri_ros2_hardware/lib/odri_ros2_hardware/robot_interface" to ""
+-- Installing: /home/hidro/galactic_ws/install/odri_ros2_hardware/share/ament_index/resource_index/package_run_dependencies/odri_ros2_hardware
+-- Installing: /home/hidro/galactic_ws/install/odri_ros2_hardware/share/ament_index/resource_index/parent_prefix_path/odri_ros2_hardware
+-- Installing: /home/hidro/galactic_ws/install/odri_ros2_hardware/share/odri_ros2_hardware/environment/ament_prefix_path.sh
+-- Installing: /home/hidro/galactic_ws/install/odri_ros2_hardware/share/odri_ros2_hardware/environment/ament_prefix_path.dsv
+-- Installing: /home/hidro/galactic_ws/install/odri_ros2_hardware/share/odri_ros2_hardware/environment/path.sh
+-- Installing: /home/hidro/galactic_ws/install/odri_ros2_hardware/share/odri_ros2_hardware/environment/path.dsv
+-- Installing: /home/hidro/galactic_ws/install/odri_ros2_hardware/share/odri_ros2_hardware/local_setup.bash
+-- Installing: /home/hidro/galactic_ws/install/odri_ros2_hardware/share/odri_ros2_hardware/local_setup.sh
+-- Installing: /home/hidro/galactic_ws/install/odri_ros2_hardware/share/odri_ros2_hardware/local_setup.zsh
+-- Installing: /home/hidro/galactic_ws/install/odri_ros2_hardware/share/odri_ros2_hardware/local_setup.dsv
+-- Installing: /home/hidro/galactic_ws/install/odri_ros2_hardware/share/odri_ros2_hardware/package.dsv
+-- Installing: /home/hidro/galactic_ws/install/odri_ros2_hardware/share/ament_index/resource_index/packages/odri_ros2_hardware
+-- Installing: /home/hidro/galactic_ws/install/odri_ros2_hardware/share/odri_ros2_hardware/cmake/odri_ros2_hardwareConfig.cmake
+-- Installing: /home/hidro/galactic_ws/install/odri_ros2_hardware/share/odri_ros2_hardware/cmake/odri_ros2_hardwareConfig-version.cmake
+-- Installing: /home/hidro/galactic_ws/install/odri_ros2_hardware/share/odri_ros2_hardware/package.xml

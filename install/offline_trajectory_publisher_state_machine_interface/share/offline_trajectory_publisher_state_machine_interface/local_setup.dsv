@@ -1,0 +1,2 @@
+source;share/offline_trajectory_publisher_state_machine_interface/environment/ament_prefix_path.sh
+source;share/offline_trajectory_publisher_state_machine_interface/environment/path.sh

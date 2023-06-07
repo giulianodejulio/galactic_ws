@@ -1,0 +1,4 @@
+Invoking command in '/home/hidro/galactic_ws/build/hidro_robots': /usr/bin/cmake --build /home/hidro/galactic_ws/build/hidro_robots -- -j8 -l8
+Invoked command in '/home/hidro/galactic_ws/build/hidro_robots' returned '0': /usr/bin/cmake --build /home/hidro/galactic_ws/build/hidro_robots -- -j8 -l8
+Invoking command in '/home/hidro/galactic_ws/build/hidro_robots': /usr/bin/cmake --install /home/hidro/galactic_ws/build/hidro_robots
+Invoked command in '/home/hidro/galactic_ws/build/hidro_robots' returned '0': /usr/bin/cmake --install /home/hidro/galactic_ws/build/hidro_robots
