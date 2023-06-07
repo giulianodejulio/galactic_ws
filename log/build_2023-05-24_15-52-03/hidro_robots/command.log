@@ -1,4 +1,0 @@
-Invoking command in '/home/hidro/galactic_ws/build/hidro_robots': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/hidro/galactic_ws/build/hidro_robots -- -j8 -l8
-Invoked command in '/home/hidro/galactic_ws/build/hidro_robots' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/hidro/galactic_ws/build/hidro_robots -- -j8 -l8
-Invoking command in '/home/hidro/galactic_ws/build/hidro_robots': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/hidro/galactic_ws/build/hidro_robots
-Invoked command in '/home/hidro/galactic_ws/build/hidro_robots' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/hidro/galactic_ws/build/hidro_robots

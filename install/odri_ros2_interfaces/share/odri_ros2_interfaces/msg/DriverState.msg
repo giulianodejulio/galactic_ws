@@ -1,4 +1,0 @@
-std_msgs/Header header
-
-odri_ros2_interfaces/MotorState motor1
-odri_ros2_interfaces/MotorState motor2

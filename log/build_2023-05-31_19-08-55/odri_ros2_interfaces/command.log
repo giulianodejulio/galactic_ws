@@ -1,4 +1,0 @@
-Invoking command in '/home/hidro/galactic_ws/build/odri_ros2_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/hidro/galactic_ws/build/odri_ros2_interfaces -- -j8 -l8
-Invoked command in '/home/hidro/galactic_ws/build/odri_ros2_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/hidro/galactic_ws/build/odri_ros2_interfaces -- -j8 -l8
-Invoking command in '/home/hidro/galactic_ws/build/odri_ros2_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/hidro/galactic_ws/build/odri_ros2_interfaces
-Invoked command in '/home/hidro/galactic_ws/build/odri_ros2_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/hidro/galactic_ws/build/odri_ros2_interfaces

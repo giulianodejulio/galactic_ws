@@ -1,7 +1,0 @@
-{
-  "package_name": "hidro_ros2_utils",
-  "non_idl_tuples": [
-    "/home/hidro/galactic_ws/src/hidro_ros2_utils:interfaces/srv/TransitionCommand.srv",
-    "/home/hidro/galactic_ws/src/hidro_ros2_utils:interfaces/msg/StateMachineStatus.msg"
-  ]
-}

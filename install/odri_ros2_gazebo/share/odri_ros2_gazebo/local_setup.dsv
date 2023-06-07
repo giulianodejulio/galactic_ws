@@ -1,3 +1,0 @@
-source;share/odri_ros2_gazebo/environment/ament_prefix_path.sh
-source;share/odri_ros2_gazebo/environment/library_path.sh
-source;share/odri_ros2_gazebo/environment/path.sh

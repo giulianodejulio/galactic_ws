@@ -1,9 +1,0 @@
-from odri_ros2_interfaces.msg._driver_command import DriverCommand  # noqa: F401
-from odri_ros2_interfaces.msg._driver_state import DriverState  # noqa: F401
-from odri_ros2_interfaces.msg._master_board_command import MasterBoardCommand  # noqa: F401
-from odri_ros2_interfaces.msg._master_board_state import MasterBoardState  # noqa: F401
-from odri_ros2_interfaces.msg._motor_command import MotorCommand  # noqa: F401
-from odri_ros2_interfaces.msg._motor_state import MotorState  # noqa: F401
-from odri_ros2_interfaces.msg._robot_command import RobotCommand  # noqa: F401
-from odri_ros2_interfaces.msg._robot_state import RobotState  # noqa: F401
-from odri_ros2_interfaces.msg._state_command import StateCommand  # noqa: F401

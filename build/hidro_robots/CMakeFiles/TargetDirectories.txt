@@ -1,9 +1,0 @@
-/home/hidro/galactic_ws/build/hidro_robots/CMakeFiles/install/strip.dir
-/home/hidro/galactic_ws/build/hidro_robots/CMakeFiles/install/local.dir
-/home/hidro/galactic_ws/build/hidro_robots/CMakeFiles/edit_cache.dir
-/home/hidro/galactic_ws/build/hidro_robots/CMakeFiles/test.dir
-/home/hidro/galactic_ws/build/hidro_robots/CMakeFiles/install.dir
-/home/hidro/galactic_ws/build/hidro_robots/CMakeFiles/list_install_components.dir
-/home/hidro/galactic_ws/build/hidro_robots/CMakeFiles/rebuild_cache.dir
-/home/hidro/galactic_ws/build/hidro_robots/CMakeFiles/hidro_robots_uninstall.dir
-/home/hidro/galactic_ws/build/hidro_robots/CMakeFiles/uninstall.dir

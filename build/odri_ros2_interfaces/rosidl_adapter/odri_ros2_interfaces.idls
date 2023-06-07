@@ -1,9 +1,0 @@
-/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_adapter/odri_ros2_interfaces:msg/MotorState.idl
-/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_adapter/odri_ros2_interfaces:msg/DriverState.idl
-/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_adapter/odri_ros2_interfaces:msg/MasterBoardState.idl
-/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_adapter/odri_ros2_interfaces:msg/MotorCommand.idl
-/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_adapter/odri_ros2_interfaces:msg/DriverCommand.idl
-/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_adapter/odri_ros2_interfaces:msg/MasterBoardCommand.idl
-/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_adapter/odri_ros2_interfaces:msg/RobotCommand.idl
-/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_adapter/odri_ros2_interfaces:msg/RobotState.idl
-/home/hidro/galactic_ws/build/odri_ros2_interfaces/rosidl_adapter/odri_ros2_interfaces:msg/StateCommand.idl
